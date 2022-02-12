@@ -2,70 +2,67 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
+
 import Layout from '../components/layout'
-import Hero from '../components/hero'
-import ArticlePreview from '../components/article-preview'
+import ContentRow from '../components/ContentRow'
 
-class RootIndex extends React.Component {
+
+
+
+class Accueil extends React.Component {
   render() {
-    const posts = get(this, 'props.data.allContentfulBlogPost.nodes')
-    const [author] = get(this, 'props.data.allContentfulPerson.nodes')
+    const texte1 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].childContentfulPageDaccueilTexte1TextNode')
+    const image1 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].image1')
+    const image1title = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].image1.title')
+   
 
+    console.log("mon texte 1", texte1)
+    console.log("voir image 1", image1)
     return (
-      <Layout location={this.props.location}>
-        <Hero
-          image={author.heroImage.gatsbyImageData}
-          title={author.name}
-          content={author.shortBio.shortBio}
-        />
-        <ArticlePreview posts={posts} />
+      <Layout>
+      <ContentRow description ={texte1.childMarkdownRemark.html} image={image1.gatsbyImageData} backgroundImage={image1.gatsbyImageData.images.fallback.src} imageTitle={image1title}></ContentRow>
       </Layout>
     )
   }
 }
 
-export default RootIndex
+export default Accueil
 
-export const pageQuery = graphql`
-  query HomeQuery {
-    allContentfulBlogPost(sort: { fields: [publishDate], order: DESC }) {
+export const AccueilQuery = graphql`
+  query AccueilQuery {
+    allContentfulPageDaccueil {
       nodes {
-        title
-        slug
-        publishDate(formatString: "MMMM Do, YYYY")
-        tags
-        heroImage {
-          gatsbyImageData(
-            layout: FULL_WIDTH
-            placeholder: BLURRED
-            width: 424
-            height: 212
-          )
+        situation {
+          lat
+          lon
         }
-        description {
+        image2 {
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
+          description
+          title
+        }
+        image1 {
+          gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
+          description
+          title
+        }
+        childContentfulPageDaccueilTexte3TextNode {
+          childMarkdownRemark {
+            html
+          }
+        }
+        childContentfulPageDaccueilTexte2TextNode {
+          childMarkdownRemark {
+            html
+          }
+        }
+        childContentfulPageDaccueilTexte1TextNode {
           childMarkdownRemark {
             html
           }
         }
       }
     }
-    allContentfulPerson(
-      filter: { contentful_id: { eq: "15jwOBqpxqSAOy2eOO4S0m" } }
-    ) {
-      nodes {
-        name
-        shortBio {
-          shortBio
-        }
-        title
-        heroImage: image {
-          gatsbyImageData(
-            layout: CONSTRAINED
-            placeholder: BLURRED
-            width: 1180
-          )
-        }
-      }
-    }
   }
 `
+

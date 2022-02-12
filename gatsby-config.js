@@ -36,11 +36,12 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: "Paul-Marie Beraudo, avocat",
+    description: "Site Web de Paul-Marie Beraudo, avocat à Thonon-Les-Bains",
   },
   pathPrefix: "/gatsby-contentful-starter",
   plugins: [
+    
     "gatsby-transformer-remark",
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
@@ -50,5 +51,11 @@ module.exports = {
       resolve: "gatsby-source-contentful",
       options: contentfulConfig,
     },
+    
+    {
+      resolve: `gatsby-plugin-styled-components`,
+    },
+  
+    'gatsby-plugin-postcss',
   ],
 };
