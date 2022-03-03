@@ -103,3 +103,10 @@ pre,
 code {
   font-family: var(--font-monospace);
 }
+
+/* Styles page d'accueil */
+
+.flex-row-reverse {
+  background-color: maroon;
+  color: #fff;
+}
