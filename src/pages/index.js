@@ -42,10 +42,6 @@ export const AccueilQuery = graphql`
   query AccueilQuery {
     allContentfulPageDaccueil {
       nodes {
-        situation {
-          lat
-          lon
-        }
         image2 {
           gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
           description

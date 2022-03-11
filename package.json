@@ -8,6 +8,8 @@
     "url": "https://github.com/contentful/starter-gatsby-blog/issues"
   },
   "dependencies": {
+    "@contentful/rich-text-html-renderer": "^15.11.1",
+    "@contentful/rich-text-react-renderer": "^15.11.1",
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^0.7.2",
     "gatsby-background-image": "^1.6.0",
@@ -28,6 +30,7 @@
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
     "react-tinder-card": "^1.4.5",
+    "rich-text": "^4.1.0",
     "styled-components": "^5.3.3"
   },
   "devDependencies": {
