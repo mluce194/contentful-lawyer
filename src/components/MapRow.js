@@ -1,4 +1,6 @@
 import React from 'react'
+import { renderRichText } from 'gatsby-source-contentful/rich-text'
+
 
 const MapRow = class extends React.Component {
   render() {
@@ -6,7 +8,7 @@ const MapRow = class extends React.Component {
     return (
       <div className={`flex ${this.props.direction}`}>
         <div class="basis-1/3 p-20">
-          <p dangerouslySetInnerHTML={{ __html: this.props.description }}></p>
+        <p>{renderRichText(this.props.description)}</p>
         </div>
 
         <div

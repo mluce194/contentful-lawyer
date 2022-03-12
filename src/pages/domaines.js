@@ -41,7 +41,7 @@ class Domaines extends React.Component {
         <ContentRowThreeColumns description1={Texte1} description2={Texte2} backgroundImage={Image1}></ContentRowThreeColumns>
         <ContentRowThreeColumns description1={Texte3} description2={Texte4} backgroundImage={Image2}></ContentRowThreeColumns>
         <ContentRowThreeColumns description1={Texte5} description2={Texte6} backgroundImage={Image3}></ContentRowThreeColumns>
-        <ContentRowThreeColumns description1={Texte7} description2={Texte7} backgroundImage={Image4}></ContentRowThreeColumns>
+        <ContentRow description={Texte7} backgroundImage={Image4}></ContentRow>
 
 
 

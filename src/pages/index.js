@@ -12,15 +12,13 @@ import MapRow from '../components/MapRow'
 
 class Accueil extends React.Component {
   render() {
-    const texte1 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].childContentfulPageDaccueilTexte1TextNode')
+    const texte1 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].richText1')
     const image1 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].image1')
-    const image1title = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].image1.title')
 
-    const texte2 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].childContentfulPageDaccueilTexte2TextNode')
+    const texte2 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].richText2')
     const image2 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].image2')
-    const image2title = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].image2.title')
 
-    const texte3 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].childContentfulPageDaccueilTexte3TextNode')
+    const texte3 = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].richText3')
     const map = get(this, 'props.data.allContentfulPageDaccueil.nodes[0].map.map')
    
 
@@ -28,9 +26,9 @@ class Accueil extends React.Component {
     console.log("voir image 1", image1)
     return (
       <Layout>
-      <ContentRow description ={texte1.childMarkdownRemark.html} image={image1.gatsbyImageData} backgroundImage={image1.gatsbyImageData.images.fallback.src} imageTitle={image1title} direction="flex-row"></ContentRow>
-      <ContentRow description ={texte2.childMarkdownRemark.html} image={image2.gatsbyImageData} backgroundImage={image2.gatsbyImageData.images.fallback.src} imageTitle={image2title} direction="flex-row-reverse"></ContentRow>
-      <MapRow description={texte3.childMarkdownRemark.html} mapContent = {map} direction="flex-row"></MapRow>
+      <ContentRow description ={texte1} backgroundImage={image1.gatsbyImageData.images.fallback.src} direction="flex-row"></ContentRow>
+      <ContentRow description ={texte2} backgroundImage={image2.gatsbyImageData.images.fallback.src} direction="flex-row-reverse"></ContentRow>
+      <MapRow description={texte3} mapContent = {map} direction="flex-row"></MapRow>
       </Layout>
     )
   }
@@ -44,28 +42,18 @@ export const AccueilQuery = graphql`
       nodes {
         image2 {
           gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
-          description
-          title
         }
         image1 {
           gatsbyImageData(placeholder: BLURRED, layout: FULL_WIDTH)
-          description
-          title
         }
-        childContentfulPageDaccueilTexte3TextNode {
-          childMarkdownRemark {
-            html
-          }
+        richText1 {
+          raw
         }
-        childContentfulPageDaccueilTexte2TextNode {
-          childMarkdownRemark {
-            html
-          }
+        richText2 {
+          raw
         }
-        childContentfulPageDaccueilTexte1TextNode {
-          childMarkdownRemark {
-            html
-          }
+        richText3 {
+          raw
         }
         map {
           map
