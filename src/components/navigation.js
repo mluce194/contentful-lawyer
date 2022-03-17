@@ -36,6 +36,11 @@ const Navigation = () => (
           Honoraires
         </Link>
       </li>
+      <li className={styles.navigationItem}>
+        <Link to="/ventesJudiciaires/" activeClassName="active">
+          Ventes judiciaires
+        </Link>
+      </li>
     </ul>
   </nav>
 )
