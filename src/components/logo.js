@@ -3,6 +3,7 @@ import { Link } from 'gatsby'
 import styled from "styled-components"
 
 const Navbar__Logo = styled.div`
+
     margin-bottom: 1rem;
  & a {
     font-family: "Cardo", Times, serif;
@@ -15,7 +16,8 @@ const Navbar__Logo = styled.div`
   & span {
     display: block;
     color: #7F7F7F;
-    font-size: 1rem
+    font-size: 1rem;
+    font-family: var(--font-sans);
   }
   & span:before {
     content: "-- ";

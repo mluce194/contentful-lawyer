@@ -1,48 +1,67 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import Logo from './logo'
+import { useState } from 'react'
 
-import * as styles from './navigation.module.css'
+const Navigation = () => {
+  const [toggleMenu, setToggleMenu] = useState(false)
 
-const Navigation = () => (
-  <nav role="navigation" className={styles.container} aria-label="Main">
-    <Link to="/" className={styles.logoLink}>
-      <span className={styles.logo} />
-     <Logo></Logo>
-    </Link>
-    <ul className={styles.navigation}>
-      <li className={styles.navigationItem}>
-        <Link to="/" activeClassName="active">
-          Home
-        </Link>
-      </li>
-      <li className={styles.navigationItem}>
-        <Link to="/presentation/" activeClassName="active">
-          Présentation
-        </Link>
-      </li>
-      <li className={styles.navigationItem}>
-        <Link to="/blog/" activeClassName="active">
-          Blog
-        </Link>
-      </li>
-      <li className={styles.navigationItem}>
-        <Link to="/domaines/" activeClassName="active">
-          Domaines d'intervention
-        </Link>
-      </li>
-      <li className={styles.navigationItem}>
-        <Link to="/honoraires/" activeClassName="active">
-          Honoraires
-        </Link>
-      </li>
-      <li className={styles.navigationItem}>
-        <Link to="/ventesJudiciaires/" activeClassName="active">
-          Ventes judiciaires
-        </Link>
-      </li>
-    </ul>
-  </nav>
-)
+  const handleToggle = () => {
+    setToggleMenu(!toggleMenu)
+  }
+
+  return (
+    <div className="bg-slate-200">
+    <nav
+      role="navigation"
+      class="block md:flex items-center flex-wrap p-6 sm:block max-w-6xl mx-auto"
+      aria-label="Main"
+    >
+      <div class="block md:hidden">
+        <button
+          class="block items-center px-3 py-2 border border-maroon rounded text-maroon"
+          onClick={handleToggle}
+        >
+          <svg
+            class="fill-current h-3 w-3"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+        </button>
+      </div>
+
+      <ul className={`${toggleMenu ? 'block' : 'hidden'} md:flex`}>
+        <li className="block">
+          <Link to="/" activeClassName="active" className="block m-2">
+            Home
+          </Link>
+        </li>
+        <li className="block m-2">
+          <Link to="/presentation/" activeClassName="active">
+            Présentation
+          </Link>
+        </li>
+        <li className="block m-2">
+          <Link to="/domaines/" activeClassName="active">
+            Domaines d'intervention
+          </Link>
+        </li>
+        <li className="block m-2">
+          <Link to="/honoraires/" activeClassName="active">
+            Honoraires
+          </Link>
+        </li>
+        <li className="block m-2">
+          <Link to="/ventesJudiciaires/" activeClassName="active">
+            Ventes judiciaires
+          </Link>
+        </li>
+      </ul>
+    </nav>
+    </div>
+  )
+}
 
 export default Navigation

@@ -8,17 +8,17 @@ const ContentRowThreeColumns = class extends React.Component {
 
     console.log('image trouvée', this.props.backgroundImage)
     return (
-      <div className={`flex ${this.props.direction}`}>
-        <div class="basis-1/3 p-20">
+      <div className={`md:flex ${this.props.direction}`}>
+        <div class="md:basis-1/3 p-5 md:p-20">
           <p>{renderRichText(this.props.description1)}</p>
         </div>
 
-        <div class="basis-1/3 p-20">
+        <div class="md:basis-1/3 p-5 md:p-20">
           <p>{renderRichText(this.props.description2)}</p>
         </div>
 
         <div
-          class="basis-1/3 p-20"
+          class="md:basis-1/3 p-5 md:p-20"
           style={{
             backgroundImage: `url(${this.props.backgroundImage})`,
             minHeight: '300px',
