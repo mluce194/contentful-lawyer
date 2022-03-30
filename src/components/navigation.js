@@ -10,7 +10,7 @@ const Navigation = () => {
   }
 
   return (
-    <div className="bg-slate-200">
+    <div className="bg-neutral-200">
     <nav
       role="navigation"
       class="block md:flex items-center flex-wrap p-6 sm:block max-w-6xl mx-auto"
@@ -33,28 +33,28 @@ const Navigation = () => {
       </div>
 
       <ul className={`${toggleMenu ? 'block' : 'hidden'} md:flex`}>
-        <li className="block">
-          <Link to="/" activeClassName="active" className="block m-2">
+        <li className="block m-2">
+          <Link to="/" activeClassName="active" className="block m-2 font-light text-slim text-primary hover:text-secondary md:inline-block md:mt-0 md:ml-6">
             Home
           </Link>
         </li>
         <li className="block m-2">
-          <Link to="/presentation/" activeClassName="active">
+          <Link to="/presentation/" activeClassName="active" className="block m-2 font-light text-slim text-primary hover:text-secondary md:inline-block md:mt-0 md:ml-6">
             Présentation
           </Link>
         </li>
         <li className="block m-2">
-          <Link to="/domaines/" activeClassName="active">
+          <Link to="/domaines/" activeClassName="active" className="block m-2 font-light text-slim text-primary hover:text-secondary md:inline-block md:mt-0 md:ml-6">
             Domaines d'intervention
           </Link>
         </li>
         <li className="block m-2">
-          <Link to="/honoraires/" activeClassName="active">
+          <Link to="/honoraires/" activeClassName="active" className="block m-2 font-light text-slim text-primary hover:text-secondary md:inline-block md:mt-0 md:ml-6">
             Honoraires
           </Link>
         </li>
         <li className="block m-2">
-          <Link to="/ventesJudiciaires/" activeClassName="active">
+          <Link to="/ventesJudiciaires/" activeClassName="active" className="block m-2 font-light text-slim text-primary hover:text-secondary md:inline-block md:mt-0 md:ml-6">
             Ventes judiciaires
           </Link>
         </li>

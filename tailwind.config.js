@@ -7,22 +7,25 @@ module.exports = {
         'footer-texture': "url('/img/footer-texture.png')",
       },
       fontFamily: {
-        'sans': ['Montserrat', "sans-serif"],
+        'sans': [
+                 '-apple-system',
+                  'BlinkMacSystemFont',
+                  'Segoe UI',
+                  'Roboto',
+                  'Oxygen',
+                  'Ubuntu',
+                  'Cantarell',
+                  'Fira Sans',
+                  'Droid Sans',
+                  'Helvetica Neue',
+                  'sans-serif',
+                  ],
+        'serif': ['Cardo', 'Times', 'serif']
       },
       colors: {
-        'maroon': {
-          DEFAULT: '#800000',
-          '50': '#FF3939',
-          '100': '#FF2424',
-          '200': '#FA0000',
-          '300': '#D20000',
-          '400': '#A90000',
-          '500': '#800000',
-          '600': '#480000',
-          '700': '#100000',
-          '800': '#000000',
-          '900': '#000000'
-        },
+        primary: '#4a4a4a',
+        secondary: '#800000',
+        
       },
     }
   },

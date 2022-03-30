@@ -37,11 +37,11 @@ class Presentation extends React.Component {
       <Layout>
         <h1>{TitrePrincipal}</h1>
  
-        <h2>{Titre1}</h2>
+        <h2 class="bg-neutral-200 p-8 pt-20 pb-20 font-light text-neutral-600 normal-case text-2xl">{Titre1}</h2>
 
         <ContentRowThreeColumns description1={Texte1} description2={Texte2} backgroundImage={Image1}></ContentRowThreeColumns>
         <ContentRowThreeColumns description1={Texte3} description2={Texte4} backgroundImage={Image2}></ContentRowThreeColumns>
-        <h2>{Titre2}</h2>
+        <h2 class="bg-neutral-200 p-8 pt-20 pb-20 font-light text-neutral-600 normal-case text-2xl">{Titre2}</h2>
         <ContentRowThreeColumns description1={Texte5} description2={Texte6} backgroundImage={Image3}></ContentRowThreeColumns>
         <ContentRow description={Texte7} backgroundImage={Image4}></ContentRow>
 
