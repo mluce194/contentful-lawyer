@@ -3,20 +3,22 @@ import PropTypes from 'prop-types'
 import { renderRichText } from 'gatsby-source-contentful/rich-text'
 
 const ContentRow = class extends React.Component {
+
+
   render() {
+
+    const ImageUrl = this.props.backgroundImage;
+
+    console.log("Mon image de fond", this.props.backgroundImage)
     return (
       <div className={`md:flex ${this.props.direction}`}>
-        <div class="md:basis-1/2 p-8 md:p-14">
+        <div className="md:basis-1/2 p-8 md:p-14">
           <p>{renderRichText(this.props.description)}</p>
         </div>
 
         <div
-          class="md:basis-1/2 p-5 md:p-20"
-          style={{
-            backgroundImage: `url(${this.props.backgroundImage})`,
-            minHeight: '300px',
-          }}
-        ></div>
+          className="md:basis-1/2 p-5 md:p-20 min-h-[300px]"
+          style={{ backgroundImage: `url(${ImageUrl})` }}></div>
       </div>
     )
   }

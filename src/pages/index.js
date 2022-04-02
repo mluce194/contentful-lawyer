@@ -35,8 +35,7 @@ class Accueil extends React.Component {
       'props.data.allContentfulPageDaccueil.nodes[0].map.map'
     )
 
-    console.log('mon texte 1', texte1)
-    console.log('voir image 1', image1)
+
     return (
       <Layout>
         <ContentRow
