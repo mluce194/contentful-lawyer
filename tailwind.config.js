@@ -7,7 +7,7 @@ module.exports = {
         'footer-texture': "url('/img/footer-texture.png')",
       },
       fontFamily: {
-        'sans': [
+        'sans': ['Montserrat',
                  '-apple-system',
                   'BlinkMacSystemFont',
                   'Segoe UI',

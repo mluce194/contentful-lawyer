@@ -13,8 +13,10 @@ nav .active {
 /* Styles pour le contenu intégré via Contentful */
 h2 {
   color: maroon;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0.8rem 0;
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 h2::before {
@@ -26,11 +28,11 @@ iframe {
   min-height: 300px;
 }
 
-ul {
+main ul {
   margin-left: 2rem;
 }
 
-ul li {
+main ul li {
   list-style-type: disc;
   list-style-position: outside;
 }

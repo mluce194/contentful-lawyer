@@ -39,7 +39,7 @@ const Navigation = () => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Home
+              Accueil
             </Link>
           </li>
           <li className="block m-2">
