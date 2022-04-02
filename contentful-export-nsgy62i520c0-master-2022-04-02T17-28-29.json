@@ -2313,7 +2313,7 @@
         "id": "1QYzDVbS85padFqujMWhkC",
         "type": "Entry",
         "createdAt": "2022-01-22T16:31:00.176Z",
-        "updatedAt": "2022-04-02T11:55:24.284Z",
+        "updatedAt": "2022-04-02T15:28:33.749Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -2321,8 +2321,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 192,
-        "publishedAt": "2022-04-02T11:55:24.284Z",
+        "publishedVersion": 196,
+        "publishedAt": "2022-04-02T15:28:33.749Z",
         "firstPublishedAt": "2022-01-22T16:39:18.010Z",
         "createdBy": {
           "sys": {
@@ -2338,8 +2338,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 75,
-        "version": 193,
+        "publishedCounter": 77,
+        "version": 197,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2701,7 +2701,7 @@
                   },
                   {
                     "nodeType": "text",
-                    "value": "\nATTORNEY Le Concorde 5\nrue de l'Hôtel-Dieu \n74200 Thonon-les-Bains\n",
+                    "value": "\nATTORNEY Le Concorde 5\nrue de l'Hôtel-Dieu\n74200 Thonon-les-Bains\n",
                     "marks": [
                     ],
                     "data": {
