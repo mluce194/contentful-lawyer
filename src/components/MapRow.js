@@ -6,7 +6,7 @@ const MapRow = class extends React.Component {
   render() {
     return (
       <div className={`md:flex ${this.props.direction}`}>
-        <div class="md:basis-1/3 p-5 md:p-20">
+        <div class="md:basis-1/3 p-8 md:p-14">
           <p>{renderRichText(this.props.description)}</p>
         </div>
 
