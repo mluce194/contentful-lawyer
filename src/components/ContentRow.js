@@ -1,14 +1,13 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { renderRichText } from 'gatsby-source-contentful/rich-text'
-
 
 const ContentRow = class extends React.Component {
   render() {
-    console.log('image trouvée', this.props.backgroundImage)
     return (
       <div className={`md:flex ${this.props.direction}`}>
-        <div class="md:basis-1/2 p-5 md:p-20">
-        <p>{renderRichText(this.props.description)}</p>
+        <div class="md:basis-1/2 p-8 md:p-14">
+          <p>{renderRichText(this.props.description)}</p>
         </div>
 
         <div
@@ -21,6 +20,18 @@ const ContentRow = class extends React.Component {
       </div>
     )
   }
+}
+
+ContentRow.propTypes = {
+  description: PropTypes.string,
+  backgroundImage: PropTypes.string,
+  direction: PropTypes.string,
+}
+
+ContentRow.defaultProps = {
+  description: '',
+  backgroundImage: '',
+  direction: '',
 }
 
 export default ContentRow

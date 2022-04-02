@@ -4,26 +4,33 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cardo&family=Montserrat&display=swap');
 
+/* Style pour le lien actif du menu */
 
+nav .active {
+  color: maroon;
+}
 
-/* Styles contenu API */
+/* Styles pour le contenu intégré via Contentful */
 h2 {
   color: maroon;
   font-size: 2rem;
-  font-weight: bold;
-  text-transform: uppercase;
+  margin: 0.8rem 0;
 }
 
 h2::before {
   content: "--";
 }
 
-.flex-row-reverse {
-  background-color: maroon;
-  color: #fff;
-}
-
 iframe {
   width: 100%;
   min-height: 300px;
+}
+
+ul {
+  margin-left: 2rem;
+}
+
+ul li {
+  list-style-type: disc;
+  list-style-position: outside;
 }

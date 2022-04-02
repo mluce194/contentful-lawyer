@@ -14,7 +14,7 @@ class Template extends React.Component {
         <Seo />
         <TopNav />
         <Navigation />
-        <main>{children}</main>
+        <main className="text-primary">{children}</main>
         <Footer />
       </>
     )
