@@ -16,7 +16,7 @@ const ContentRow = class extends React.Component {
         </div>
 
         <div
-          className="md:basis-1/2 min-h-[300px]"
+          className="md:basis-1/2 min-h-[300px] bg-cover bg-center"
           style={{ backgroundImage: `url(${ImageUrl})` }}></div>
       </div>
     )

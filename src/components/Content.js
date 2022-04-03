@@ -7,7 +7,7 @@ const SingleContent = class extends React.Component {
     const ImageUrl = this.props.backgroundImage
 
     return (
-      <div className="p-8 max-w-[70%] mx-auto">
+      <div className="p-8 md:max-w-[1200px] mx-auto">
         <p>{renderRichText(this.props.contenu)}</p>
       </div>
     )
