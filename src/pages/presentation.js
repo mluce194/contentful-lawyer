@@ -1,11 +1,13 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { renderRichText } from 'gatsby-source-contentful/rich-text'
 
 import get from 'lodash/get'
 import ContentRow from '../components/ContentRow'
 import ContentRowThreeColumns from '../components/ContentRowThreeColumns'
+import MainTitle from '../components/MainTitle'
+import SubTitle from '../components/SubTitle'
 import Layout from '../components/layout'
+
 
 
 class Presentation extends React.Component {
@@ -29,20 +31,19 @@ class Presentation extends React.Component {
 
 
 
-    console.log("mon image",Image1)
 
 
   
     return (
       <Layout>
-        <h1>{TitrePrincipal}</h1>
+        <MainTitle titre={TitrePrincipal}></MainTitle>
  
-        <h2 class="bg-neutral-200 p-8 pt-20 pb-20 font-light text-neutral-600 normal-case text-2xl">{Titre1}</h2>
+        <SubTitle titre={Titre1}></SubTitle>
 
-        <ContentRowThreeColumns description1={Texte1} description2={Texte2} backgroundImage={Image1}></ContentRowThreeColumns>
+        <ContentRowThreeColumns description1={Texte1} description2={Texte2} backgroundImage={Image1} direction="flex-row-reverse"></ContentRowThreeColumns>
         <ContentRowThreeColumns description1={Texte3} description2={Texte4} backgroundImage={Image2}></ContentRowThreeColumns>
-        <h2 class="bg-neutral-200 p-8 pt-20 pb-20 font-light text-neutral-600 normal-case text-2xl">{Titre2}</h2>
-        <ContentRowThreeColumns description1={Texte5} description2={Texte6} backgroundImage={Image3}></ContentRowThreeColumns>
+        <SubTitle titre={Titre2}></SubTitle>
+        <ContentRowThreeColumns description1={Texte5} description2={Texte6} backgroundImage={Image3} direction="flex-row-reverse"></ContentRowThreeColumns>
         <ContentRow description={Texte7} backgroundImage={Image4}></ContentRow>
 
 

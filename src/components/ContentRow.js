@@ -9,15 +9,14 @@ const ContentRow = class extends React.Component {
 
     const ImageUrl = this.props.backgroundImage;
 
-    console.log("Mon image de fond", this.props.backgroundImage)
     return (
-      <div className={`md:flex ${this.props.direction}`}>
+      <div className={`md:flex ${this.props.direction} ${this.props.direction === "flex-row-reverse" ? "bg-secondary" : ""}`}>
         <div className="md:basis-1/2 p-8 md:p-14">
           <p>{renderRichText(this.props.description)}</p>
         </div>
 
         <div
-          className="md:basis-1/2 p-5 md:p-20 min-h-[300px]"
+          className="md:basis-1/2 min-h-[300px]"
           style={{ backgroundImage: `url(${ImageUrl})` }}></div>
       </div>
     )
@@ -33,7 +32,7 @@ ContentRow.propTypes = {
 ContentRow.defaultProps = {
   description: '',
   backgroundImage: '',
-  direction: '',
+  direction: 'flex-row',
 }
 
 export default ContentRow
