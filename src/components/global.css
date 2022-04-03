@@ -11,7 +11,7 @@ nav .active {
 }
 
 /* Styles pour le contenu intégré via Contentful */
-h2 {
+h2, h3 {
   color: maroon;
   font-size: 1.8rem;
   margin: 0.8rem 0;
@@ -19,7 +19,11 @@ h2 {
   font-weight: 300;
 }
 
-h2::before {
+h3 {
+  font-size: 1.6rem;
+}
+
+h2::before, h3::before {
   content: "--";
 }
 
