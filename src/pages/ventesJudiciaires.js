@@ -1,9 +1,10 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { renderRichText } from 'gatsby-source-contentful/rich-text'
 
 import get from 'lodash/get'
 import Layout from '../components/layout'
+import MainTitle from '../components/MainTitle'
+import SingleContent from '../components/Content'
 
 class VentesJudiciaires extends React.Component {
   render() {
@@ -11,13 +12,12 @@ class VentesJudiciaires extends React.Component {
 
     const Texte = Content.texte
     const Titre = Content.titrePrincipal
-    console.log("Mon contenu", Content)
 
     return (
       <Layout>
-        <h1>{Titre}</h1>
+        <MainTitle titre={Titre}></MainTitle>
 
-        <p>{renderRichText(Texte)}</p>
+        <SingleContent contenu={Texte}></SingleContent>
       </Layout>
     )
   }

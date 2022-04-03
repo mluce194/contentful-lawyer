@@ -6,12 +6,16 @@ import get from 'lodash/get'
 import ContentRow from '../components/ContentRow'
 import ContentRowThreeColumns from '../components/ContentRowThreeColumns'
 import Layout from '../components/layout'
-
+import MainTitle from '../components/MainTitle'
+import SubTitle from '../components/SubTitle'
+import SingleContent from '../components/Content'
 
 class Domaines extends React.Component {
   render() {
-
-    const Content = get(this, 'props.data.allContentfulDomainesDintervention.nodes[0]')
+    const Content = get(
+      this,
+      'props.data.allContentfulDomainesDintervention.nodes[0]'
+    )
     const Image1 = Content.illustration1.gatsbyImageData.images.fallback.src
     const Image2 = Content.illustration2.gatsbyImageData.images.fallback.src
     const Image3 = Content.illustration3.gatsbyImageData.images.fallback.src
@@ -27,25 +31,33 @@ class Domaines extends React.Component {
     const Titreh2 = Content.titre1
     const Titreh1 = Content.titrePrincipal
 
-
-    console.log("mon image",Image1)
-
-
-  
     return (
       <Layout>
-        <h1>{Titreh1}</h1>
-        <p>{renderRichText(TextePresentation)}</p>
-        <h2>{Titreh2}</h2>
+        <MainTitle titre={Titreh1}></MainTitle>
+        <SingleContent contenu={TextePresentation}></SingleContent>
+        <SubTitle titre={Titreh2}></SubTitle>
 
-        <ContentRowThreeColumns description1={Texte1} description2={Texte2} backgroundImage={Image1}></ContentRowThreeColumns>
-        <ContentRowThreeColumns description1={Texte3} description2={Texte4} backgroundImage={Image2}></ContentRowThreeColumns>
-        <ContentRowThreeColumns description1={Texte5} description2={Texte6} backgroundImage={Image3}></ContentRowThreeColumns>
-        <ContentRow description={Texte7} backgroundImage={Image4}></ContentRow>
-
-
-
- 
+        <ContentRowThreeColumns
+          description1={Texte1}
+          description2={Texte2}
+          backgroundImage={Image1}
+        ></ContentRowThreeColumns>
+        <ContentRowThreeColumns
+          description1={Texte3}
+          description2={Texte4}
+          backgroundImage={Image2}
+          direction="flex-row-reverse"
+        ></ContentRowThreeColumns>
+        <ContentRowThreeColumns
+          description1={Texte5}
+          description2={Texte6}
+          backgroundImage={Image3}
+        ></ContentRowThreeColumns>
+        <ContentRow
+          description={Texte7}
+          backgroundImage={Image4}
+          direction="flex-row-reverse"
+        ></ContentRow>
       </Layout>
     )
   }
@@ -107,5 +119,3 @@ export const DomainesQuery = graphql`
     }
   }
 `
-
-
