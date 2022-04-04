@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql } from 'gatsby'
-import { renderRichText } from 'gatsby-source-contentful/rich-text'
 
 import get from 'lodash/get'
 import ContentRow from '../components/ContentRow'

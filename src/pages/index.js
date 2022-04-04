@@ -5,6 +5,7 @@ import get from 'lodash/get'
 import Layout from '../components/layout'
 import ContentRow from '../components/ContentRow'
 import MapRow from '../components/MapRow'
+import Diaporama from '../components/Diaporama'
 
 class Accueil extends React.Component {
   render() {
@@ -35,9 +36,15 @@ class Accueil extends React.Component {
       'props.data.allContentfulPageDaccueil.nodes[0].map.map'
     )
 
+    const imagesDiapo = get(
+      this,
+      'props.data.allContentfulDiaporamaDimages.nodes[0].imagesDuDiaporama'
+    )
 
     return (
       <Layout>
+        <Diaporama images={imagesDiapo}></Diaporama>
+
         <ContentRow
           description={texte1}
           backgroundImage={image1.gatsbyImageData.images.fallback.src}
@@ -81,6 +88,15 @@ export const AccueilQuery = graphql`
         }
         map {
           map
+        }
+      }
+    }
+    allContentfulDiaporamaDimages {
+      nodes {
+        imagesDuDiaporama {
+          gatsbyImageData
+          title
+          description
         }
       }
     }

@@ -35,6 +35,8 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-helmet": "^6.1.0",
+    "react-responsive-carousel": "^3.2.23",
+    "react-simple-image-slider": "^2.4.1",
     "react-tinder-card": "^1.4.5",
     "rich-text": "^4.1.0",
     "sharp": "^0.30.3",
