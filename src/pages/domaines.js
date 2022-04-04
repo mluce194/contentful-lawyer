@@ -6,9 +6,9 @@ import get from 'lodash/get'
 import ContentRow from '../components/ContentRow'
 import ContentRowThreeColumns from '../components/ContentRowThreeColumns'
 import Layout from '../components/layout'
-import MainTitle from '../components/MainTitle'
 import SubTitle from '../components/SubTitle'
 import SingleContent from '../components/Content'
+import EnTete from '../components/EnTete'
 
 class Domaines extends React.Component {
   render() {
@@ -20,6 +20,7 @@ class Domaines extends React.Component {
     const Image2 = Content.illustration2.gatsbyImageData.images.fallback.src
     const Image3 = Content.illustration3.gatsbyImageData.images.fallback.src
     const Image4 = Content.illustration3.gatsbyImageData.images.fallback.src
+    const ImageEnTete = Content.imageDenTte.gatsbyImageData.images.fallback.src
     const Texte1 = Content.texte1
     const Texte2 = Content.texte2
     const Texte3 = Content.texte3
@@ -33,7 +34,7 @@ class Domaines extends React.Component {
 
     return (
       <Layout>
-        <MainTitle titre={Titreh1}></MainTitle>
+        <EnTete titre={Titreh1} backgroundImage={ImageEnTete}></EnTete>
         <SingleContent contenu={TextePresentation}></SingleContent>
         <SubTitle titre={Titreh2}></SubTitle>
 
@@ -115,6 +116,9 @@ export const DomainesQuery = graphql`
         }
         titre1
         titrePrincipal
+        imageDenTte {
+          gatsbyImageData
+        }
       }
     }
   }

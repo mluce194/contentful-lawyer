@@ -4,16 +4,14 @@ import { graphql } from 'gatsby'
 import get from 'lodash/get'
 import ContentRow from '../components/ContentRow'
 import ContentRowThreeColumns from '../components/ContentRowThreeColumns'
-import MainTitle from '../components/MainTitle'
 import SubTitle from '../components/SubTitle'
 import Layout from '../components/layout'
-
-
+import EnTete from '../components/EnTete'
 
 class Presentation extends React.Component {
   render() {
-
     const Content = get(this, 'props.data.allContentfulPresentation.nodes[0]')
+    const ImageEnTete = Content.imageDenTte.gatsbyImageData.images.fallback.src
     const Image1 = Content.illustration1.gatsbyImageData.images.fallback.src
     const Image2 = Content.illustration2.gatsbyImageData.images.fallback.src
     const Image3 = Content.illustration3.gatsbyImageData.images.fallback.src
@@ -29,26 +27,31 @@ class Presentation extends React.Component {
     const Titre1 = Content.titre1
     const Titre2 = Content.titre2
 
-
-
-
-
-  
     return (
       <Layout>
-        <MainTitle titre={TitrePrincipal}></MainTitle>
- 
+        <EnTete backgroundImage={ImageEnTete} titre={TitrePrincipal}></EnTete>
+
         <SubTitle titre={Titre1}></SubTitle>
 
-        <ContentRowThreeColumns description1={Texte1} description2={Texte2} backgroundImage={Image1} direction="flex-row-reverse"></ContentRowThreeColumns>
-        <ContentRowThreeColumns description1={Texte3} description2={Texte4} backgroundImage={Image2}></ContentRowThreeColumns>
+        <ContentRowThreeColumns
+          description1={Texte1}
+          description2={Texte2}
+          backgroundImage={Image1}
+          direction="flex-row-reverse"
+        ></ContentRowThreeColumns>
+        <ContentRowThreeColumns
+          description1={Texte3}
+          description2={Texte4}
+          backgroundImage={Image2}
+        ></ContentRowThreeColumns>
         <SubTitle titre={Titre2}></SubTitle>
-        <ContentRowThreeColumns description1={Texte5} description2={Texte6} backgroundImage={Image3} direction="flex-row-reverse"></ContentRowThreeColumns>
+        <ContentRowThreeColumns
+          description1={Texte5}
+          description2={Texte6}
+          backgroundImage={Image3}
+          direction="flex-row-reverse"
+        ></ContentRowThreeColumns>
         <ContentRow description={Texte7} backgroundImage={Image4}></ContentRow>
-
-
-
- 
       </Layout>
     )
   }
@@ -95,14 +98,14 @@ export const PresentationQuery = graphql`
         texte7 {
           raw
         }
-  
+
         titre1
         titre2
         titrePrincipal
-
+        imageDenTte {
+          gatsbyImageData
+        }
       }
     }
   }
 `
-
-

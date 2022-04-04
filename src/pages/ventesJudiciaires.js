@@ -3,19 +3,23 @@ import { graphql } from 'gatsby'
 
 import get from 'lodash/get'
 import Layout from '../components/layout'
-import MainTitle from '../components/MainTitle'
 import SingleContent from '../components/Content'
+import EnTete from '../components/EnTete'
 
 class VentesJudiciaires extends React.Component {
   render() {
-    const Content = get(this, 'props.data.allContentfulVentesJudiciaires.nodes[0]')
+    const Content = get(
+      this,
+      'props.data.allContentfulVentesJudiciaires.nodes[0]'
+    )
 
     const Texte = Content.texte
     const Titre = Content.titrePrincipal
+    const ImageEnTete = Content.imageDenTte.gatsbyImageData.images.fallback.src
 
     return (
       <Layout>
-        <MainTitle titre={Titre}></MainTitle>
+        <EnTete titre={Titre} backgroundImage={ImageEnTete}></EnTete>
 
         <SingleContent contenu={Texte}></SingleContent>
       </Layout>
@@ -33,6 +37,9 @@ export const VentesJudiciairesQuery = graphql`
           raw
         }
         titrePrincipal
+        imageDenTte {
+          gatsbyImageData
+        }
       }
     }
   }

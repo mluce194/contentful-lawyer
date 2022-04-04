@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 
 import get from 'lodash/get'
 import SingleContent from '../components/Content'
-import MainTitle from '../components/MainTitle'
+import EnTete from '../components/EnTete'
 import Layout from '../components/layout'
 
 class Honoraires extends React.Component {
@@ -12,10 +12,11 @@ class Honoraires extends React.Component {
 
     const Texte = Content.texte
     const Titre = Content.titrePrincipal
+    const ImageEnTete = Content.imageDenTte.gatsbyImageData.images.fallback.src
 
     return (
       <Layout>
-        <MainTitle titre={Titre}></MainTitle>
+        <EnTete titre={Titre} backgroundImage={ImageEnTete}></EnTete>
 
         <SingleContent contenu={Texte}></SingleContent>
       </Layout>
@@ -29,10 +30,13 @@ export const HonorairesQuery = graphql`
   query HonorairesQuery {
     allContentfulHonoraires {
       nodes {
+        titrePrincipal
         texte {
           raw
         }
-        titrePrincipal
+        imageDenTte {
+          gatsbyImageData
+        }
       }
     }
   }
