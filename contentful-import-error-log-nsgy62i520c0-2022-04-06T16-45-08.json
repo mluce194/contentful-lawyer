@@ -1,0 +1,206 @@
+[
+  {
+    "ts": "2022-04-06T14:45:55.324Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "nsgy62i520c0"
+            }
+          },
+          "id": "1JeogRejuZvVicfP2byl0H",
+          "type": "Asset",
+          "createdAt": "2022-03-03T10:13:47.494Z",
+          "updatedAt": "2022-04-02T08:24:47.437Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 185,
+          "publishedAt": "2022-04-02T08:24:47.437Z",
+          "firstPublishedAt": "2022-03-03T10:16:00.070Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          },
+          "publishedCounter": 62,
+          "version": 186,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "slider2"
+          },
+          "file": {
+            "en-US": {
+              "url": "//images.ctfassets.net/nsgy62i520c0/1JeogRejuZvVicfP2byl0H/69677ddf75012304142fb7b4ec20171d/slider2.jpg",
+              "details": {
+                "size": 127926,
+                "image": {
+                  "width": 2000,
+                  "height": 1086
+                }
+              },
+              "fileName": "slider2.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "Cannot edit archived",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/nsgy62i520c0/environments/master/assets/1JeogRejuZvVicfP2byl0H",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.2.28; feature library-import; sdk contentful-management.js/7.54.2; platform node.js/v17.4.0; os macOS/v17.4.0;",
+            "CF-Sequence": "5266b7ec-7293-407d-947e-c1fa63ca7d22",
+            "Authorization": "Bearer ...ZqXbA",
+            "user-agent": "node.js/v17.4.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 200,
+            "Content-Length": 255
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"title\":{\"en-US\":\"slider2\"},\"file\":{\"en-US\":{\"contentType\":\"image/jpeg\",\"fileName\":\"slider2.jpg\",\"upload\":\"https://images.ctfassets.net/nsgy62i520c0/1JeogRejuZvVicfP2byl0H/69677ddf75012304142fb7b4ec20171d/slider2.jpg\"}}}}"
+        },
+        "requestId": "845fc880-07df-4376-853a-e6bbfcb2a5d7"
+      }
+    }
+  },
+  {
+    "ts": "2022-04-06T14:45:55.366Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "nsgy62i520c0"
+            }
+          },
+          "id": "3hW1Ux76VBlHllGXnNptG7",
+          "type": "Asset",
+          "createdAt": "2022-03-03T10:13:47.500Z",
+          "updatedAt": "2022-04-02T08:24:47.820Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 185,
+          "publishedAt": "2022-04-02T08:24:47.820Z",
+          "firstPublishedAt": "2022-03-03T10:16:00.088Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          },
+          "publishedCounter": 62,
+          "version": 186,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "slider1"
+          },
+          "file": {
+            "en-US": {
+              "url": "//images.ctfassets.net/nsgy62i520c0/3hW1Ux76VBlHllGXnNptG7/52d8c9de654ea62384a0dd5b5806840a/slider1.jpg",
+              "details": {
+                "size": 323722,
+                "image": {
+                  "width": 2000,
+                  "height": 1500
+                }
+              },
+              "fileName": "slider1.jpg",
+              "contentType": "image/jpeg"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "Cannot edit archived",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/nsgy62i520c0/environments/master/assets/3hW1Ux76VBlHllGXnNptG7",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.2.28; feature library-import; sdk contentful-management.js/7.54.2; platform node.js/v17.4.0; os macOS/v17.4.0;",
+            "CF-Sequence": "5266b7ec-7293-407d-947e-c1fa63ca7d22",
+            "Authorization": "Bearer ...ZqXbA",
+            "user-agent": "node.js/v17.4.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 201,
+            "Content-Length": 255
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"title\":{\"en-US\":\"slider1\"},\"file\":{\"en-US\":{\"contentType\":\"image/jpeg\",\"fileName\":\"slider1.jpg\",\"upload\":\"https://images.ctfassets.net/nsgy62i520c0/3hW1Ux76VBlHllGXnNptG7/52d8c9de654ea62384a0dd5b5806840a/slider1.jpg\"}}}}"
+        },
+        "requestId": "377f6c6c-7e59-41fe-8127-334f4f6ecc5d"
+      }
+    }
+  }
+]
