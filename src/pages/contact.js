@@ -1,21 +1,28 @@
 import React from 'react'
+import { graphql } from 'gatsby'
+import get from 'lodash/get'
 
 import Layout from '../components/layout'
 import EnTete from '../components/EnTete'
+import SingleContent from '../components/Content'
 import Form from '../components/form'
 
 class Contact extends React.Component {
   render() {
+    const Donnees = get(this, 'props.data.allContentfulContact.nodes[0]')
+    const Description = Donnees.description
 
-
+    console.log('Données de la page contact', Donnees)
 
     return (
       <Layout>
         <EnTete titre="Contacter Paul-Marie Beraudo"></EnTete>
-        <div className="p-8 md:max-w-[1200px] mx-auto">
-   
+        <SingleContent contenu={Description}>
+          
+        </SingleContent>
         <Form></Form>
-      </div>
+          
+
       </Layout>
     )
   }
@@ -23,3 +30,15 @@ class Contact extends React.Component {
 
 export default Contact
 
+export const ContactQuery = graphql`
+  query contentfulContact {
+    allContentfulContact {
+    nodes {
+      description {
+        raw
+      }
+      titre
+    }
+  }
+  }
+`
