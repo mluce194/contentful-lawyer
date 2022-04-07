@@ -19,8 +19,8 @@ const Diaporama = ({ images }) => {
           return (
             <div className="each-slide" key={index}>
             <div style={{'backgroundImage': `url(${image.gatsbyImageData.images.fallback.src})`}} className="h-[500px] bg-cover">
-              <div className="h-[100%] bg-opacity-50 bg-black flex items-center justify-center">
-              <div className="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl max-w-[800px]">{image.title}<span className="block text-xl xs:text-2xl md:text-3xl leading-tigh">{image.description}</span></div>
+              <div className="h-[100%] bg-opacity-20 bg-black flex items-center justify-center">
+              <div className="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl max-w-[1000px] p-10 bg-black bg-opacity-40 rounded">{image.title}<span className="block text-xl xs:text-2xl md:text-3xl leading-tight mt-5">{image.description}</span></div>
               </div>
             </div>
           </div>
