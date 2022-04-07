@@ -1,8 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import 'react-responsive-carousel/lib/styles/carousel.min.css' // requires a loader
-import { Carousel } from 'react-responsive-carousel'
-import { GatsbyImage } from 'gatsby-plugin-image'
+import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
+
+
+
 
 
 
@@ -12,18 +14,19 @@ const Diaporama = ({ images }) => {
   console.log('données de mes images', images)
   return (
     <div>
-      <Carousel>
-        {images.map((image) => {
+      <Slide>
+        {images.map((image, index) => {
           return (
-            <div className="bg-neutral-900">
-              <GatsbyImage image={image.gatsbyImageData} className="opacity-60"/>
-                <p className="absolute top-0 left-[50%] ml-[-40%] text-5xl text-center text-white p-3 font-bold leading-relaxed rounded w-[80%] drop-shadow-2xl">
-                  {image.description}
-                </p>
+            <div className="each-slide" key={index}>
+            <div style={{'backgroundImage': `url(${image.gatsbyImageData.images.fallback.src})`}} className="h-[500px] bg-cover">
+              <div className="h-[100%] bg-opacity-50 bg-black flex items-center justify-center">
+              <div className="text-gray-100 font-extrabold text-4xl xs:text-5xl md:text-6xl max-w-[800px]">{image.title}<span className="block text-xl xs:text-2xl md:text-3xl leading-tigh">{image.description}</span></div>
+              </div>
             </div>
+          </div>
           )
         })}
-      </Carousel>
+      </Slide>
     </div>
   )
 }
