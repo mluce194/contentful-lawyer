@@ -16,6 +16,7 @@
     "babel-loader": "^8.2.4",
     "babel-plugin-styled-components": "^2.0.2",
     "bluebird": "^3.7.2",
+    "bufferutil": "^4.0.6",
     "common-tags": "^1.8.2",
     "contentful": "^9.1.18",
     "encoding": "^0.1.13",
@@ -48,6 +49,7 @@
     "sharp": "^0.30.3",
     "styled-components": "^5.3.3",
     "typography": "^0.16.21",
+    "utf-8-validate": "^5.0.9",
     "vips": "^1.0.0",
     "webpack": "^5.70.0",
     "webpack-require": "^0.0.16"
