@@ -38,8 +38,10 @@ class Accueil extends React.Component {
 
     const imagesDiapo = get(
       this,
-      'props.data.allContentfulDiaporamaDimages.nodes[0].imagesDuDiaporama'
+      'props.data.allContentfulDiaporama.nodes'
     )
+  
+    console.log("A quoi ressemble imagesDiapo", imagesDiapo)
 
     return (
       <Layout>
@@ -91,12 +93,14 @@ export const AccueilQuery = graphql`
         }
       }
     }
-    allContentfulDiaporamaDimages {
+      allContentfulDiaporama {
       nodes {
-        imagesDuDiaporama {
+        id
+        titrediapo
+        description
+        lien
+        slide {
           gatsbyImageData
-          title
-          description
         }
       }
     }

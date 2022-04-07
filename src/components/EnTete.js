@@ -1,10 +1,12 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import defautlBgImage from '../images/avocat-thonon-les-bains.jpg'
+
 
 const EnTete = class extends React.Component {
   render() {
     const ImageUrl = this.props.backgroundImage
-
+    console.log("image de fond trouvée",defautlBgImage)
     return (
       <div
         className="h-[400px] bg-cover bg-center"
@@ -26,7 +28,7 @@ EnTete.propTypes = {
 }
 
 EnTete.defaultProps = {
-  backgroundImage: '',
+  backgroundImage: defautlBgImage,
   titre: 'Paul-Marie Beraudo, avocat',
 }
 
