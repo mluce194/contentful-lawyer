@@ -46,7 +46,6 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sharp',
     'gatsby-plugin-image',
-    'gatsby-plugin-netlify',
 
     {
       resolve: 'gatsby-plugin-robots-txt',
