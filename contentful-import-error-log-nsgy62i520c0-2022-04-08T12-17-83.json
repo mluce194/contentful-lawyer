@@ -1,0 +1,102 @@
+[
+  {
+    "ts": "2022-04-08T10:18:08.952Z",
+    "level": "error",
+    "error": {
+      "name": "BadRequest",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "nsgy62i520c0"
+            }
+          },
+          "id": "24goE3dRQPf5RsiuXDmAJV",
+          "type": "Asset",
+          "createdAt": "2022-03-03T10:10:36.178Z",
+          "updatedAt": "2022-04-08T10:18:01.407Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 224,
+          "publishedAt": "2022-04-08T10:15:40.693Z",
+          "firstPublishedAt": "2022-03-03T10:16:00.042Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          },
+          "publishedCounter": 75,
+          "version": 226,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "5kQhjD36kyfoaB94ntAr5S"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "bookcase-335849 640",
+            "fr": "avocat-Paul-Marie-Beraudo"
+          },
+          "file": {
+            "en-US": {
+              "contentType": "image/jpeg",
+              "fileName": "bookcase-335849_640.jpg",
+              "upload": "https://images.ctfassets.net/nsgy62i520c0/24goE3dRQPf5RsiuXDmAJV/2ef5436d2b2b0f6ee56592d2042e367f/bookcase-335849_640.jpg"
+            },
+            "fr": {
+              "contentType": "image/jpeg",
+              "fileName": "avocat-Paul-Marie-Beraudo.jpg",
+              "upload": "https://images.ctfassets.net/nsgy62i520c0/24goE3dRQPf5RsiuXDmAJV/bb23ddaaaeba93e21709cb4f94186139/avocat-Paul-Marie-Beraudo.jpg"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 400,
+        "statusText": "Bad Request",
+        "message": "File has already been processed.",
+        "details": {
+        },
+        "request": {
+          "url": "/spaces/nsgy62i520c0/environments/master/assets/24goE3dRQPf5RsiuXDmAJV/files/en-US/process",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.2.28; feature library-import; sdk contentful-management.js/7.54.2; platform node.js/v17.4.0; os macOS/v17.4.0;",
+            "CF-Sequence": "db4f1d9a-d00c-44e2-84a9-96146cddf6b0",
+            "Authorization": "Bearer ...ZqXbA",
+            "user-agent": "node.js/v17.4.0",
+            "Accept-Encoding": "gzip",
+            "X-Contentful-Version": 226
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "ebdc052f-2fdd-4c2f-996d-ae839fba6686"
+      }
+    }
+  }
+]
