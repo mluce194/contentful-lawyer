@@ -8,11 +8,10 @@ const ContentRow = class extends React.Component {
   render() {
 
     const ImageUrl = this.props.backgroundImage;
-
     return (
       <div className={`md:flex ${this.props.direction} ${this.props.direction === "flex-row-reverse" ? "bg-secondary" : ""}`}>
         <div className="md:basis-1/2 p-8 md:p-14">
-          <p>{renderRichText(this.props.description)}</p>
+          <div>{this.props.description ? renderRichText(this.props.description) : ''}</div>
         </div>
 
         <div
@@ -24,7 +23,7 @@ const ContentRow = class extends React.Component {
 }
 
 ContentRow.propTypes = {
-  description: PropTypes.string,
+  description: PropTypes.object,
   backgroundImage: PropTypes.string,
   direction: PropTypes.string,
 }

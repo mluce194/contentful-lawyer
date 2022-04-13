@@ -24,7 +24,10 @@ const Diaporama = ({ images }) => {
                     <span className="block text-xl xs:text-2xl md:text-3xl leading-tight mt-5">
                       {image.description}
                     </span>
-                    <a href={image.lien} className="p-2 my-5 mx-2 bg-secondary hover:bg-white font-bold text-white hover:text-secondary rounded shadow-md transition duration-500 md:text-xl">
+                    <a
+                      href={image.lien}
+                      className="p-2 my-5 mx-2 bg-secondary hover:bg-white font-bold text-white hover:text-secondary rounded shadow-md transition duration-500 md:text-xl"
+                    >
                       En savoir plus
                     </a>
                   </div>

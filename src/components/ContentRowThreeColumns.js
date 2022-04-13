@@ -7,23 +7,23 @@ const ContentRowThreeColumns = class extends React.Component {
     return (
       <div className={`md:flex items-stretch ${this.props.direction}`}>
         <div
-          class={`md:basis-1/3 min-h-[300px] p-8 md:p-14 ${
+          className={`md:basis-1/3 min-h-[300px] p-8 md:p-14 ${
             this.props.direction === 'flex-row' ? 'bg-secondary' : ''
           }`}
         >
-          <p>{renderRichText(this.props.description1)}</p>
+          <div>{this.props.description1 ? renderRichText(this.props.description1) : ''}</div>
         </div>
 
         <div
-          class={`md:basis-1/3 min-h-[300px] p-8 md:p-14 ${
+          className={`md:basis-1/3 min-h-[300px] p-8 md:p-14 ${
             this.props.direction === 'flex-row-reverse' ? 'bg-secondary' : ''
           }`}
         >
-          <p>{renderRichText(this.props.description2)}</p>
+          <div>{this.props.description2 ? renderRichText(this.props.description2) : ''}</div>
         </div>
 
         <div
-          class="md:basis-1/3 min-h-[300px] bg-cover bg-center"
+          className="md:basis-1/3 min-h-[300px] bg-cover bg-center"
           style={{
             backgroundImage: `url(${this.props.backgroundImage})`,
           }}
@@ -34,15 +34,15 @@ const ContentRowThreeColumns = class extends React.Component {
 }
 
 ContentRowThreeColumns.propTypes = {
-  description1: PropTypes.string,
+  description1: PropTypes.object,
   backgroundImage: PropTypes.string,
-  description2: PropTypes.string,
+  description2: PropTypes.object,
   direction: PropTypes.string,
 }
 
 ContentRowThreeColumns.defaultProps = {
-  description1: '',
-  description2: '',
+  description1: {raw: ''},
+  description2: {raw: ''},
   backgroundImage: '',
   direction: 'flex-row',
 }

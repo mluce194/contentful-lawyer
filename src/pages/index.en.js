@@ -7,9 +7,9 @@ import ContentRow from '../components/ContentRow'
 import MapRow from '../components/MapRow'
 import Diaporama from '../components/Diaporama'
 
-class Accueil extends React.Component {
+class AccueilEN extends React.Component {
   render() {
-    const donnees = get(this, 'props.data.allContentfulPageDaccueil.nodes[1]')
+    const donnees = get(this, 'props.data.allContentfulPageDaccueil.nodes[0]')
     const texte1 = donnees.richText1
     const image1 = donnees.image1
     const texte2 = donnees.richText2
@@ -42,10 +42,10 @@ class Accueil extends React.Component {
   }
 }
 
-export default Accueil
+export default AccueilEN
 
-export const AccueilQuery = graphql`
-  query AccueilQuery {
+export const AccueilENQuery = graphql`
+  query AccueilENQuery {
     allContentfulPageDaccueil {
       nodes {
         image2 {
@@ -68,7 +68,7 @@ export const AccueilQuery = graphql`
         }
       }
     }
-      allContentfulDiaporama(filter: {node_locale: {eq: "fr"}}) {
+    allContentfulDiaporama(filter: { node_locale: { eq: "en-US" } }) {
       nodes {
         id
         description

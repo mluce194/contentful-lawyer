@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   // Define a template for blog post
-  const blogPost = path.resolve('./src/templates/blog-post.js')
+  /*const blogPost = path.resolve('./src/templates/blog-post.js')
 
   const result = await graphql(
     `
@@ -17,23 +17,23 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         }
       }
     `
-  )
+  )*/
 
-  if (result.errors) {
+  /*if (result.errors) {
     reporter.panicOnBuild(
       `There was an error loading your Contentful posts`,
       result.errors
     )
     return
-  }
+  }*/
 
-  const posts = result.data.allContentfulBlogPost.nodes
+  //const posts = result.data.allContentfulBlogPost.nodes
 
   // Create blog posts pages
   // But only if there's at least one blog post found in Contentful
   // `context` is available in the template as a prop and as a variable in GraphQL
 
-  if (posts.length > 0) {
+ /* if (posts.length > 0) {
     posts.forEach((post, index) => {
       const previousPostSlug = index === 0 ? null : posts[index - 1].slug
       const nextPostSlug =
@@ -49,5 +49,5 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         },
       })
     })
-  }
+  }*/
 }

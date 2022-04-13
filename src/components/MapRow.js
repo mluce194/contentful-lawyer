@@ -6,11 +6,11 @@ const MapRow = class extends React.Component {
   render() {
     return (
       <div className={`md:flex ${this.props.direction}`}>
-        <div class="md:basis-1/3 p-8 md:p-14">
-          <p>{renderRichText(this.props.description)}</p>
+        <div className="md:basis-1/3 p-8 md:p-14">
+          <div>{renderRichText(this.props.description)}</div>
         </div>
 
-        <div class="md:basis-2/3">
+        <div className="md:basis-2/3">
           <p dangerouslySetInnerHTML={{ __html: this.props.mapContent }}></p>
         </div>
       </div>
@@ -19,14 +19,14 @@ const MapRow = class extends React.Component {
 }
 
 MapRow.propTypes = {
-  description: PropTypes.string,
+  description: PropTypes.object,
   backgroundImage: PropTypes.string,
   direction: PropTypes.string,
   map: PropTypes.string,
 }
 
 MapRow.defaultProps = {
-  description: '',
+  description: {raw: ''},
   backgroundImage: '',
   direction: '',
   map: '',

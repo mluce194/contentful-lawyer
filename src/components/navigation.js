@@ -13,16 +13,16 @@ const Navigation = () => {
     <div className="bg-neutral-200">
       <nav
         role="navigation"
-        class="block md:flex items-center flex-wrap p-6 sm:block max-w-6xl mx-auto"
+        className="block md:flex items-center flex-wrap p-6 sm:block max-w-6xl mx-auto"
         aria-label="Main"
       >
-        <div class="block md:hidden">
+        <div className="block md:hidden">
           <button
-            class="block items-center px-3 py-2 border border-maroon rounded text-maroon"
+            className="block items-center px-3 py-2 border border-maroon rounded text-maroon"
             onClick={handleToggle}
           >
             <svg
-              class="fill-current h-3 w-3"
+              className="fill-current h-3 w-3"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
             >

@@ -13,13 +13,13 @@ const Footer = () => (
     </div>
     <div className="m-5">
       Site Web développé par{' '}
-      <Link
-        to="https://www.seoalternative.fr"
+      <a href
+        ="https://www.seoalternative.fr"
         target="_blank"
-        className="text-secondary hover:underline"
+        className="text-secondary hover:underline" rel="noreferrer"
       >
         Marie-Luce Beraudo de SEO Alternative
-      </Link>
+      </a>
     </div>
   </footer>
 )

@@ -6,14 +6,14 @@ const SingleContent = class extends React.Component {
   render() {
     return (
       <div className="p-8 md:max-w-[1200px] mx-auto">
-        <p>{renderRichText(this.props.contenu)}</p>
+        <div>{renderRichText(this.props.contenu)}</div>
       </div>
     )
   }
 }
 
 SingleContent.propTypes = {
-  contenu: PropTypes.string,
+  contenu: PropTypes.object,
 }
 
 SingleContent.defaultProps = {

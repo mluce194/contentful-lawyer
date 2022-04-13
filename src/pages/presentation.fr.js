@@ -10,7 +10,7 @@ import EnTete from '../components/EnTete'
 
 class Presentation extends React.Component {
   render() {
-    const Content = get(this, 'props.data.allContentfulPresentation.nodes[0]')
+    const Content = get(this, 'props.data.allContentfulPresentation.nodes[1]')
     const ImageEnTete = Content.imageDenTte.gatsbyImageData.images.fallback.src
     const Image1 = Content.illustration1.gatsbyImageData.images.fallback.src
     const Image2 = Content.illustration2.gatsbyImageData.images.fallback.src

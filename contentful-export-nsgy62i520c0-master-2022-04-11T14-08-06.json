@@ -12,7 +12,7 @@
         "id": "blogPost",
         "type": "ContentType",
         "createdAt": "2022-01-20T16:29:47.354Z",
-        "updatedAt": "2022-04-08T08:09:35.402Z",
+        "updatedAt": "2022-04-08T10:24:49.458Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -20,8 +20,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 163,
-        "publishedAt": "2022-04-08T08:09:35.402Z",
+        "publishedVersion": 171,
+        "publishedAt": "2022-04-08T10:24:49.458Z",
         "firstPublishedAt": "2022-01-20T16:29:51.226Z",
         "createdBy": {
           "sys": {
@@ -37,8 +37,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 82,
-        "version": 164,
+        "publishedCounter": 86,
+        "version": 172,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -172,7 +172,7 @@
         "id": "accueil",
         "type": "ContentType",
         "createdAt": "2022-01-22T16:30:47.184Z",
-        "updatedAt": "2022-04-08T08:09:35.836Z",
+        "updatedAt": "2022-04-08T10:24:50.026Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -180,8 +180,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 161,
-        "publishedAt": "2022-04-08T08:09:35.836Z",
+        "publishedVersion": 169,
+        "publishedAt": "2022-04-08T10:24:50.026Z",
         "firstPublishedAt": "2022-01-22T16:30:47.752Z",
         "createdBy": {
           "sys": {
@@ -197,8 +197,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 81,
-        "version": 162,
+        "publishedCounter": 85,
+        "version": 170,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -406,7 +406,7 @@
         "id": "prsentation",
         "type": "ContentType",
         "createdAt": "2022-03-03T09:58:25.621Z",
-        "updatedAt": "2022-04-08T08:09:36.333Z",
+        "updatedAt": "2022-04-08T10:24:50.791Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -414,8 +414,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 151,
-        "publishedAt": "2022-04-08T08:09:36.333Z",
+        "publishedVersion": 159,
+        "publishedAt": "2022-04-08T10:24:50.791Z",
         "firstPublishedAt": "2022-03-03T09:58:26.063Z",
         "createdBy": {
           "sys": {
@@ -431,8 +431,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 76,
-        "version": 152,
+        "publishedCounter": 80,
+        "version": 160,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -867,7 +867,7 @@
         "id": "domainesDintervention",
         "type": "ContentType",
         "createdAt": "2022-03-03T09:59:02.222Z",
-        "updatedAt": "2022-04-08T08:09:37.042Z",
+        "updatedAt": "2022-04-08T10:24:51.319Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -875,8 +875,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 163,
-        "publishedAt": "2022-04-08T08:09:37.042Z",
+        "publishedVersion": 171,
+        "publishedAt": "2022-04-08T10:24:51.319Z",
         "firstPublishedAt": "2022-03-03T09:59:02.634Z",
         "createdBy": {
           "sys": {
@@ -892,8 +892,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 82,
-        "version": 164,
+        "publishedCounter": 86,
+        "version": 172,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1362,7 +1362,7 @@
         "id": "honoraires",
         "type": "ContentType",
         "createdAt": "2022-03-03T10:02:27.662Z",
-        "updatedAt": "2022-04-08T08:09:37.658Z",
+        "updatedAt": "2022-04-08T10:24:51.821Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1370,8 +1370,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 159,
-        "publishedAt": "2022-04-08T08:09:37.658Z",
+        "publishedVersion": 167,
+        "publishedAt": "2022-04-08T10:24:51.821Z",
         "firstPublishedAt": "2022-03-03T10:02:28.050Z",
         "createdBy": {
           "sys": {
@@ -1387,8 +1387,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 80,
-        "version": 160,
+        "publishedCounter": 84,
+        "version": 168,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1494,7 +1494,7 @@
         "id": "ventesJudiciaires",
         "type": "ContentType",
         "createdAt": "2022-03-03T10:02:49.764Z",
-        "updatedAt": "2022-04-08T08:09:38.126Z",
+        "updatedAt": "2022-04-08T10:24:52.243Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1502,8 +1502,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 149,
-        "publishedAt": "2022-04-08T08:09:38.126Z",
+        "publishedVersion": 157,
+        "publishedAt": "2022-04-08T10:24:52.243Z",
         "firstPublishedAt": "2022-03-03T10:02:50.103Z",
         "createdBy": {
           "sys": {
@@ -1519,8 +1519,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 75,
-        "version": 150,
+        "publishedCounter": 79,
+        "version": 158,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1615,7 +1615,7 @@
         "id": "person",
         "type": "ContentType",
         "createdAt": "2022-03-10T13:12:20.469Z",
-        "updatedAt": "2022-04-08T08:09:38.574Z",
+        "updatedAt": "2022-04-08T10:24:52.675Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1623,8 +1623,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 147,
-        "publishedAt": "2022-04-08T08:09:38.574Z",
+        "publishedVersion": 155,
+        "publishedAt": "2022-04-08T10:24:52.675Z",
         "firstPublishedAt": "2022-03-10T13:12:20.911Z",
         "createdBy": {
           "sys": {
@@ -1640,8 +1640,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 74,
-        "version": 148,
+        "publishedCounter": 78,
+        "version": 156,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1776,91 +1776,10 @@
             "id": "nsgy62i520c0"
           }
         },
-        "id": "diaporamaDimages",
-        "type": "ContentType",
-        "createdAt": "2022-04-04T08:20:21.800Z",
-        "updatedAt": "2022-04-08T08:09:39.012Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 15,
-        "publishedAt": "2022-04-08T08:09:39.012Z",
-        "firstPublishedAt": "2022-04-04T08:20:22.258Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 8,
-        "version": 16,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        }
-      },
-      "displayField": "titre",
-      "name": "Diaporama d'images",
-      "description": "",
-      "fields": [
-        {
-          "id": "imagesDuDiaporama",
-          "name": "Images du diaporama",
-          "type": "Array",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false,
-          "items": {
-            "type": "Link",
-            "validations": [
-            ],
-            "linkType": "Asset"
-          }
-        },
-        {
-          "id": "titre",
-          "name": "Titre",
-          "type": "Symbol",
-          "localized": false,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        }
-      ]
-    },
-    {
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
         "id": "diaporama",
         "type": "ContentType",
         "createdAt": "2022-04-07T08:36:09.755Z",
-        "updatedAt": "2022-04-08T08:09:39.500Z",
+        "updatedAt": "2022-04-08T10:24:53.590Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1868,8 +1787,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 15,
-        "publishedAt": "2022-04-08T08:09:39.500Z",
+        "publishedVersion": 25,
+        "publishedAt": "2022-04-08T10:24:53.590Z",
         "firstPublishedAt": "2022-04-07T08:36:10.115Z",
         "createdBy": {
           "sys": {
@@ -1885,8 +1804,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 8,
-        "version": 16,
+        "publishedCounter": 13,
+        "version": 26,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1903,7 +1822,7 @@
           "id": "titrediapo",
           "name": "Titre",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": false,
           "validations": [
           ],
@@ -1914,7 +1833,7 @@
           "id": "description",
           "name": "Description",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": false,
           "validations": [
           ],
@@ -1937,7 +1856,7 @@
           "id": "lien",
           "name": "Lien",
           "type": "Symbol",
-          "localized": false,
+          "localized": true,
           "required": false,
           "validations": [
           ],
@@ -1958,7 +1877,7 @@
         "id": "contact",
         "type": "ContentType",
         "createdAt": "2022-04-07T13:47:28.679Z",
-        "updatedAt": "2022-04-08T08:09:39.990Z",
+        "updatedAt": "2022-04-08T10:24:54.068Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1966,8 +1885,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 11,
-        "publishedAt": "2022-04-08T08:09:39.990Z",
+        "publishedVersion": 19,
+        "publishedAt": "2022-04-08T10:24:54.068Z",
         "firstPublishedAt": "2022-04-07T13:47:29.107Z",
         "createdBy": {
           "sys": {
@@ -1983,8 +1902,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 6,
-        "version": 12,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -2054,9 +1973,443 @@
           "omitted": false
         }
       ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "ligne2Colonnes",
+        "type": "ContentType",
+        "createdAt": "2022-04-11T11:58:42.068Z",
+        "updatedAt": "2022-04-11T11:58:42.461Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-04-11T11:58:42.461Z",
+        "firstPublishedAt": "2022-04-11T11:58:42.461Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "displayField": "titre",
+      "name": "Ligne 2 colonnes",
+      "description": "",
+      "fields": [
+        {
+          "id": "titre",
+          "name": "Titre",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "illustration",
+          "name": "Illustration",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "contenu",
+          "name": "Contenu",
+          "type": "RichText",
+          "localized": true,
+          "required": false,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "ligne3Colonnes",
+        "type": "ContentType",
+        "createdAt": "2022-04-11T11:59:30.319Z",
+        "updatedAt": "2022-04-11T11:59:30.739Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 1,
+        "publishedAt": "2022-04-11T11:59:30.739Z",
+        "firstPublishedAt": "2022-04-11T11:59:30.739Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 2,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "displayField": "titre",
+      "name": "Ligne 3 colonnes",
+      "description": "",
+      "fields": [
+        {
+          "id": "titre",
+          "name": "Titre",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contenu1",
+          "name": "Contenu1",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ]
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contenu2",
+          "name": "Contenu2",
+          "type": "RichText",
+          "localized": false,
+          "required": false,
+          "validations": [
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ]
+            },
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ]
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "illustration",
+          "name": "Illustration",
+          "type": "Link",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "ligneAvecMap",
+        "type": "ContentType",
+        "createdAt": "2022-04-11T12:04:35.261Z",
+        "updatedAt": "2022-04-11T12:05:12.664Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2022-04-11T12:05:12.664Z",
+        "firstPublishedAt": "2022-04-11T12:04:35.676Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "displayField": "titre",
+      "name": "Ligne avec map",
+      "description": "",
+      "fields": [
+        {
+          "id": "titre",
+          "name": "Titre",
+          "type": "Symbol",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "contenu",
+          "name": "Contenu",
+          "type": "RichText",
+          "localized": true,
+          "required": false,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code"
+              ],
+              "message": "Only bold, italic, underline, and code marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "map",
+          "name": "Map",
+          "type": "Text",
+          "localized": false,
+          "required": false,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        }
+      ]
     }
   ],
   "tags": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "fr",
+        "type": "Tag",
+        "createdAt": "2022-04-11T09:10:01.165Z",
+        "updatedAt": "2022-04-11T09:10:01.165Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "version": 1,
+        "visibility": "private"
+      },
+      "name": "fr"
+    }
   ],
   "editorInterfaces": [
     {
@@ -2070,7 +2423,7 @@
             "linkType": "Space"
           }
         },
-        "version": 165,
+        "version": 173,
         "createdAt": "2022-01-20T16:29:51.305Z",
         "createdBy": {
           "sys": {
@@ -2079,7 +2432,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:41.669Z",
+        "updatedAt": "2022-04-08T10:24:56.008Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2178,7 +2531,7 @@
             "linkType": "Space"
           }
         },
-        "version": 163,
+        "version": 171,
         "createdAt": "2022-01-22T16:30:47.819Z",
         "createdBy": {
           "sys": {
@@ -2187,7 +2540,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:41.678Z",
+        "updatedAt": "2022-04-08T10:24:56.018Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2285,7 +2638,7 @@
             "linkType": "Space"
           }
         },
-        "version": 153,
+        "version": 161,
         "createdAt": "2022-03-03T09:58:26.147Z",
         "createdBy": {
           "sys": {
@@ -2294,7 +2647,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:41.668Z",
+        "updatedAt": "2022-04-08T10:24:56.007Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2432,7 +2785,7 @@
             "linkType": "Space"
           }
         },
-        "version": 165,
+        "version": 173,
         "createdAt": "2022-03-03T09:59:02.711Z",
         "createdBy": {
           "sys": {
@@ -2441,7 +2794,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:41.713Z",
+        "updatedAt": "2022-04-08T10:24:56.999Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2579,7 +2932,7 @@
             "linkType": "Space"
           }
         },
-        "version": 161,
+        "version": 169,
         "createdAt": "2022-03-03T10:02:28.116Z",
         "createdBy": {
           "sys": {
@@ -2588,7 +2941,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:42.661Z",
+        "updatedAt": "2022-04-08T10:24:55.984Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2691,7 +3044,7 @@
             "linkType": "Space"
           }
         },
-        "version": 151,
+        "version": 159,
         "createdAt": "2022-03-03T10:02:50.163Z",
         "createdBy": {
           "sys": {
@@ -2700,7 +3053,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:42.657Z",
+        "updatedAt": "2022-04-08T10:24:57.005Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2778,7 +3131,7 @@
             "linkType": "Space"
           }
         },
-        "version": 149,
+        "version": 157,
         "createdAt": "2022-03-10T13:12:21.030Z",
         "createdBy": {
           "sys": {
@@ -2787,7 +3140,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:42.645Z",
+        "updatedAt": "2022-04-08T10:24:57.258Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2890,89 +3243,7 @@
             "linkType": "Space"
           }
         },
-        "version": 17,
-        "createdAt": "2022-04-04T08:20:22.351Z",
-        "createdBy": {
-          "sys": {
-            "id": "5kQhjD36kyfoaB94ntAr5S",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "updatedAt": "2022-04-08T08:09:42.663Z",
-        "updatedBy": {
-          "sys": {
-            "id": "5kQhjD36kyfoaB94ntAr5S",
-            "type": "Link",
-            "linkType": "User"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "id": "diaporamaDimages",
-            "type": "Link",
-            "linkType": "ContentType"
-          }
-        },
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        }
-      },
-      "sidebar": [
-        {
-          "widgetId": "publication-widget",
-          "widgetNamespace": "sidebar-builtin"
-        },
-        {
-          "widgetId": "content-preview-widget",
-          "widgetNamespace": "sidebar-builtin"
-        },
-        {
-          "widgetId": "1VchawWvbIClHuMIyxwR5m",
-          "widgetNamespace": "app"
-        },
-        {
-          "widgetId": "incoming-links-widget",
-          "widgetNamespace": "sidebar-builtin"
-        },
-        {
-          "widgetId": "translation-widget",
-          "widgetNamespace": "sidebar-builtin"
-        },
-        {
-          "widgetId": "versions-widget",
-          "widgetNamespace": "sidebar-builtin"
-        }
-      ],
-      "controls": [
-        {
-          "fieldId": "imagesDuDiaporama",
-          "widgetId": "assetLinksEditor",
-          "widgetNamespace": "builtin"
-        },
-        {
-          "fieldId": "titre",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        }
-      ]
-    },
-    {
-      "sys": {
-        "id": "default",
-        "type": "EditorInterface",
-        "space": {
-          "sys": {
-            "id": "nsgy62i520c0",
-            "type": "Link",
-            "linkType": "Space"
-          }
-        },
-        "version": 17,
+        "version": 27,
         "createdAt": "2022-04-07T08:36:10.168Z",
         "createdBy": {
           "sys": {
@@ -2981,7 +3252,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:42.662Z",
+        "updatedAt": "2022-04-08T10:24:58.192Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -3064,7 +3335,7 @@
             "linkType": "Space"
           }
         },
-        "version": 12,
+        "version": 20,
         "createdAt": "2022-04-07T13:47:29.173Z",
         "createdBy": {
           "sys": {
@@ -3073,7 +3344,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-04-08T08:09:42.667Z",
+        "updatedAt": "2022-04-08T10:24:57.186Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -3108,6 +3379,194 @@
           "widgetNamespace": "builtin"
         }
       ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "nsgy62i520c0",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-04-11T11:58:42.581Z",
+        "createdBy": {
+          "sys": {
+            "id": "5kQhjD36kyfoaB94ntAr5S",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-04-11T11:58:43.421Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5kQhjD36kyfoaB94ntAr5S",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "ligne2Colonnes",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "titre",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "illustration",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contenu",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "nsgy62i520c0",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 2,
+        "createdAt": "2022-04-11T11:59:30.884Z",
+        "createdBy": {
+          "sys": {
+            "id": "5kQhjD36kyfoaB94ntAr5S",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-04-11T11:59:31.409Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5kQhjD36kyfoaB94ntAr5S",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "ligne3Colonnes",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "titre",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contenu1",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contenu2",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "illustration",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "nsgy62i520c0",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2022-04-11T12:04:35.770Z",
+        "createdBy": {
+          "sys": {
+            "id": "5kQhjD36kyfoaB94ntAr5S",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2022-04-11T12:05:13.392Z",
+        "updatedBy": {
+          "sys": {
+            "id": "5kQhjD36kyfoaB94ntAr5S",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "ligneAvecMap",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "titre",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "contenu",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "map",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        }
+      ]
     }
   ],
   "entries": [
@@ -3127,7 +3586,7 @@
         "id": "1QYzDVbS85padFqujMWhkC",
         "type": "Entry",
         "createdAt": "2022-01-22T16:31:00.176Z",
-        "updatedAt": "2022-04-08T08:10:06.415Z",
+        "updatedAt": "2022-04-11T09:51:14.540Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -3135,8 +3594,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 237,
-        "publishedAt": "2022-04-08T08:10:06.415Z",
+        "publishedVersion": 248,
+        "publishedAt": "2022-04-11T09:51:14.540Z",
         "firstPublishedAt": "2022-01-22T16:39:18.010Z",
         "createdBy": {
           "sys": {
@@ -3152,8 +3611,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 91,
-        "version": 238,
+        "publishedCounter": 96,
+        "version": 249,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -3774,7 +4233,7 @@
                     },
                     "marks": [
                     ],
-                    "value": "Nous contacter",
+                    "value": "Contact us",
                     "nodeType": "text"
                   }
                 ],
@@ -3849,7 +4308,7 @@
                     "nodeType": "text"
                   }
                 ],
-                "nodeType": "paragraph"
+                "nodeType": "heading-2"
               },
               {
                 "data": {
@@ -3891,21 +4350,23 @@
             "content": [
               {
                 "nodeType": "heading-2",
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
-                    "value": "Contact us",
+                    "value": "Nous contacter",
                     "marks": [
                     ],
                     "data": {
                     }
                   }
-                ],
-                "data": {
-                }
+                ]
               },
               {
                 "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
@@ -3926,12 +4387,12 @@
                     "data": {
                     }
                   }
-                ],
-                "data": {
-                }
+                ]
               },
               {
                 "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
@@ -3941,12 +4402,12 @@
                     "data": {
                     }
                   }
-                ],
-                "data": {
-                }
+                ]
               },
               {
                 "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
@@ -3956,12 +4417,12 @@
                     "data": {
                     }
                   }
-                ],
-                "data": {
-                }
+                ]
               },
               {
                 "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
                     "nodeType": "text",
@@ -3971,9 +4432,7 @@
                     "data": {
                     }
                   }
-                ],
-                "data": {
-                }
+                ]
               }
             ]
           }
@@ -3996,7 +4455,7 @@
         "id": "6QXhFeRem22SeETOXKoPxT",
         "type": "Entry",
         "createdAt": "2022-03-03T10:06:16.023Z",
-        "updatedAt": "2022-04-08T08:10:07.000Z",
+        "updatedAt": "2022-04-08T10:25:35.644Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4004,8 +4463,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 183,
-        "publishedAt": "2022-04-08T08:10:07.000Z",
+        "publishedVersion": 191,
+        "publishedAt": "2022-04-08T10:25:35.644Z",
         "firstPublishedAt": "2022-03-03T10:08:20.060Z",
         "createdBy": {
           "sys": {
@@ -4021,8 +4480,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 79,
-        "version": 184,
+        "publishedCounter": 83,
+        "version": 192,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4704,7 +5163,7 @@
         "id": "5LCRWE2CiOyr9zQf0ASAtT",
         "type": "Entry",
         "createdAt": "2022-03-03T10:17:10.960Z",
-        "updatedAt": "2022-04-08T08:10:07.568Z",
+        "updatedAt": "2022-04-11T11:47:21.271Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4712,8 +5171,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 255,
-        "publishedAt": "2022-04-08T08:10:07.568Z",
+        "publishedVersion": 274,
+        "publishedAt": "2022-04-11T11:47:21.271Z",
         "firstPublishedAt": "2022-03-03T10:17:47.579Z",
         "createdBy": {
           "sys": {
@@ -4729,8 +5188,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 78,
-        "version": 256,
+        "publishedCounter": 85,
+        "version": 275,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4769,7 +5228,7 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "7afH8bF4MydatiYY4e1o5r"
+              "id": "3gZonKnnvoSzWNsxBDtuSS"
             }
           }
         },
@@ -4778,7 +5237,7 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "7afH8bF4MydatiYY4e1o5r"
+              "id": "19nOLKDlTsc8fksOAfwA90"
             }
           }
         },
@@ -4787,7 +5246,7 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "7afH8bF4MydatiYY4e1o5r"
+              "id": "4cxxJrWzCTnxl4om4IPcyH"
             }
           }
         },
@@ -4796,7 +5255,7 @@
             "sys": {
               "type": "Link",
               "linkType": "Asset",
-              "id": "7afH8bF4MydatiYY4e1o5r"
+              "id": "6u5HTxzbwJbMhUMZGz4gKo"
             }
           }
         },
@@ -6284,6 +6743,58 @@
           }
         },
         "texte4": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "heading-2",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Family law",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Divorce, custody, child and spousal support etc…",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "\n",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          },
           "fr": {
             "data": {
             },
@@ -6864,136 +7375,136 @@
         },
         "texte7": {
           "fr": {
-            "nodeType": "document",
             "data": {
             },
             "content": [
               {
-                "nodeType": "heading-2",
+                "data": {
+                },
                 "content": [
                   {
-                    "nodeType": "text",
+                    "data": {
+                    },
+                    "marks": [
+                    ],
                     "value": "Droit de la responsabilité",
-                    "marks": [
-                    ],
-                    "data": {
-                    }
+                    "nodeType": "text"
                   }
                 ],
-                "data": {
-                }
+                "nodeType": "heading-2"
               },
               {
-                "nodeType": "unordered-list",
+                "data": {
+                },
                 "content": [
                   {
-                    "nodeType": "list-item",
+                    "data": {
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {
+                        },
                         "content": [
                           {
-                            "nodeType": "text",
+                            "data": {
+                            },
+                            "marks": [
+                            ],
                             "value": "Responsabilité civile et professionnelle",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {
-                        }
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {
-                    }
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "list-item",
+                    "data": {
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {
+                        },
                         "content": [
                           {
-                            "nodeType": "text",
+                            "data": {
+                            },
+                            "marks": [
+                            ],
                             "value": "Accidents de la circulation",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {
-                        }
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {
-                    }
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "list-item",
+                    "data": {
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {
+                        },
                         "content": [
                           {
-                            "nodeType": "text",
+                            "data": {
+                            },
+                            "marks": [
+                            ],
                             "value": "Indemnisation des préjudices",
-                            "marks": [
-                            ],
-                            "data": {
-                            }
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {
-                        }
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {
-                    }
+                    "nodeType": "list-item"
                   },
                   {
-                    "nodeType": "list-item",
+                    "data": {
+                    },
                     "content": [
                       {
-                        "nodeType": "paragraph",
+                        "data": {
+                        },
                         "content": [
                           {
-                            "nodeType": "text",
-                            "value": "Droit des assurances",
+                            "data": {
+                            },
                             "marks": [
                             ],
-                            "data": {
-                            }
+                            "value": "Droit des assurances",
+                            "nodeType": "text"
                           }
                         ],
-                        "data": {
-                        }
+                        "nodeType": "paragraph"
                       }
                     ],
-                    "data": {
-                    }
+                    "nodeType": "list-item"
                   }
                 ],
-                "data": {
-                }
+                "nodeType": "unordered-list"
               },
               {
-                "nodeType": "paragraph",
+                "data": {
+                },
                 "content": [
                   {
-                    "nodeType": "text",
-                    "value": "",
+                    "data": {
+                    },
                     "marks": [
                     ],
-                    "data": {
-                    }
+                    "value": "",
+                    "nodeType": "text"
                   }
                 ],
-                "data": {
-                }
+                "nodeType": "paragraph"
               }
-            ]
+            ],
+            "nodeType": "document"
           }
         }
       }
@@ -7014,7 +7525,7 @@
         "id": "517q6C6VK15DlozWS3IIo",
         "type": "Entry",
         "createdAt": "2022-03-03T10:57:53.155Z",
-        "updatedAt": "2022-04-08T08:10:08.063Z",
+        "updatedAt": "2022-04-08T10:25:37.177Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7022,8 +7533,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 156,
-        "publishedAt": "2022-04-08T08:10:08.063Z",
+        "publishedVersion": 164,
+        "publishedAt": "2022-04-08T10:25:37.177Z",
         "firstPublishedAt": "2022-03-03T11:15:44.477Z",
         "createdBy": {
           "sys": {
@@ -7039,8 +7550,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 74,
-        "version": 157,
+        "publishedCounter": 78,
+        "version": 165,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7258,7 +7769,7 @@
         "id": "242hMLWl28WHyMIfip8shC",
         "type": "Entry",
         "createdAt": "2022-03-03T11:17:12.132Z",
-        "updatedAt": "2022-04-08T08:10:08.589Z",
+        "updatedAt": "2022-04-08T10:25:37.619Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7266,8 +7777,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 155,
-        "publishedAt": "2022-04-08T08:10:08.589Z",
+        "publishedVersion": 163,
+        "publishedAt": "2022-04-08T10:25:37.619Z",
         "firstPublishedAt": "2022-03-03T11:19:47.255Z",
         "createdBy": {
           "sys": {
@@ -7283,8 +7794,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 74,
-        "version": 156,
+        "publishedCounter": 78,
+        "version": 164,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7413,109 +7924,10 @@
             "id": "nsgy62i520c0"
           }
         },
-        "id": "3K9b0esdy0q0yGqgW2g6Ke",
-        "type": "Entry",
-        "createdAt": "2022-03-10T13:12:30.949Z",
-        "updatedAt": "2022-04-08T08:10:11.852Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 147,
-        "publishedAt": "2022-04-08T08:10:11.852Z",
-        "firstPublishedAt": "2022-03-10T13:12:32.537Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 74,
-        "version": 148,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogPost"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Hello world"
-        },
-        "slug": {
-          "en-US": "hello-world"
-        },
-        "heroImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "6Od9v3wzLOysiMum0Wkmme"
-            }
-          }
-        },
-        "description": {
-          "en-US": "Your very first content with Contentful, pulled in JSON format using the Content Delivery API."
-        },
-        "body": {
-          "en-US": "These is your very first content with Contentful, pulled in JSON format using the [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\"). Content and presentation are now decoupled, allowing you to focus your efforts in building the perfect app.\n\n## Your first steps\n\nBuilding with Contentful is easy. First take a moment to get [the basics of content modelling](https://www.contentful.com/r/knowledgebase/content-modelling-basics/ \"the basics of content modelling\"), which you can set up in the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\"). Once you get that, feel free to drop by the [Documentation](https://www.contentful.com/developers/docs/ \"Documentation\") to learn a bit more about how to build your app with Contentful, in particular the [API basics](https://www.contentful.com/developers/docs/concepts/apis/ \"API basics\") and each one of our four APIs, as shown below.\n\n### Content Delivery API\n\nThe [Content Delivery API](https://www.contentful.com/developers/docs/references/content-delivery-api/ \"Content Delivery API\") (CDA), available at `cdn.contentful.com`, is a read-only API for delivering content from Contentful to apps, websites and other media. Content is delivered as JSON data, and images, videos and other media as files.\nThe API is available via a globally distributed content delivery network. The server closest to the user serves all content, both JSON and binary. This minimizes latency, which especially benefits mobile apps. Hosting content in multiple global data centers also greatly improves the availability of content.\n\n### Content Management API\n\nThe [Content Management API](https://www.contentful.com/developers/docs/references/content-management-api/ \"Content Management API\") (CMA), available at `api.contentful.com`, is a read-write API for managing content. Unlike the Content Delivery API, the management API requires you to authenticate as a Contentful user. You could use the CMA for several use cases, such as:\n* Automatic imports from different CMSes like WordPress or Drupal.\n* Integration with other backend systems, such as an e-commerce shop.\n* Building custom editing experiences. We built the [Contentful Web app](https://app.contentful.com/ \"Contentful Web app\") on top of this API.\n\n### Preview API\n\nThe [Content Preview API](https://www.contentful.com/developers/docs/concepts/apis/#content-preview-api \"Content Preview API\"), available at `preview.contentful.com`, is a variant of the CDA for previewing your content before delivering it to your customers. You use the Content Preview API in combination with a \"preview\" deployment of your website (or a \"preview\" build of your mobile app) that allows content managers and authors to view their work in-context, as if it were published, using a \"preview\" access token as though it were delivered by the CDA.\n\n### Images API\n\nThe [Images API](https://www.contentful.com/developers/docs/concepts/apis/#images-api \"Images API\"), available at `images.contentful.com`, allows you to resize and crop images, change their background color and convert them to different formats. Using our API for these transformations lets you upload high-quality assets, deliver exactly what your app needs, and still get all the benefits of our caching CDN."
-        },
-        "author": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "15jwOBqpxqSAOy2eOO4S0m"
-            }
-          }
-        },
-        "publishDate": {
-          "en-US": "2017-05-15T00:00+02:00"
-        },
-        "tags": {
-          "en-US": [
-            "general"
-          ]
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
         "id": "15jwOBqpxqSAOy2eOO4S0m",
         "type": "Entry",
         "createdAt": "2022-03-10T13:12:30.955Z",
-        "updatedAt": "2022-04-08T08:10:09.021Z",
+        "updatedAt": "2022-04-08T10:25:38.071Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7523,8 +7935,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 147,
-        "publishedAt": "2022-04-08T08:10:09.021Z",
+        "publishedVersion": 155,
+        "publishedAt": "2022-04-08T10:25:38.071Z",
         "firstPublishedAt": "2022-03-10T13:12:31.583Z",
         "createdBy": {
           "sys": {
@@ -7540,8 +7952,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 74,
-        "version": 148,
+        "publishedCounter": 78,
+        "version": 156,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7609,191 +8021,10 @@
             "id": "nsgy62i520c0"
           }
         },
-        "id": "31TNnjHlfaGUoMOwU0M2og",
-        "type": "Entry",
-        "createdAt": "2022-03-10T13:12:30.957Z",
-        "updatedAt": "2022-04-08T08:10:09.494Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 147,
-        "publishedAt": "2022-04-08T08:10:09.494Z",
-        "firstPublishedAt": "2022-03-10T13:12:32.030Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 74,
-        "version": 148,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "blogPost"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Automate with webhooks"
-        },
-        "slug": {
-          "en-US": "automate-with-webhooks"
-        },
-        "heroImage": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4shwYI3POEGkw0Eg6kcyaQ"
-            }
-          }
-        },
-        "description": {
-          "en-US": "Webhooks notify you, another person or system when resources have changed by calling a given HTTP endpoint."
-        },
-        "body": {
-          "en-US": "## What are webhooks?\n\nThe webhooks are used to notify you when content has been changed. Specify a URL, configure your webhook, and we will send an HTTP POST request whenever something happens to your content.\n\n## How do I configure a webhook?\n\nGo to Settings → Webhooks from the navigation bar at the top. From there, hit Add webhook, and you will be directed to your new webhook. Then choose a name, put in the information of your HTTP endpoint (URL and authentication), specify any custom headers and select the types of events that should trigger the webhook.\n\n## Why do I get an old version in the CDA?\n\nAs the delivery API is powered by a CDN network consisting of hundreds of servers distributed across continents, it takes some time (up to a few minutes) to reflect the changes to the published content. This must be taken into consideration when reacting to webhooks. In normal conditions, there could be a reasonable delay of 2 to 5 minutes.\n\nExtracted from the [Webhooks FAQ](https://www.contentful.com/faq/webhooks/ \"Webhooks FAQ\")."
-        },
-        "author": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Entry",
-              "id": "15jwOBqpxqSAOy2eOO4S0m"
-            }
-          }
-        },
-        "publishDate": {
-          "en-US": "2017-05-12T00:00+02:00"
-        },
-        "tags": {
-          "en-US": [
-            "javascript"
-          ]
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
-        "id": "7z31NPc3GJOf0WTTHWoyTi",
-        "type": "Entry",
-        "createdAt": "2022-04-04T08:21:09.193Z",
-        "updatedAt": "2022-04-08T08:10:09.962Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 21,
-        "publishedAt": "2022-04-08T08:10:09.962Z",
-        "firstPublishedAt": "2022-04-04T08:22:43.722Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 9,
-        "version": 22,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "contentType": {
-          "sys": {
-            "type": "Link",
-            "linkType": "ContentType",
-            "id": "diaporamaDimages"
-          }
-        }
-      },
-      "fields": {
-        "imagesDuDiaporama": {
-          "en-US": [
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "6SNDmFml8X5AoRq94YCa6O"
-              }
-            },
-            {
-              "sys": {
-                "type": "Link",
-                "linkType": "Asset",
-                "id": "YI6qSQbENySzF4kd3hksM"
-              }
-            }
-          ]
-        },
-        "titre": {
-          "en-US": "Diaporama avocat Thonon-Les-Bains"
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
         "id": "ehktv2nkOVCsX4wni2IDt",
         "type": "Entry",
         "createdAt": "2022-04-07T08:36:16.353Z",
-        "updatedAt": "2022-04-08T08:10:10.431Z",
+        "updatedAt": "2022-04-08T10:25:39.008Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7801,8 +8032,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 13,
-        "publishedAt": "2022-04-08T08:10:10.431Z",
+        "publishedVersion": 27,
+        "publishedAt": "2022-04-08T10:25:39.008Z",
         "firstPublishedAt": "2022-04-07T08:37:09.577Z",
         "createdBy": {
           "sys": {
@@ -7818,8 +8049,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 5,
-        "version": 14,
+        "publishedCounter": 10,
+        "version": 28,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7837,10 +8068,12 @@
       },
       "fields": {
         "titrediapo": {
-          "en-US": "Cabinet d'avocats à Thonon-Les-Bains"
+          "en-US": "Lawyer office in Thonon-Les-Bains",
+          "fr": "Cabinet d'avocats à Thonon-Les-Bains"
         },
         "description": {
-          "en-US": "Le cabinet est généraliste et traite de toutes les affaires courantes devant les tribunaux. "
+          "en-US": "Paul-Marie Beraudo works in traditional matter as well as for emergency proceedings.",
+          "fr": "Le cabinet est généraliste et traite de toutes les affaires courantes devant les tribunaux. "
         },
         "slide": {
           "en-US": {
@@ -7852,7 +8085,8 @@
           }
         },
         "lien": {
-          "en-US": "/domaines"
+          "en-US": "/domaines",
+          "fr": "/domaines"
         }
       }
     },
@@ -7872,7 +8106,7 @@
         "id": "M5YbpuROuYNeo5fi5c3fe",
         "type": "Entry",
         "createdAt": "2022-04-07T08:37:56.554Z",
-        "updatedAt": "2022-04-08T08:10:10.901Z",
+        "updatedAt": "2022-04-08T10:25:39.536Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7880,8 +8114,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 19,
-        "publishedAt": "2022-04-08T08:10:10.901Z",
+        "publishedVersion": 34,
+        "publishedAt": "2022-04-08T10:25:39.536Z",
         "firstPublishedAt": "2022-04-07T08:38:28.587Z",
         "createdBy": {
           "sys": {
@@ -7897,8 +8131,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 4,
-        "version": 20,
+        "publishedCounter": 9,
+        "version": 35,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7916,10 +8150,12 @@
       },
       "fields": {
         "titrediapo": {
-          "en-US": "Maître Paul-Marie Beraudo, avocat à Thonon-Les-Bains"
+          "en-US": "Maître Paul-Marie Beraudo, lawyer office in Thonon-Les-Bains",
+          "fr": "Maître Paul-Marie Beraudo, avocat à Thonon-Les-Bains"
         },
         "description": {
-          "en-US": "Notre cabinet d'avocats se situe à Thonon-Les-Bains"
+          "en-US": "Our lawyer office is located in Thonon-Les-Bains",
+          "fr": "Notre cabinet d'avocats se situe à Thonon-Les-Bains"
         },
         "slide": {
           "en-US": {
@@ -7931,7 +8167,8 @@
           }
         },
         "lien": {
-          "en-US": "/presentation"
+          "en-US": "/presentation",
+          "fr": "/presentation"
         }
       }
     },
@@ -7951,7 +8188,7 @@
         "id": "59n6C37EEEgOYPXGXosUMi",
         "type": "Entry",
         "createdAt": "2022-04-07T13:48:25.436Z",
-        "updatedAt": "2022-04-08T08:10:11.379Z",
+        "updatedAt": "2022-04-08T10:25:40.043Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7959,8 +8196,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 22,
-        "publishedAt": "2022-04-08T08:10:11.379Z",
+        "publishedVersion": 30,
+        "publishedAt": "2022-04-08T10:25:40.043Z",
         "firstPublishedAt": "2022-04-07T13:48:46.461Z",
         "createdBy": {
           "sys": {
@@ -7976,8 +8213,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 5,
-        "version": 23,
+        "publishedCounter": 9,
+        "version": 31,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8123,6 +8360,980 @@
           }
         }
       }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "6cvzmqMQB5veDEl9XzS3i3",
+        "type": "Entry",
+        "createdAt": "2022-04-11T11:59:55.882Z",
+        "updatedAt": "2022-04-11T12:06:38.040Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-04-11T12:06:38.040Z",
+        "firstPublishedAt": "2022-04-11T12:01:25.276Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ligne2Colonnes"
+          }
+        }
+      },
+      "fields": {
+        "titre": {
+          "en-US": "Accueil 1 (Maître Paul-Marie Beraudo)"
+        },
+        "illustration": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5M6ygz6nzVFRj8yNOHFMkx"
+            }
+          }
+        },
+        "contenu": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "MAÎTRE PAUL-MARIE BERAUDO",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "The Law Office of Maître Paul-Marie BERAUDO is located in Thonon les Bains, Haute-Savoie (74), France.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Maître Paul-Marie Beraudo is an attorney who belongs to the Bar of Thonon-les-Bains, the French part around Geneva and the south of the Geneva lake.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "He is an elected Member of the Bar Council. Paul-Marie BERAUDO is a hardworking, knowledgeable, attentive and diligent lawyer who provides high quality legal advice and representation for both individuals and businesses.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "He intervenes also for mediation, litigation and arbitration.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "He has a diploma of French business law and is a former student of the Wyoming University Law School.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "He is used to working in an english speaking environnement. At the first meeting, Paul-Marie BERAUDO will inform you of his fees and the previous cost of the case.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          },
+          "fr": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "MAÎTRE PAUL-MARIE BERAUDO",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Maître BERAUDO est avocat inscrit au barreau de THONON LES BAINS, après avoir exercé à Grenoble.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Il est diplômé en droit des affaires de la faculté de droit de GRENOBLE et a étudié le droit anglo-saxon à l'Université du WYOMING. Il parle et rédige parfaitement l'anglais.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "1TJlbn3SLn4enQVQrDCPI6",
+        "type": "Entry",
+        "createdAt": "2022-04-11T12:01:38.827Z",
+        "updatedAt": "2022-04-11T12:07:18.504Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 10,
+        "publishedAt": "2022-04-11T12:07:18.504Z",
+        "firstPublishedAt": "2022-04-11T12:02:38.107Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 11,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ligne2Colonnes"
+          }
+        }
+      },
+      "fields": {
+        "titre": {
+          "en-US": "Accueil 2 (Domaines d'intervention)"
+        },
+        "illustration": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "13cSHBW7Pjj6pxoM8bKnFF"
+            }
+          }
+        },
+        "contenu": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Practice",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Paul-Marie BERAUDO represents or assists his clients at all stages of litigation before all civil, criminal, commercial and labor jurisdictions.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "His office main activity is primarily ligations in real estate and construction law. He also intervenes in civil law, commercial law, family law and criminal affairs.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "He works in traditional matter as well as for emergency proceedings.",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Real estate law",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Criminal law",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Family law",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Commercial law",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          },
+          "fr": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "DOMAINES D'INTERVENTION",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "Le cabinet est généraliste et traite de toutes les affaires courantes devant les tribunaux. Les activités dominantes du cabinet sont :",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Le contentieux de l’immobilier et la défense pénale",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Les contentieux de l'immobilier et de la construction",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Mesure d'exécution et saisie immobilière",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Défense pénale",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Affaires familiales",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Droit des affaires",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Droit du travail",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  },
+                  {
+                    "data": {
+                    },
+                    "content": [
+                      {
+                        "data": {
+                        },
+                        "content": [
+                          {
+                            "data": {
+                            },
+                            "marks": [
+                            ],
+                            "value": "Droit de la responsabilité",
+                            "nodeType": "text"
+                          }
+                        ],
+                        "nodeType": "paragraph"
+                      }
+                    ],
+                    "nodeType": "list-item"
+                  }
+                ],
+                "nodeType": "unordered-list"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "pfVClv3bYkCuq5TyVrkrf",
+        "type": "Entry",
+        "createdAt": "2022-04-11T12:04:45.040Z",
+        "updatedAt": "2022-04-11T12:06:15.812Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2022-04-11T12:06:15.812Z",
+        "firstPublishedAt": "2022-04-11T12:05:47.334Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "ligneAvecMap"
+          }
+        }
+      },
+      "fields": {
+        "titre": {
+          "en-US": "Accueil 3 (map)"
+        },
+        "contenu": {
+          "en-US": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "CONTACT US",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "P.O Maître Paul-Marie BERAUDO AVOCAT",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "ATTORNEY Le Concorde 5",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "rue de l'Hôtel-Dieu",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": " 74200 THONON-LES-BAINS",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          },
+          "fr": {
+            "data": {
+            },
+            "content": [
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "NOUS CONTACTER",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "heading-2"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "P.O Maître Paul-Marie BERAUDO AVOCAT",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "ATTORNEY Le Concorde 5",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "rue de l'Hôtel-Dieu",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              },
+              {
+                "data": {
+                },
+                "content": [
+                  {
+                    "data": {
+                    },
+                    "marks": [
+                    ],
+                    "value": "74200 Thonon-les-Bains",
+                    "nodeType": "text"
+                  }
+                ],
+                "nodeType": "paragraph"
+              }
+            ],
+            "nodeType": "document"
+          }
+        },
+        "map": {
+          "en-US": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2753.009194633538!2d6.476467016264958!3d46.369205579122024!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c3e62557c7b81%3A0x3f00cd5dd5c5f90b!2s5%20Rue%20de%20l&#39;H%C3%B4tel%20Dieu%2C%2074200%20Thonon-les-Bains!5e0!3m2!1sfr!2sfr!4v1646298912481!5m2!1sfr!2sfr\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\"></iframe>"
+        }
+      }
     }
   ],
   "assets": [
@@ -8142,7 +9353,7 @@
         "id": "6pW3AHZ1yL3NoGrBXbA8gp",
         "type": "Asset",
         "createdAt": "2022-01-22T16:35:32.710Z",
-        "updatedAt": "2022-04-08T08:09:56.391Z",
+        "updatedAt": "2022-04-08T10:25:23.083Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8150,8 +9361,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 221,
-        "publishedAt": "2022-04-08T08:09:56.391Z",
+        "publishedVersion": 239,
+        "publishedAt": "2022-04-08T10:25:23.083Z",
         "firstPublishedAt": "2022-01-22T16:36:35.373Z",
         "createdBy": {
           "sys": {
@@ -8167,8 +9378,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 222,
+        "publishedCounter": 78,
+        "version": 240,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8179,14 +9390,15 @@
       },
       "fields": {
         "title": {
-          "en-US": "Avocat Thonon Les Bains"
+          "en-US": "Avocat Thonon Les Bains",
+          "fr": "avocat-cabinet-thonon-les-bains"
         },
         "description": {
           "en-US": "Avocat Thonon Les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/6pW3AHZ1yL3NoGrBXbA8gp/6ce12a15bfb56de91e06249888ddc096/avocat-thonon-les-bains.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/6pW3AHZ1yL3NoGrBXbA8gp/234514b5d24ec26e6b273e5822eb3d4b/avocat-thonon-les-bains.jpg",
             "details": {
               "size": 98090,
               "image": {
@@ -8195,6 +9407,18 @@
               }
             },
             "fileName": "avocat-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/6pW3AHZ1yL3NoGrBXbA8gp/d3011c94d7edd238e60c791cd1f0ec1c/avocat-cabinet-thonon-les-bains.jpg",
+            "details": {
+              "size": 596351,
+              "image": {
+                "width": 1920,
+                "height": 1439
+              }
+            },
+            "fileName": "avocat-cabinet-thonon-les-bains.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8216,7 +9440,7 @@
         "id": "13cSHBW7Pjj6pxoM8bKnFF",
         "type": "Asset",
         "createdAt": "2022-01-22T16:36:45.676Z",
-        "updatedAt": "2022-04-08T08:09:56.798Z",
+        "updatedAt": "2022-04-08T10:25:23.556Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8224,8 +9448,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 221,
-        "publishedAt": "2022-04-08T08:09:56.798Z",
+        "publishedVersion": 239,
+        "publishedAt": "2022-04-08T10:25:23.556Z",
         "firstPublishedAt": "2022-01-22T16:37:10.067Z",
         "createdBy": {
           "sys": {
@@ -8241,8 +9465,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 222,
+        "publishedCounter": 78,
+        "version": 240,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8253,14 +9477,15 @@
       },
       "fields": {
         "title": {
-          "en-US": "Cabinet d'avocats Thonon-Les-Bains"
+          "en-US": "Cabinet d'avocats Thonon-Les-Bains",
+          "fr": "avocat-Paul-Marie-Beraudo"
         },
         "description": {
           "en-US": "Cabinet d'avocats Thonon-Les-Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/13cSHBW7Pjj6pxoM8bKnFF/d3387f2f9ccf94b934851b5ed789f86a/bookcase-335849_640.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/13cSHBW7Pjj6pxoM8bKnFF/254360d332f4c0cdbed1414270f4ff08/bookcase-335849_640.jpg",
             "details": {
               "size": 71477,
               "image": {
@@ -8269,6 +9494,186 @@
               }
             },
             "fileName": "bookcase-335849_640.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/13cSHBW7Pjj6pxoM8bKnFF/c4979c10505b6628d61709ef73c4f30d/avocat-Paul-Marie-Beraudo.jpg",
+            "details": {
+              "size": 96448,
+              "image": {
+                "width": 900,
+                "height": 598
+              }
+            },
+            "fileName": "avocat-Paul-Marie-Beraudo.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "1eeVOr1Oidfw8I4WvDb7sM",
+        "type": "Asset",
+        "createdAt": "2022-03-03T10:10:34.213Z",
+        "updatedAt": "2022-04-08T10:25:24.056Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 19,
+        "publishedAt": "2022-04-08T10:25:24.056Z",
+        "firstPublishedAt": "2022-04-08T08:17:49.767Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 20,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "actualites-avocat-thonon-les-bains",
+          "fr": "Actualités avocat Thonon-Les-Bains"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/1eeVOr1Oidfw8I4WvDb7sM/4be18c3fe1052e4227de6276c587e852/actualites-avocat-thonon-les-bains.jpg",
+            "details": {
+              "size": 543391,
+              "image": {
+                "width": 1920,
+                "height": 1281
+              }
+            },
+            "fileName": "actualites-avocat-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/1eeVOr1Oidfw8I4WvDb7sM/922bd8fd585c45c1cebb83eceb8161c6/vente-judiciaire-thonon-avocat.jpeg",
+            "details": {
+              "size": 560745,
+              "image": {
+                "width": 1920,
+                "height": 1440
+              }
+            },
+            "fileName": "vente-judiciaire-thonon-avocat.jpeg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "3R7TXnyQkUJTaKMLn0ab0h",
+        "type": "Asset",
+        "createdAt": "2022-03-03T10:10:35.134Z",
+        "updatedAt": "2022-04-08T10:25:24.464Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2022-04-08T10:25:24.464Z",
+        "firstPublishedAt": "2022-04-08T08:17:49.757Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 5,
+        "version": 18,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "avocat-thonon-les-bains-droit-affaires",
+          "fr": "cabinet-avocats-thonon-les-bains"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/3R7TXnyQkUJTaKMLn0ab0h/1ab4ee1512108d33fb62ec106c825aeb/avocat-thonon-les-bains-droit-affaires.jpg",
+            "details": {
+              "size": 62996,
+              "image": {
+                "width": 900,
+                "height": 600
+              }
+            },
+            "fileName": "avocat-thonon-les-bains-droit-affaires.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/3R7TXnyQkUJTaKMLn0ab0h/61bd1005642804b02988556785b938cc/cabinet-avocats-thonon-les-bains.jpg",
+            "details": {
+              "size": 233184,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "cabinet-avocats-thonon-les-bains.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8290,7 +9695,7 @@
         "id": "5M6ygz6nzVFRj8yNOHFMkx",
         "type": "Asset",
         "createdAt": "2022-03-03T10:10:35.169Z",
-        "updatedAt": "2022-04-08T08:09:57.705Z",
+        "updatedAt": "2022-04-08T10:25:24.866Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8298,8 +9703,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:09:57.705Z",
+        "publishedVersion": 247,
+        "publishedAt": "2022-04-08T10:25:24.866Z",
         "firstPublishedAt": "2022-03-03T10:16:00.054Z",
         "createdBy": {
           "sys": {
@@ -8315,8 +9720,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 81,
+        "version": 248,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8327,19 +9732,32 @@
       },
       "fields": {
         "title": {
-          "en-US": "avocat-thonon-les-bains"
+          "en-US": "Lawyer Thonon Les Bains",
+          "fr": "Avocat Thonon Les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/5M6ygz6nzVFRj8yNOHFMkx/3c6a77d5ff870395b5b2827402a23779/avocat-thonon-les-bains.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/5M6ygz6nzVFRj8yNOHFMkx/03b4cd46ac791c307b08920c563f474e/avocat-cabinet-thonon-les-bains.jpg",
             "details": {
-              "size": 98090,
+              "size": 596351,
               "image": {
-                "width": 900,
-                "height": 675
+                "width": 1920,
+                "height": 1439
               }
             },
-            "fileName": "avocat-thonon-les-bains.jpg",
+            "fileName": "avocat-cabinet-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/5M6ygz6nzVFRj8yNOHFMkx/87955c061c78d6773aec1b37be941ffe/avocat-cabinet-thonon-les-bains.jpg",
+            "details": {
+              "size": 596351,
+              "image": {
+                "width": 1920,
+                "height": 1439
+              }
+            },
+            "fileName": "avocat-cabinet-thonon-les-bains.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8361,7 +9779,7 @@
         "id": "7afH8bF4MydatiYY4e1o5r",
         "type": "Asset",
         "createdAt": "2022-03-03T10:10:35.173Z",
-        "updatedAt": "2022-04-08T08:09:58.122Z",
+        "updatedAt": "2022-04-08T10:25:25.255Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8369,8 +9787,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 220,
-        "publishedAt": "2022-04-08T08:09:58.122Z",
+        "publishedVersion": 276,
+        "publishedAt": "2022-04-08T10:25:25.255Z",
         "firstPublishedAt": "2022-03-03T10:21:14.382Z",
         "createdBy": {
           "sys": {
@@ -8386,8 +9804,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 221,
+        "publishedCounter": 83,
+        "version": 277,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8398,22 +9816,32 @@
       },
       "fields": {
         "title": {
-          "en-US": "avocat-thonon-les-bains-droit-famille"
-        },
-        "description": {
-          "en-US": "Avocat Thonon les Bains droit de la famille"
+          "en-US": "Real estate lawyer Thonon Les Bauns",
+          "fr": "Avocat contentieux de l'immobilier Thonon Les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/7afH8bF4MydatiYY4e1o5r/29b5c33028d9371e46210fe4b1d6e543/avocat-thonon-les-bains-droit-famille.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/7afH8bF4MydatiYY4e1o5r/422672b11487db07c177aa5013e6b079/avocat-droit-immobilier-thonon.jpg",
             "details": {
-              "size": 141066,
+              "size": 195951,
               "image": {
-                "width": 900,
-                "height": 675
+                "width": 1920,
+                "height": 1442
               }
             },
-            "fileName": "avocat-thonon-les-bains-droit-famille.jpg",
+            "fileName": "avocat-droit-immobilier-thonon.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/7afH8bF4MydatiYY4e1o5r/0ddd790a06ca661fb3b72078875bb603/avocat-droit-immobilier-thonon.jpg",
+            "details": {
+              "size": 195951,
+              "image": {
+                "width": 1920,
+                "height": 1442
+              }
+            },
+            "fileName": "avocat-droit-immobilier-thonon.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8435,7 +9863,7 @@
         "id": "3gZonKnnvoSzWNsxBDtuSS",
         "type": "Asset",
         "createdAt": "2022-03-03T10:10:35.177Z",
-        "updatedAt": "2022-04-08T08:09:58.551Z",
+        "updatedAt": "2022-04-08T10:25:25.735Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8443,8 +9871,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:09:58.551Z",
+        "publishedVersion": 241,
+        "publishedAt": "2022-04-08T10:25:25.735Z",
         "firstPublishedAt": "2022-03-03T10:16:00.064Z",
         "createdBy": {
           "sys": {
@@ -8460,8 +9888,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 78,
+        "version": 242,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8472,11 +9900,12 @@
       },
       "fields": {
         "title": {
-          "en-US": "avocat-thonon-les-bains-immobilier"
+          "en-US": "Real estate lawyer - Thonon Les Bains",
+          "fr": "Avocat Contentieux de l'immobilier - Thonon Les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/3gZonKnnvoSzWNsxBDtuSS/5e7294cb8a4483bda0e3263fe8e29861/avocat-thonon-les-bains-immobilier.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/3gZonKnnvoSzWNsxBDtuSS/430d0643b5422025cb953e4649c48f45/avocat-thonon-les-bains-immobilier.jpg",
             "details": {
               "size": 30139,
               "image": {
@@ -8485,6 +9914,18 @@
               }
             },
             "fileName": "avocat-thonon-les-bains-immobilier.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/3gZonKnnvoSzWNsxBDtuSS/9099a1db8401caa30f3841c1e951978a/avocat-droit-immobilier-thonon.jpg",
+            "details": {
+              "size": 195951,
+              "image": {
+                "width": 1920,
+                "height": 1442
+              }
+            },
+            "fileName": "avocat-droit-immobilier-thonon.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8506,7 +9947,7 @@
         "id": "7rm7fJN6Z4RSkomuFy4Fqs",
         "type": "Asset",
         "createdAt": "2022-03-03T10:10:35.188Z",
-        "updatedAt": "2022-04-08T08:09:58.954Z",
+        "updatedAt": "2022-04-08T10:25:26.211Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8514,8 +9955,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:09:58.954Z",
+        "publishedVersion": 242,
+        "publishedAt": "2022-04-08T10:25:26.211Z",
         "firstPublishedAt": "2022-03-03T10:16:00.059Z",
         "createdBy": {
           "sys": {
@@ -8531,8 +9972,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 80,
+        "version": 243,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8543,11 +9984,12 @@
       },
       "fields": {
         "title": {
-          "en-US": "avocat-paul-marie-beraudo"
+          "en-US": "Attorney Paul-Marie Beraudo",
+          "fr": "Avocat Paul-Marie Beraudo"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/7rm7fJN6Z4RSkomuFy4Fqs/2196829410c68410c1ebe3390993ab8d/avocat-paul-marie-beraudo.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/7rm7fJN6Z4RSkomuFy4Fqs/e9bcddf3c103c7c3f6e323eb283b8e07/avocat-paul-marie-beraudo.jpg",
             "details": {
               "size": 96448,
               "image": {
@@ -8556,6 +9998,18 @@
               }
             },
             "fileName": "avocat-paul-marie-beraudo.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/7rm7fJN6Z4RSkomuFy4Fqs/12d5f9e86a3b2b476dffa34fa8b76bb3/avocat-Paul-Marie-Beraudo.jpg",
+            "details": {
+              "size": 96448,
+              "image": {
+                "width": 900,
+                "height": 598
+              }
+            },
+            "fileName": "avocat-Paul-Marie-Beraudo.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8577,7 +10031,7 @@
         "id": "7iWqaaeJoHise5GhjCt7Q2",
         "type": "Asset",
         "createdAt": "2022-03-03T10:10:36.161Z",
-        "updatedAt": "2022-04-08T08:09:59.361Z",
+        "updatedAt": "2022-04-08T10:25:26.654Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8585,8 +10039,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:09:59.361Z",
+        "publishedVersion": 240,
+        "publishedAt": "2022-04-08T10:25:26.654Z",
         "firstPublishedAt": "2022-03-03T10:16:00.048Z",
         "createdBy": {
           "sys": {
@@ -8602,8 +10056,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 79,
+        "version": 241,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8614,11 +10068,12 @@
       },
       "fields": {
         "title": {
-          "en-US": "avocat-thonon-les-bains"
+          "en-US": "Lawyer Thonon-Les-Bains",
+          "fr": "Avocat Thonon-Les-Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/7iWqaaeJoHise5GhjCt7Q2/8884b11e842be5c28d275e877efe0818/avocat-thonon-les-bains.png",
+            "url": "//images.ctfassets.net/nsgy62i520c0/7iWqaaeJoHise5GhjCt7Q2/1f474fa3d937d1ddf61f0fd7ed636bd0/avocat-thonon-les-bains.png",
             "details": {
               "size": 222083,
               "image": {
@@ -8628,77 +10083,18 @@
             },
             "fileName": "avocat-thonon-les-bains.png",
             "contentType": "image/png"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
-        "id": "24goE3dRQPf5RsiuXDmAJV",
-        "type": "Asset",
-        "createdAt": "2022-03-03T10:10:36.178Z",
-        "updatedAt": "2022-04-08T08:09:59.751Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:09:59.751Z",
-        "firstPublishedAt": "2022-03-03T10:16:00.042Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 73,
-        "version": 219,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "bookcase-335849 640"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/24goE3dRQPf5RsiuXDmAJV/aa6b5c504114d61165a82a3115c32ae0/bookcase-335849_640.jpg",
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/7iWqaaeJoHise5GhjCt7Q2/889a6637403baf3ea63f58a194feb623/choisir-un-avocat-thonon-les-bains.png",
             "details": {
-              "size": 71477,
+              "size": 222083,
               "image": {
-                "width": 640,
-                "height": 425
+                "width": 800,
+                "height": 972
               }
             },
-            "fileName": "bookcase-335849_640.jpg",
-            "contentType": "image/jpeg"
+            "fileName": "choisir-un-avocat-thonon-les-bains.png",
+            "contentType": "image/png"
           }
         }
       }
@@ -8719,7 +10115,7 @@
         "id": "7e0mZ7HEdMefnaH2Rh9Tb4",
         "type": "Asset",
         "createdAt": "2022-03-03T10:13:07.555Z",
-        "updatedAt": "2022-04-08T08:10:00.183Z",
+        "updatedAt": "2022-04-08T10:25:27.133Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8727,8 +10123,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:10:00.183Z",
+        "publishedVersion": 246,
+        "publishedAt": "2022-04-08T10:25:27.133Z",
         "firstPublishedAt": "2022-03-03T10:16:00.075Z",
         "createdBy": {
           "sys": {
@@ -8744,8 +10140,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 79,
+        "version": 247,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8756,19 +10152,32 @@
       },
       "fields": {
         "title": {
-          "en-US": "tarif-avocat-thonon-les-bains"
+          "en-US": "Tarif avocat Thonon les Bains",
+          "fr": "Fee policy lawyer in Thonon les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/7e0mZ7HEdMefnaH2Rh9Tb4/05da23380c5b7aa29d2d0fc53c7846fc/tarif-avocat-thonon-les-bains.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/7e0mZ7HEdMefnaH2Rh9Tb4/f93f52a57a7d0ba0c320fad66b2e36f5/honoraires-avocat-thonon-les-bains.jpg",
             "details": {
-              "size": 153371,
+              "size": 197899,
               "image": {
                 "width": 1920,
                 "height": 1280
               }
             },
-            "fileName": "tarif-avocat-thonon-les-bains.jpg",
+            "fileName": "honoraires-avocat-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/7e0mZ7HEdMefnaH2Rh9Tb4/c9f7b0e2da9eca9bcb940f35e3ba56c9/honoraires-avocat-thonon-les-bains.jpg",
+            "details": {
+              "size": 197899,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "honoraires-avocat-thonon-les-bains.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8790,7 +10199,7 @@
         "id": "1K18xvckcIl85aPtkX0EqH",
         "type": "Asset",
         "createdAt": "2022-03-03T10:13:07.574Z",
-        "updatedAt": "2022-04-08T08:10:00.702Z",
+        "updatedAt": "2022-04-08T10:25:28.054Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8798,8 +10207,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:10:00.702Z",
+        "publishedVersion": 243,
+        "publishedAt": "2022-04-08T10:25:28.054Z",
         "firstPublishedAt": "2022-03-03T10:16:00.081Z",
         "createdBy": {
           "sys": {
@@ -8815,8 +10224,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 80,
+        "version": 244,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8827,11 +10236,12 @@
       },
       "fields": {
         "title": {
-          "en-US": "vente-judiciaire-thonon-avocat"
+          "en-US": "Auction lawyer in Thonon Les Bains",
+          "fr": "Ventes judiciaires Thonon Les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/1K18xvckcIl85aPtkX0EqH/913f6aaf5aea010d4a91f83bd67f5802/vente-judiciaire-thonon-avocat.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/1K18xvckcIl85aPtkX0EqH/71c6cf2973adec0eb397da50101fb6a3/vente-judiciaire-thonon-avocat.jpg",
             "details": {
               "size": 560745,
               "image": {
@@ -8840,6 +10250,18 @@
               }
             },
             "fileName": "vente-judiciaire-thonon-avocat.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/1K18xvckcIl85aPtkX0EqH/6c664cd02068c85b3c4b689d231fb57e/vente-judiciaire-thonon-avocat.jpeg",
+            "details": {
+              "size": 560745,
+              "image": {
+                "width": 1920,
+                "height": 1440
+              }
+            },
+            "fileName": "vente-judiciaire-thonon-avocat.jpeg",
             "contentType": "image/jpeg"
           }
         }
@@ -8861,7 +10283,7 @@
         "id": "2HCNl29oSnZA8iCMN5B0YQ",
         "type": "Asset",
         "createdAt": "2022-03-03T10:13:07.606Z",
-        "updatedAt": "2022-04-08T08:10:01.107Z",
+        "updatedAt": "2022-04-08T10:25:28.462Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8869,8 +10291,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 218,
-        "publishedAt": "2022-04-08T08:10:01.107Z",
+        "publishedVersion": 244,
+        "publishedAt": "2022-04-08T10:25:28.462Z",
         "firstPublishedAt": "2022-03-03T10:16:00.033Z",
         "createdBy": {
           "sys": {
@@ -8886,8 +10308,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 73,
-        "version": 219,
+        "publishedCounter": 78,
+        "version": 245,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8898,19 +10320,32 @@
       },
       "fields": {
         "title": {
-          "en-US": "presentation-cabinet-beraudo-thonon"
+          "en-US": "presentation-cabinet-beraudo-thonon",
+          "fr": "presentation-cabinet-beraudo-thonon"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/2HCNl29oSnZA8iCMN5B0YQ/089a8b1bf3f526dbe0e0336041f999e6/presentation-cabinet-beraudo-thonon.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/2HCNl29oSnZA8iCMN5B0YQ/01682a929772147199bf48309ccf7308/cabinet-avocats-thonon-les-bains.jpg",
             "details": {
-              "size": 36550,
+              "size": 233184,
               "image": {
-                "width": 600,
-                "height": 400
+                "width": 1920,
+                "height": 1280
               }
             },
-            "fileName": "presentation-cabinet-beraudo-thonon.jpg",
+            "fileName": "cabinet-avocats-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/2HCNl29oSnZA8iCMN5B0YQ/c7eb6926f6908575436242d80d9437e9/cabinet-avocats-thonon-les-bains.jpg",
+            "details": {
+              "size": 233184,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "cabinet-avocats-thonon-les-bains.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -8932,7 +10367,7 @@
         "id": "6GV7Z0XY6R4tjy2iWsN725",
         "type": "Asset",
         "createdAt": "2022-03-03T10:13:07.622Z",
-        "updatedAt": "2022-04-08T08:10:01.505Z",
+        "updatedAt": "2022-04-08T10:25:29.086Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8940,8 +10375,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 220,
-        "publishedAt": "2022-04-08T08:10:01.505Z",
+        "publishedVersion": 255,
+        "publishedAt": "2022-04-08T10:25:29.086Z",
         "firstPublishedAt": "2022-03-03T10:16:00.024Z",
         "createdBy": {
           "sys": {
@@ -8957,8 +10392,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 74,
-        "version": 221,
+        "publishedCounter": 81,
+        "version": 256,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8969,22 +10404,123 @@
       },
       "fields": {
         "title": {
-          "en-US": "pourquoi-avocat-thonon-les-bains"
+          "en-US": "Why choose a lawyer? - Thonon-Les-Bains",
+          "fr": "Pourquoi choisir un avocat ? - Thonon-Les-Bains"
         },
         "description": {
-          "en-US": "Avocat Thonon Les Bains"
+          "en-US": "Lawyer Thonon Les Bains",
+          "fr": "Avocat Thonon Les Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/6GV7Z0XY6R4tjy2iWsN725/6f07a09b5c200ac170815469d0ee2287/pourquoi-avocat-thonon-les-bains.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/6GV7Z0XY6R4tjy2iWsN725/58c3c5f54872af8fa59ebf25cb83caa3/pourquoi-besoin-avocat-thonon-les-bains.jpg",
             "details": {
-              "size": 66060,
+              "size": 224090,
               "image": {
-                "width": 600,
-                "height": 400
+                "width": 1920,
+                "height": 1280
               }
             },
-            "fileName": "pourquoi-avocat-thonon-les-bains.jpg",
+            "fileName": "pourquoi-besoin-avocat-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/6GV7Z0XY6R4tjy2iWsN725/8ffa2f9e48d7eaacf5f58739b9ead3c3/pourquoi-besoin-avocat-thonon-les-bains.jpg",
+            "details": {
+              "size": 224090,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "pourquoi-besoin-avocat-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "1JeogRejuZvVicfP2byl0H",
+        "type": "Asset",
+        "createdAt": "2022-03-03T10:13:47.494Z",
+        "updatedAt": "2022-04-08T10:25:29.505Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 216,
+        "publishedAt": "2022-04-08T10:25:29.505Z",
+        "firstPublishedAt": "2022-03-03T10:16:00.070Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 71,
+        "version": 217,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Avocat Thonon-Les-Bains",
+          "fr": "Thonon-les-Bains hospices"
+        },
+        "description": {
+          "en-US": "Paul-Marie Beraudo, avocat au barreau de Thonon-Les-Bains"
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/1JeogRejuZvVicfP2byl0H/7e33131a50264dd3806ee95c5679668a/slider2.jpg",
+            "details": {
+              "size": 127926,
+              "image": {
+                "width": 2000,
+                "height": 1086
+              }
+            },
+            "fileName": "slider2.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/1JeogRejuZvVicfP2byl0H/f2e0e615ceb91fbb9fb8a890acab289b/Thonon-les-Bains_hospices.jpg",
+            "details": {
+              "size": 761422,
+              "image": {
+                "width": 1600,
+                "height": 1200
+              }
+            },
+            "fileName": "Thonon-les-Bains_hospices.jpg",
             "contentType": "image/jpeg"
           }
         }
@@ -9006,7 +10542,7 @@
         "id": "3hW1Ux76VBlHllGXnNptG7",
         "type": "Asset",
         "createdAt": "2022-03-03T10:13:47.500Z",
-        "updatedAt": "2022-04-08T08:10:01.895Z",
+        "updatedAt": "2022-04-08T10:25:29.909Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -9014,8 +10550,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 211,
-        "publishedAt": "2022-04-08T08:10:01.895Z",
+        "publishedVersion": 234,
+        "publishedAt": "2022-04-08T10:25:29.909Z",
         "firstPublishedAt": "2022-03-03T10:16:00.088Z",
         "createdBy": {
           "sys": {
@@ -9031,8 +10567,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 70,
-        "version": 212,
+        "publishedCounter": 75,
+        "version": 235,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -9043,14 +10579,15 @@
       },
       "fields": {
         "title": {
-          "en-US": "Avocat Thonon-Les-Bains"
+          "en-US": "Lawyer Thonon-Les-Bains",
+          "fr": "Avocat Thonon-Les-Bains"
         },
         "description": {
           "en-US": "Maître Beraudo vous reçoit dans son cabinet de Thonon-Les-Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/3hW1Ux76VBlHllGXnNptG7/51d0e1f2996cda9498e50f3ad1abe0cd/slider1.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/3hW1Ux76VBlHllGXnNptG7/e5f65fb9f0b3c18ba1032dcafa73dfe4/thonon-les-bains-cabinet-avocats.jpeg",
             "details": {
               "size": 323722,
               "image": {
@@ -9058,229 +10595,19 @@
                 "height": 1500
               }
             },
-            "fileName": "slider1.jpg",
+            "fileName": "thonon-les-bains-cabinet-avocats.jpeg",
             "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
-        "id": "6Od9v3wzLOysiMum0Wkmme",
-        "type": "Asset",
-        "createdAt": "2022-03-10T13:12:22.794Z",
-        "updatedAt": "2022-04-08T08:10:02.294Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 221,
-        "publishedAt": "2022-04-08T08:10:02.294Z",
-        "firstPublishedAt": "2022-03-10T13:12:29.574Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 74,
-        "version": 222,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Woman with black hat"
-        },
-        "description": {
-          "en-US": "Woman wearing a black hat"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/6Od9v3wzLOysiMum0Wkmme/e96b2bb29aceef84e5f369e717117a7c/cameron-kirby-88711.jpg",
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/3hW1Ux76VBlHllGXnNptG7/5171057db3c66b863eef3c92b364a1f4/thonon-les-bains-cabinet-avocats.jpeg",
             "details": {
-              "size": 7316629,
+              "size": 323722,
               "image": {
-                "width": 3000,
-                "height": 2000
+                "width": 2000,
+                "height": 1500
               }
             },
-            "fileName": "cameron-kirby-88711.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
-        "id": "7orLdboQQowIUs22KAW4U",
-        "type": "Asset",
-        "createdAt": "2022-03-10T13:12:22.798Z",
-        "updatedAt": "2022-04-08T08:10:02.742Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 221,
-        "publishedAt": "2022-04-08T08:10:02.742Z",
-        "firstPublishedAt": "2022-03-10T13:12:29.154Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 74,
-        "version": 222,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Sparkler"
-        },
-        "description": {
-          "en-US": "John with Sparkler"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/7orLdboQQowIUs22KAW4U/0896ad0c0cbdfbd8c6b1c01307b2fc80/matt-palmer-254999.jpg",
-            "details": {
-              "size": 2293094,
-              "image": {
-                "width": 3000,
-                "height": 2000
-              }
-            },
-            "fileName": "matt-palmer-254999.jpg",
-            "contentType": "image/jpeg"
-          }
-        }
-      }
-    },
-    {
-      "metadata": {
-        "tags": [
-        ]
-      },
-      "sys": {
-        "space": {
-          "sys": {
-            "type": "Link",
-            "linkType": "Space",
-            "id": "nsgy62i520c0"
-          }
-        },
-        "id": "4shwYI3POEGkw0Eg6kcyaQ",
-        "type": "Asset",
-        "createdAt": "2022-03-10T13:12:22.886Z",
-        "updatedAt": "2022-04-08T08:10:03.134Z",
-        "environment": {
-          "sys": {
-            "id": "master",
-            "type": "Link",
-            "linkType": "Environment"
-          }
-        },
-        "publishedVersion": 221,
-        "publishedAt": "2022-04-08T08:10:03.134Z",
-        "firstPublishedAt": "2022-03-10T13:12:30.529Z",
-        "createdBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "updatedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        },
-        "publishedCounter": 74,
-        "version": 222,
-        "publishedBy": {
-          "sys": {
-            "type": "Link",
-            "linkType": "User",
-            "id": "5kQhjD36kyfoaB94ntAr5S"
-          }
-        }
-      },
-      "fields": {
-        "title": {
-          "en-US": "Man in the fields"
-        },
-        "description": {
-          "en-US": "Tattooed man walking in a field"
-        },
-        "file": {
-          "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/4shwYI3POEGkw0Eg6kcyaQ/3aa5c9407ffa3ce9adfac3f2e24ee192/felix-russell-saw-112140.jpg",
-            "details": {
-              "size": 4539181,
-              "image": {
-                "width": 2500,
-                "height": 1667
-              }
-            },
-            "fileName": "felix-russell-saw-112140.jpg",
+            "fileName": "thonon-les-bains-cabinet-avocats.jpeg",
             "contentType": "image/jpeg"
           }
         }
@@ -9302,7 +10629,7 @@
         "id": "6SNDmFml8X5AoRq94YCa6O",
         "type": "Asset",
         "createdAt": "2022-04-06T10:20:34.813Z",
-        "updatedAt": "2022-04-08T08:10:03.544Z",
+        "updatedAt": "2022-04-08T10:25:30.298Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -9310,8 +10637,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 29,
-        "publishedAt": "2022-04-08T08:10:03.544Z",
+        "publishedVersion": 50,
+        "publishedAt": "2022-04-08T10:25:30.298Z",
         "firstPublishedAt": "2022-04-06T10:22:14.735Z",
         "createdBy": {
           "sys": {
@@ -9327,8 +10654,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 7,
-        "version": 30,
+        "publishedCounter": 12,
+        "version": 51,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -9339,14 +10666,28 @@
       },
       "fields": {
         "title": {
-          "en-US": "Avocat Thonon-Les-Bains"
+          "en-US": "Lawyer Thonon-Les-Bains",
+          "fr": "Avocat Thonon-Les-Bains"
         },
         "description": {
-          "en-US": "Maître Paul-Marie Beraudo, avocat, vous reçoit dans son cabinet de Thonon-Les-Bains"
+          "en-US": "The Law Office of Maître Paul-Marie BERAUDO is located in Thonon les Bains, Haute-Savoie (74), France.",
+          "fr": "Maître Paul-Marie Beraudo, avocat, vous reçoit dans son cabinet de Thonon-Les-Bains"
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/6SNDmFml8X5AoRq94YCa6O/311fbbca7e8048c663732b89990aa6d2/maitre-beraudo-avocat-thonon.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/6SNDmFml8X5AoRq94YCa6O/09ba0f040a2db459df27026a5a70dde8/maitre-beraudo-avocat-thonon.jpg",
+            "details": {
+              "size": 114712,
+              "image": {
+                "width": 1400,
+                "height": 600
+              }
+            },
+            "fileName": "maitre-beraudo-avocat-thonon.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/6SNDmFml8X5AoRq94YCa6O/aaa12d38797ef1c9c60991460d89ce61/maitre-beraudo-avocat-thonon.jpg",
             "details": {
               "size": 114712,
               "image": {
@@ -9376,7 +10717,7 @@
         "id": "YI6qSQbENySzF4kd3hksM",
         "type": "Asset",
         "createdAt": "2022-04-06T10:22:21.358Z",
-        "updatedAt": "2022-04-08T08:10:04.014Z",
+        "updatedAt": "2022-04-08T10:25:30.694Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -9384,8 +10725,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 27,
-        "publishedAt": "2022-04-08T08:10:04.014Z",
+        "publishedVersion": 50,
+        "publishedAt": "2022-04-08T10:25:30.694Z",
         "firstPublishedAt": "2022-04-06T10:23:17.995Z",
         "createdBy": {
           "sys": {
@@ -9401,8 +10742,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 7,
-        "version": 28,
+        "publishedCounter": 12,
+        "version": 51,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -9413,14 +10754,16 @@
       },
       "fields": {
         "title": {
-          "en-US": "Avocat Thonon-Les-Bains"
+          "en-US": "Lawyer Thonon-Les-Bains",
+          "fr": "Avocat Thonon-Les-Bains"
         },
         "description": {
-          "en-US": "Le cabinet de Maître Paul-Marie Beraudo, avocat au barreau de Thonon-Les-Bains, traite de toutes les affaires courantes devant les tribunaux."
+          "en-US": "Maître Paul-Marie Beraudo works in traditional matter as well as for emergency proceedings.",
+          "fr": "Le cabinet de Maître Paul-Marie Beraudo, avocat au barreau de Thonon-Les-Bains, traite de toutes les affaires courantes devant les tribunaux."
         },
         "file": {
           "en-US": {
-            "url": "//images.ctfassets.net/nsgy62i520c0/YI6qSQbENySzF4kd3hksM/5ce66ecf9b1a2072104e1f2c5f503b00/avocat-barreau-thonon-les-bains.jpg",
+            "url": "//images.ctfassets.net/nsgy62i520c0/YI6qSQbENySzF4kd3hksM/11502722eb556f66f632f5c390c0bc09/avocat-barreau-thonon-les-bains.jpg",
             "details": {
               "size": 258436,
               "image": {
@@ -9429,6 +10772,279 @@
               }
             },
             "fileName": "avocat-barreau-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/YI6qSQbENySzF4kd3hksM/e281a89676e26e821b431cb743cc0828/avocat-barreau-thonon-les-bains.jpg",
+            "details": {
+              "size": 258436,
+              "image": {
+                "width": 1400,
+                "height": 600
+              }
+            },
+            "fileName": "avocat-barreau-thonon-les-bains.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "19nOLKDlTsc8fksOAfwA90",
+        "type": "Asset",
+        "createdAt": "2022-04-08T09:50:20.215Z",
+        "updatedAt": "2022-04-08T10:25:31.084Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 21,
+        "publishedAt": "2022-04-08T10:25:31.084Z",
+        "firstPublishedAt": "2022-04-08T09:51:06.530Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 22,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Family law attorney - Thonon Les bains",
+          "fr": "Avocat droit de la famille - Thonon Les Bains"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/19nOLKDlTsc8fksOAfwA90/aa5f202d0f04616281147bc692082361/avocat-thonon-les-bains-droit-famille.jpg",
+            "details": {
+              "size": 141066,
+              "image": {
+                "width": 900,
+                "height": 675
+              }
+            },
+            "fileName": "avocat-thonon-les-bains-droit-famille.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/19nOLKDlTsc8fksOAfwA90/b4132507bc1edde19b1769105a7a2b72/avocat-thonon-les-bains-droit-famille.jpg",
+            "details": {
+              "size": 141066,
+              "image": {
+                "width": 900,
+                "height": 675
+              }
+            },
+            "fileName": "avocat-thonon-les-bains-droit-famille.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "4cxxJrWzCTnxl4om4IPcyH",
+        "type": "Asset",
+        "createdAt": "2022-04-08T09:51:18.742Z",
+        "updatedAt": "2022-04-08T10:25:31.683Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 18,
+        "publishedAt": "2022-04-08T10:25:31.683Z",
+        "firstPublishedAt": "2022-04-08T09:53:07.680Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 19,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Business lawyer",
+          "fr": "Avocat droit des affaires"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/4cxxJrWzCTnxl4om4IPcyH/25093340f001c803727b96b51360e4e6/avocat-droit-des-affaires.jpg",
+            "details": {
+              "size": 338530,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "avocat-droit-des-affaires.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/4cxxJrWzCTnxl4om4IPcyH/2bb0b9fcd1e468926bac8089e7be90c9/avocat-droit-des-affaires.jpg",
+            "details": {
+              "size": 338530,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "avocat-droit-des-affaires.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "6u5HTxzbwJbMhUMZGz4gKo",
+        "type": "Asset",
+        "createdAt": "2022-04-08T09:54:24.225Z",
+        "updatedAt": "2022-04-08T10:25:32.099Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 22,
+        "publishedAt": "2022-04-08T10:25:32.099Z",
+        "firstPublishedAt": "2022-04-08T09:55:21.155Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 4,
+        "version": 23,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        }
+      },
+      "fields": {
+        "title": {
+          "en-US": "Insurance lawer Thonon Les Bains",
+          "fr": "Avocat droit de la responsabilité civile Thonon Les Bains"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/6u5HTxzbwJbMhUMZGz4gKo/715c29407cb2f2eeaf2006a31701f340/avocat-droit-responsabilite-civile.jpg",
+            "details": {
+              "size": 480968,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "avocat-droit-responsabilite-civile.jpg",
+            "contentType": "image/jpeg"
+          },
+          "fr": {
+            "url": "//images.ctfassets.net/nsgy62i520c0/6u5HTxzbwJbMhUMZGz4gKo/979410a525c65dd6ba7f73512513750e/avocat-droit-responsabilite-civile.jpg",
+            "details": {
+              "size": 480968,
+              "image": {
+                "width": 1920,
+                "height": 1280
+              }
+            },
+            "fileName": "avocat-droit-responsabilite-civile.jpg",
             "contentType": "image/jpeg"
           }
         }

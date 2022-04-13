@@ -6,7 +6,7 @@ import SingleContent from '../components/Content'
 import EnTete from '../components/EnTete'
 import Layout from '../components/layout'
 
-class Honoraires extends React.Component {
+class HonorairesEN extends React.Component {
   render() {
     const Content = get(this, 'props.data.allContentfulHonoraires.nodes[0]')
 
@@ -24,10 +24,10 @@ class Honoraires extends React.Component {
   }
 }
 
-export default Honoraires
+export default HonorairesEN
 
-export const HonorairesQuery = graphql`
-  query HonorairesQuery {
+export const HonorairesENQuery = graphql`
+  query HonorairesENQuery {
     allContentfulHonoraires {
       nodes {
         titrePrincipal

@@ -2,16 +2,13 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import get from 'lodash/get'
-import Layout from '../components/layout'
 import SingleContent from '../components/Content'
 import EnTete from '../components/EnTete'
+import Layout from '../components/layout'
 
-class VentesJudiciaires extends React.Component {
+class Honoraires extends React.Component {
   render() {
-    const Content = get(
-      this,
-      'props.data.allContentfulVentesJudiciaires.nodes[0]'
-    )
+    const Content = get(this, 'props.data.allContentfulHonoraires.nodes[1]')
 
     const Texte = Content.texte
     const Titre = Content.titrePrincipal
@@ -27,16 +24,16 @@ class VentesJudiciaires extends React.Component {
   }
 }
 
-export default VentesJudiciaires
+export default Honoraires
 
-export const VentesJudiciairesQuery = graphql`
-  query VentesJudiciairesQuery {
-    allContentfulVentesJudiciaires {
+export const HonorairesQuery = graphql`
+  query HonorairesQuery {
+    allContentfulHonoraires {
       nodes {
+        titrePrincipal
         texte {
           raw
         }
-        titrePrincipal
         imageDenTte {
           gatsbyImageData
         }

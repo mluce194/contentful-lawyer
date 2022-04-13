@@ -6,7 +6,6 @@ import defautlBgImage from '../images/avocat-thonon-les-bains.jpg'
 const EnTete = class extends React.Component {
   render() {
     const ImageUrl = this.props.backgroundImage
-    console.log("image de fond trouvée",defautlBgImage)
     return (
       <div
         className="h-[400px] bg-cover bg-center"

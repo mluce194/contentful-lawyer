@@ -7,7 +7,7 @@ import EnTete from '../components/EnTete'
 import SingleContent from '../components/Content'
 import Form from '../components/form'
 
-class Contact extends React.Component {
+class ContactEN extends React.Component {
   render() {
     const Donnees = get(this, 'props.data.allContentfulContact.nodes[0]')
     const Description = Donnees.description
@@ -28,10 +28,10 @@ class Contact extends React.Component {
   }
 }
 
-export default Contact
+export default ContactEN
 
-export const ContactQuery = graphql`
-  query contentfulContact {
+export const ContactENQuery = graphql`
+  query contentENfulContact {
     allContentfulContact {
     nodes {
       description {
