@@ -6,17 +6,16 @@ import Navigation from './navigation'
 import Footer from './footer'
 import TopNav from './topnav'
 
-const Template = ({children, lang}) => {
+const Template = ({children, lang, path}) => {
 
 
 
-    console.log("afficher la langue", lang)
 
     return (
       <>
         <Seo lang={lang}/>
 
-        <TopNav language={lang} />
+        <TopNav language={lang} path={path} />
         <Navigation language={lang}/>
         <main className="text-primary">{children}</main>
         <Footer />

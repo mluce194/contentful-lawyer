@@ -14,7 +14,7 @@ class ContactEN extends React.Component {
 
 
     return (
-      <Layout lang="en">
+      <Layout lang="en" path="contact">
         <EnTete titre="Contacter Paul-Marie Beraudo"></EnTete>
         <SingleContent contenu={Description}>
           

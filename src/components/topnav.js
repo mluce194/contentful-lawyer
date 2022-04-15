@@ -12,7 +12,7 @@ const TopNavigation = (props) => {
     className="sm:flex justify-between max-w-6xl mx-auto p-5"
   >
     <Logo></Logo>
-    <SwitchLanguage language={props.language}></SwitchLanguage>
+    <SwitchLanguage language={props.language} path={props.path}></SwitchLanguage>
   </nav>
 )
 

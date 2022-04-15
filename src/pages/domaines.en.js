@@ -28,7 +28,7 @@ class DomainesEN extends React.Component {
     const Titreh1 = Content.titrePrincipal
 
     return (
-      <Layout lang="en">
+      <Layout lang="en" path="domaines">
         <EnTete titre={Titreh1} backgroundImage={ImageEnTete}></EnTete>
         <SingleContent contenu={TextePresentation}></SingleContent>
         <SubTitle titre={Titreh2}></SubTitle>

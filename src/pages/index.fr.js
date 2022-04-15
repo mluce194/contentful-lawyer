@@ -23,8 +23,8 @@ class Accueil extends React.Component {
     const imagesDiapo = get(this, 'props.data.allContentfulDiaporama.nodes')
 
     return (
-      <Layout lang="fr">
-        <Seo title="Page d'accueil" lang="fr"></Seo>
+      <Layout lang="fr" path="">
+        <Seo title="Page d'accueil"></Seo>
         <Diaporama images={imagesDiapo}></Diaporama>
 
         <ContentRow

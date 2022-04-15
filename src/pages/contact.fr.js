@@ -15,7 +15,7 @@ class Contact extends React.Component {
     console.log('Données de la page contact', Donnees)
 
     return (
-      <Layout lang="fr">
+      <Layout lang="fr" path="contact">
         <EnTete titre="Contacter Paul-Marie Beraudo"></EnTete>
         <SingleContent contenu={Description}>
           
