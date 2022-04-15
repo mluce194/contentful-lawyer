@@ -18,7 +18,7 @@ class PresentationEN extends React.Component {
 
     console.log('Mes données de contenu', Texte1)
     return (
-      <Layout>
+      <Layout lang="en">
         <EnTete backgroundImage={ImageEnTete} titre={TitrePrincipal}></EnTete>
 
 

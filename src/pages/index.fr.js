@@ -1,14 +1,18 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
+import { navigate } from 'gatsby'
+
 
 import Layout from '../components/layout'
 import ContentRow from '../components/ContentRow'
 import MapRow from '../components/MapRow'
 import Diaporama from '../components/Diaporama'
+import Seo from '../components/seo'
 
 class Accueil extends React.Component {
   render() {
+    navigate('/fr');
     const donnees = get(this, 'props.data.allContentfulPageDaccueil.nodes[1]')
     const texte1 = donnees.richText1
     const image1 = donnees.image1
@@ -19,7 +23,8 @@ class Accueil extends React.Component {
     const imagesDiapo = get(this, 'props.data.allContentfulDiaporama.nodes')
 
     return (
-      <Layout>
+      <Layout lang="fr">
+        <Seo title="Page d'accueil" lang="fr"></Seo>
         <Diaporama images={imagesDiapo}></Diaporama>
 
         <ContentRow

@@ -19,7 +19,7 @@ class AccueilEN extends React.Component {
     const imagesDiapo = get(this, 'props.data.allContentfulDiaporama.nodes')
 
     return (
-      <Layout>
+      <Layout lang="en">
         <Diaporama images={imagesDiapo}></Diaporama>
 
         <ContentRow

@@ -57,8 +57,7 @@ module.exports = {
       resolve: 'gatsby-plugin-i18n',
       options: {
         langKeyDefault: 'fr',
-        useLangKeyLayout: false,
-      },
+        useLangKeyLayout: false      },
     },
     {
       resolve: 'gatsby-source-contentful',

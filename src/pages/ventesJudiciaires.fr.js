@@ -18,7 +18,7 @@ class VentesJudiciaires extends React.Component {
     const ImageEnTete = Content.imageDenTte.gatsbyImageData.images.fallback.src
 
     return (
-      <Layout>
+      <Layout lang="fr">
         <EnTete titre={Titre} backgroundImage={ImageEnTete}></EnTete>
 
         <SingleContent contenu={Texte}></SingleContent>

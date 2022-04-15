@@ -12,10 +12,9 @@ class ContactEN extends React.Component {
     const Donnees = get(this, 'props.data.allContentfulContact.nodes[0]')
     const Description = Donnees.description
 
-    console.log('Données de la page contact', Donnees)
 
     return (
-      <Layout>
+      <Layout lang="en">
         <EnTete titre="Contacter Paul-Marie Beraudo"></EnTete>
         <SingleContent contenu={Description}>
           

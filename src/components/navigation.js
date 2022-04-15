@@ -2,12 +2,16 @@ import React from 'react'
 import { Link } from 'gatsby'
 import { useState } from 'react'
 
-const Navigation = () => {
+const Navigation = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false)
 
   const handleToggle = () => {
     setToggleMenu(!toggleMenu)
   }
+
+
+  const currentLang = props.language
+
 
   return (
     <div className="bg-neutral-200">
@@ -35,7 +39,7 @@ const Navigation = () => {
         <ul className={`${toggleMenu ? 'block' : 'hidden'} md:flex`}>
           <li className="block m-2">
             <Link
-              to="/"
+              to={`/${currentLang}`}
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
@@ -44,7 +48,7 @@ const Navigation = () => {
           </li>
           <li className="block m-2">
             <Link
-              to="/presentation/"
+              to={`/${currentLang}/presentation/`}
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
@@ -53,7 +57,7 @@ const Navigation = () => {
           </li>
           <li className="block m-2">
             <Link
-              to="/domaines/"
+              to={`/${currentLang}/domaines/`}
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
@@ -62,7 +66,7 @@ const Navigation = () => {
           </li>
           <li className="block m-2">
             <Link
-              to="/honoraires/"
+              to={`/${currentLang}/honoraires/`}
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
@@ -71,7 +75,7 @@ const Navigation = () => {
           </li>
           <li className="block m-2">
             <Link
-              to="/ventesJudiciaires/"
+              to={`/${currentLang}/ventesJudiciaires/`}
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
@@ -80,7 +84,7 @@ const Navigation = () => {
           </li>
           <li className="block m-2">
             <Link
-              to="/contact/"
+              to={`/${currentLang}/contact/`}
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >

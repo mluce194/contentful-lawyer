@@ -28,7 +28,7 @@ class Presentation extends React.Component {
     const Titre2 = Content.titre2
 
     return (
-      <Layout>
+      <Layout lang="fr">
         <EnTete backgroundImage={ImageEnTete} titre={TitrePrincipal}></EnTete>
 
         <SubTitle titre={Titre1}></SubTitle>
