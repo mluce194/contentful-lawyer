@@ -21,6 +21,7 @@ class VentesJudiciaires extends React.Component {
       <Layout lang="fr">
         <EnTete titre={Titre} backgroundImage={ImageEnTete}></EnTete>
 
+
         <SingleContent contenu={Texte}></SingleContent>
       </Layout>
     )
