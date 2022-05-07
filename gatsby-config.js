@@ -36,6 +36,7 @@ if (!spaceId || !accessToken) {
 
 module.exports = {
   siteMetadata: {
+    siteUrl: 'https://www.beraudo.com',
     title: 'Paul-Marie Beraudo, avocat',
     description: 'Site Web de Paul-Marie Beraudo, avocat à Thonon-Les-Bains',
   },
