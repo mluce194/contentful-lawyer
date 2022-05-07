@@ -10,7 +10,7 @@ class VentesJudiciairesEN extends React.Component {
   render() {
     const Content = get(
       this,
-      'props.data.allContentfulVentesJudiciaires.nodes[1]'
+      'props.data.allContentfulVentesJudiciaires.nodes[0]'
     )
 
     const Texte = Content.texte
