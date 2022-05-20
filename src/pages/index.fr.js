@@ -2,7 +2,6 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import get from 'lodash/get'
 
-
 import Layout from '../components/layout'
 import ContentRow from '../components/ContentRow'
 import MapRow from '../components/MapRow'
@@ -11,8 +10,6 @@ import Seo from '../components/seo'
 
 class Accueil extends React.Component {
   render() {
-
-
     const donnees = get(this, 'props.data.allContentfulPageDaccueil.nodes[1]')
     const texte1 = donnees.richText1
     const image1 = donnees.image1
@@ -21,12 +18,13 @@ class Accueil extends React.Component {
     const texte3 = donnees.richText3
     const map = donnees.map.map
     const imagesDiapo = get(this, 'props.data.allContentfulDiaporama.nodes')
+    const LigneDeContenu = get(this, 'props.data.allContentfulLigne2Colonnes.edges')
+    console.log("Ma ligne de contenu", LigneDeContenu)
 
     return (
       <Layout lang="fr" path="">
         <Seo title="Page d'accueil"></Seo>
         <Diaporama images={imagesDiapo}></Diaporama>
-
         <ContentRow
           description={texte1}
           backgroundImage={image1.gatsbyImageData.images.fallback.src}
@@ -42,6 +40,7 @@ class Accueil extends React.Component {
           mapContent={map}
           direction="flex-row"
         ></MapRow>
+        
       </Layout>
     )
   }
@@ -73,7 +72,7 @@ export const AccueilQuery = graphql`
         }
       }
     }
-      allContentfulDiaporama(filter: {node_locale: {eq: "fr"}}) {
+    allContentfulDiaporama(filter: { node_locale: { eq: "fr" } }) {
       nodes {
         id
         description
@@ -85,5 +84,6 @@ export const AccueilQuery = graphql`
         }
       }
     }
+    
   }
 `
