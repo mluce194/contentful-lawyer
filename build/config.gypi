@@ -253,6 +253,7 @@
       "lib/internal/modules/package_json_reader.js",
       "lib/internal/modules/esm/module_job.js",
       "lib/internal/modules/esm/assert.js",
+      "lib/internal/modules/esm/fetch_module.js",
       "lib/internal/modules/esm/get_source.js",
       "lib/internal/modules/esm/translators.js",
       "lib/internal/modules/esm/resolve.js",
@@ -262,6 +263,7 @@
       "lib/internal/modules/esm/initialize_import_meta.js",
       "lib/internal/modules/esm/module_map.js",
       "lib/internal/modules/esm/get_format.js",
+      "lib/internal/modules/esm/formats.js",
       "lib/internal/modules/esm/loader.js",
       "lib/internal/modules/cjs/helpers.js",
       "lib/internal/modules/cjs/loader.js",
@@ -339,6 +341,7 @@
     "target_arch": "x64",
     "v8_enable_31bit_smis_on_64bit_arch": 0,
     "v8_enable_gdbjit": 0,
+    "v8_enable_hugepage": 0,
     "v8_enable_i18n_support": 1,
     "v8_enable_inspector": 1,
     "v8_enable_lite_mode": 0,
@@ -353,7 +356,7 @@
     "v8_use_siphash": 1,
     "want_separate_host_toolset": 0,
     "xcode_version": "11.0",
-    "nodedir": "/Users/marie-luce/Library/Caches/node-gyp/17.4.0",
+    "nodedir": "/Users/marie-luce/Library/Caches/node-gyp/17.7.2",
     "standalone_static_library": 1
   }
 }
