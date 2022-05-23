@@ -37,7 +37,7 @@ CFLAGS_C_Debug := \
 
 # Flags passed to only C++ files.
 CFLAGS_CC_Debug := \
-	-std=gnu++17 \
+	-std=gnu++14 \
 	-stdlib=libc++ \
 	-fno-rtti \
 	-fno-exceptions \
@@ -50,13 +50,13 @@ CFLAGS_OBJC_Debug :=
 CFLAGS_OBJCC_Debug :=
 
 INCS_Debug := \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/include/node \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/src \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/openssl/config \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/openssl/openssl/include \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/uv/include \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/zlib \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/v8/include
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/include/node \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/src \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/openssl/config \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/openssl/openssl/include \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/uv/include \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/zlib \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/v8/include
 
 DEFS_Release := \
 	'-DNODE_GYP_MODULE_NAME=binding' \
@@ -90,7 +90,7 @@ CFLAGS_C_Release := \
 
 # Flags passed to only C++ files.
 CFLAGS_CC_Release := \
-	-std=gnu++17 \
+	-std=gnu++14 \
 	-stdlib=libc++ \
 	-fno-rtti \
 	-fno-exceptions \
@@ -103,13 +103,13 @@ CFLAGS_OBJC_Release :=
 CFLAGS_OBJCC_Release :=
 
 INCS_Release := \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/include/node \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/src \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/openssl/config \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/openssl/openssl/include \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/uv/include \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/zlib \
-	-I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/deps/v8/include
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/include/node \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/src \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/openssl/config \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/openssl/openssl/include \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/uv/include \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/zlib \
+	-I/Users/marie-luce/Library/Caches/node-gyp/16.15.0/deps/v8/include
 
 OBJS := \
 	$(obj).target/$(TARGET)/src/binding.o

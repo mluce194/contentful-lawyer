@@ -31,7 +31,6 @@
     "node_byteorder": "little",
     "node_debug_lib": "false",
     "node_enable_d8": "false",
-    "node_fipsinstall": "false",
     "node_install_corepack": "true",
     "node_install_npm": "true",
     "node_library_files": [
@@ -98,7 +97,6 @@
       "lib/stream/consumers.js",
       "lib/stream/promises.js",
       "lib/stream/web.js",
-      "lib/readline/promises.js",
       "lib/internal/constants.js",
       "lib/internal/abort_controller.js",
       "lib/internal/net.js",
@@ -113,7 +111,6 @@
       "lib/internal/histogram.js",
       "lib/internal/error_serdes.js",
       "lib/internal/dgram.js",
-      "lib/internal/structured_clone.js",
       "lib/internal/child_process.js",
       "lib/internal/assert.js",
       "lib/internal/fixed_queue.js",
@@ -214,7 +211,6 @@
       "lib/internal/streams/duplex.js",
       "lib/internal/streams/pipeline.js",
       "lib/internal/readline/interface.js",
-      "lib/internal/readline/promises.js",
       "lib/internal/readline/utils.js",
       "lib/internal/readline/emitKeypressEvents.js",
       "lib/internal/readline/callbacks.js",
@@ -309,7 +305,7 @@
       "lib/dns/promises.js",
       "lib/fs/promises.js"
     ],
-    "node_module_version": 102,
+    "node_module_version": 93,
     "node_no_browser_globals": "false",
     "node_prefix": "/",
     "node_release_urlbase": "https://nodejs.org/download/release/",
@@ -334,10 +330,11 @@
     "node_use_v8_platform": "true",
     "node_with_ltcg": "false",
     "node_without_node_options": "false",
+    "openssl_fips": "",
     "openssl_is_fips": "false",
     "openssl_quic": "true",
     "ossfuzz": "false",
-    "shlib_suffix": "102.dylib",
+    "shlib_suffix": "93.dylib",
     "target_arch": "x64",
     "v8_enable_31bit_smis_on_64bit_arch": 0,
     "v8_enable_gdbjit": 0,
@@ -356,7 +353,7 @@
     "v8_use_siphash": 1,
     "want_separate_host_toolset": 0,
     "xcode_version": "11.0",
-    "nodedir": "/Users/marie-luce/Library/Caches/node-gyp/17.7.2",
+    "nodedir": "/Users/marie-luce/Library/Caches/node-gyp/16.15.0",
     "standalone_static_library": 1
   }
 }
