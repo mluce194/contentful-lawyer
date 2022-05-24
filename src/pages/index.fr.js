@@ -18,8 +18,7 @@ class Accueil extends React.Component {
     const texte3 = donnees.richText3
     const map = donnees.map.map
     const imagesDiapo = get(this, 'props.data.allContentfulDiaporama.nodes')
-    const LigneDeContenu = get(this, 'props.data.allContentfulLigne2Colonnes.edges')
-    console.log("Ma ligne de contenu", LigneDeContenu)
+
 
     return (
       <Layout lang="fr" path="">
@@ -40,7 +39,7 @@ class Accueil extends React.Component {
           mapContent={map}
           direction="flex-row"
         ></MapRow>
-        
+
       </Layout>
     )
   }
@@ -84,6 +83,16 @@ export const AccueilQuery = graphql`
         }
       }
     }
-    
+    contentfulPageDaccueil {
+      id
+      ligne {
+        ... on ContentfulLigne2Colonnes {
+          id
+          contenu {
+            raw
+          }
+        }
+      }
+    }
   }
 `
