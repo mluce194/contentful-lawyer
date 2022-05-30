@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import { useState } from 'react'
+import { useStaticQuery, graphql } from 'gatsby'
 
 const Navigation = (props) => {
   const [toggleMenu, setToggleMenu] = useState(false)
@@ -9,9 +10,58 @@ const Navigation = (props) => {
     setToggleMenu(!toggleMenu)
   }
 
-
   const currentLang = props.language
+  const data = useStaticQuery(graphql`
+    query NavQuery {
+      allContentfulDomainesDintervention {
+        nodes {
+          titreDuMenu
+        }
+      }
+      allContentfulHonoraires {
+        nodes {
+          titreDuMenu
+        }
+      }
+      allContentfulVentesJudiciaires {
+        nodes {
+          titreDuMenu
+        }
+      }
+      allContentfulContact {
+        nodes {
+          titreDuMenu
+        }
+      }
+      allContentfulPageDaccueil {
+        nodes {
+          titreDuMenu
+        }
+      }
+      allContentfulPresentation {
+        nodes {
+          titreDuMenu
+        }
+      }
+    }
+  `)
 
+  const AccueilEn = data.allContentfulPageDaccueil.nodes[0].titreDuMenu
+  const AccueilFr = data.allContentfulPageDaccueil.nodes[1].titreDuMenu
+  const DomainesEn =
+    data.allContentfulDomainesDintervention.nodes[0].titreDuMenu
+  const DomainesFr =
+    data.allContentfulDomainesDintervention.nodes[1].titreDuMenu
+  const PresentationEn = data.allContentfulPresentation.nodes[0].titreDuMenu
+  const PresentationFr = data.allContentfulPresentation.nodes[1].titreDuMenu
+  const HonorairesEn = data.allContentfulHonoraires.nodes[0].titreDuMenu
+  const HonorairesFr = data.allContentfulHonoraires.nodes[1].titreDuMenu
+  const ContactEn = data.allContentfulContact.nodes[0].titreDuMenu
+  const ContactFr = data.allContentfulContact.nodes[1].titreDuMenu
+  const VentesJudiciairesEn =
+    data.allContentfulVentesJudiciaires.nodes[0].titreDuMenu
+  const VentesJudiciairesFr =
+    data.allContentfulVentesJudiciaires.nodes[1].titreDuMenu
 
   return (
     <div className="bg-neutral-200">
@@ -43,7 +93,7 @@ const Navigation = (props) => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Accueil
+              {currentLang === 'en' ? AccueilEn : AccueilFr}
             </Link>
           </li>
           <li className="block m-2">
@@ -52,7 +102,7 @@ const Navigation = (props) => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Présentation
+              {currentLang === 'en' ? PresentationEn : PresentationFr}
             </Link>
           </li>
           <li className="block m-2">
@@ -61,7 +111,7 @@ const Navigation = (props) => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Domaines d'intervention
+              {currentLang === 'en' ? DomainesEn : DomainesFr}
             </Link>
           </li>
           <li className="block m-2">
@@ -70,7 +120,7 @@ const Navigation = (props) => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Honoraires
+              {currentLang === 'en' ? HonorairesEn : HonorairesFr}
             </Link>
           </li>
           <li className="block m-2">
@@ -79,7 +129,7 @@ const Navigation = (props) => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Ventes judiciaires
+              {currentLang === 'en' ? VentesJudiciairesEn : VentesJudiciairesFr}
             </Link>
           </li>
           <li className="block m-2">
@@ -88,7 +138,7 @@ const Navigation = (props) => {
               activeClassName="active"
               className="block m-2 font-light text-slim text-primary hover:text-secondary focus:text-secondary md:inline-block md:mt-0 md:ml-6"
             >
-              Contact
+              {currentLang === 'en' ? ContactEn : ContactFr}
             </Link>
           </li>
         </ul>

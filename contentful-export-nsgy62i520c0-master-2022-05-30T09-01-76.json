@@ -1384,7 +1384,7 @@
         "id": "honoraires",
         "type": "ContentType",
         "createdAt": "2022-03-03T10:02:27.662Z",
-        "updatedAt": "2022-05-30T07:08:08.114Z",
+        "updatedAt": "2022-05-30T05:21:30.745Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1392,8 +1392,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 173,
-        "publishedAt": "2022-05-30T07:08:08.114Z",
+        "publishedVersion": 171,
+        "publishedAt": "2022-05-30T05:21:30.745Z",
         "firstPublishedAt": "2022-03-03T10:02:28.050Z",
         "createdBy": {
           "sys": {
@@ -1409,8 +1409,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 87,
-        "version": 174,
+        "publishedCounter": 86,
+        "version": 172,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1419,7 +1419,7 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "titrePrincipal",
       "name": "Honoraires",
       "description": "Modèle pour la page Honoraires",
       "fields": [
@@ -1427,7 +1427,7 @@
           "id": "titreDuMenu",
           "name": "Titre du menu",
           "type": "Symbol",
-          "localized": true,
+          "localized": false,
           "required": false,
           "validations": [
           ],
@@ -3143,7 +3143,7 @@
             "linkType": "Space"
           }
         },
-        "version": 175,
+        "version": 173,
         "createdAt": "2022-03-03T10:02:28.116Z",
         "createdBy": {
           "sys": {
@@ -3152,7 +3152,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-30T07:08:09.461Z",
+        "updatedAt": "2022-05-30T05:21:31.829Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -7845,7 +7845,7 @@
         "id": "517q6C6VK15DlozWS3IIo",
         "type": "Entry",
         "createdAt": "2022-03-03T10:57:53.155Z",
-        "updatedAt": "2022-05-30T07:08:42.271Z",
+        "updatedAt": "2022-04-08T10:25:37.177Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7853,8 +7853,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 167,
-        "publishedAt": "2022-05-30T07:08:42.271Z",
+        "publishedVersion": 164,
+        "publishedAt": "2022-04-08T10:25:37.177Z",
         "firstPublishedAt": "2022-03-03T11:15:44.477Z",
         "createdBy": {
           "sys": {
@@ -7870,8 +7870,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 79,
-        "version": 168,
+        "publishedCounter": 78,
+        "version": 165,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7888,10 +7888,6 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
-          "en-US": "Fee policy",
-          "fr": "Honoraires"
-        },
         "imageDenTte": {
           "en-US": {
             "sys": {
@@ -7900,10 +7896,6 @@
               "id": "7e0mZ7HEdMefnaH2Rh9Tb4"
             }
           }
-        },
-        "titrePrincipal": {
-          "en-US": "Maître Paul-Marie Beraudo, lawyer - Fee policy",
-          "fr": "Paul-Marie Beraudo, avocat - Honoraires"
         },
         "texte": {
           "en-US": {
@@ -8074,6 +8066,10 @@
             ],
             "nodeType": "document"
           }
+        },
+        "titrePrincipal": {
+          "en-US": "Maître Paul-Marie Beraudo, lawyer - Fee policy",
+          "fr": "Paul-Marie Beraudo, avocat - Honoraires"
         }
       }
     },

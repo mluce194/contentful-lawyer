@@ -19,9 +19,8 @@ class Accueil extends React.Component {
     const map = donnees.map.map
     const imagesDiapo = get(this, 'props.data.allContentfulDiaporama.nodes')
 
-
     return (
-      <Layout lang="fr" path="">
+      <Layout lang="fr" path="" menuAccueil={donnees.titreDuMenu}>
         <Seo title="Page d'accueil"></Seo>
         <Diaporama images={imagesDiapo}></Diaporama>
         <ContentRow
@@ -39,7 +38,6 @@ class Accueil extends React.Component {
           mapContent={map}
           direction="flex-row"
         ></MapRow>
-
       </Layout>
     )
   }
@@ -51,6 +49,7 @@ export const AccueilQuery = graphql`
   query AccueilQuery {
     allContentfulPageDaccueil {
       nodes {
+        titreDuMenu
         image2 {
           gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
         }
@@ -83,16 +82,6 @@ export const AccueilQuery = graphql`
         }
       }
     }
-    contentfulPageDaccueil {
-      id
-      ligne {
-        ... on ContentfulLigne2Colonnes {
-          id
-          contenu {
-            raw
-          }
-        }
-      }
-    }
+   
   }
 `

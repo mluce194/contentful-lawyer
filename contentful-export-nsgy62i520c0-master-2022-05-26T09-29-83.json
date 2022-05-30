@@ -172,7 +172,7 @@
         "id": "accueil",
         "type": "ContentType",
         "createdAt": "2022-01-22T16:30:47.184Z",
-        "updatedAt": "2022-05-30T05:23:33.297Z",
+        "updatedAt": "2022-05-26T07:16:18.970Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -180,8 +180,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 183,
-        "publishedAt": "2022-05-30T05:23:33.297Z",
+        "publishedVersion": 179,
+        "publishedAt": "2022-05-26T07:16:18.970Z",
         "firstPublishedAt": "2022-01-22T16:30:47.752Z",
         "createdBy": {
           "sys": {
@@ -197,8 +197,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 92,
-        "version": 184,
+        "publishedCounter": 90,
+        "version": 180,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -207,13 +207,13 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "texte1",
       "name": "Page d'accueil",
       "description": "Modèle pour la page d'accueil",
       "fields": [
         {
-          "id": "titreDuMenu",
-          "name": "Titre du menu",
+          "id": "texte1",
+          "name": "Texte 1",
           "type": "Text",
           "localized": true,
           "required": false,
@@ -406,7 +406,7 @@
         "id": "prsentation",
         "type": "ContentType",
         "createdAt": "2022-03-03T09:58:25.621Z",
-        "updatedAt": "2022-05-26T08:11:21.451Z",
+        "updatedAt": "2022-05-26T07:18:45.042Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -414,8 +414,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 165,
-        "publishedAt": "2022-05-26T08:11:21.451Z",
+        "publishedVersion": 161,
+        "publishedAt": "2022-05-26T07:18:45.042Z",
         "firstPublishedAt": "2022-03-03T09:58:26.063Z",
         "createdBy": {
           "sys": {
@@ -431,8 +431,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 83,
-        "version": 166,
+        "publishedCounter": 81,
+        "version": 162,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -441,21 +441,10 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "titre1",
       "name": "Présentation",
       "description": "Modèle de la page présentation",
       "fields": [
-        {
-          "id": "titreDuMenu",
-          "name": "Titre du menu",
-          "type": "Symbol",
-          "localized": true,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
         {
           "id": "imageDenTte",
           "name": "Image d'en-tête",
@@ -878,7 +867,7 @@
         "id": "domainesDintervention",
         "type": "ContentType",
         "createdAt": "2022-03-03T09:59:02.222Z",
-        "updatedAt": "2022-05-30T05:20:50.046Z",
+        "updatedAt": "2022-05-26T07:21:51.987Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -886,8 +875,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 177,
-        "publishedAt": "2022-05-30T05:20:50.046Z",
+        "publishedVersion": 173,
+        "publishedAt": "2022-05-26T07:21:51.987Z",
         "firstPublishedAt": "2022-03-03T09:59:02.634Z",
         "createdBy": {
           "sys": {
@@ -903,8 +892,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 89,
-        "version": 178,
+        "publishedCounter": 87,
+        "version": 174,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -913,21 +902,10 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "titre1",
       "name": "Domaines d'intervention",
       "description": "Modèle de la page Domaines d'intervention",
       "fields": [
-        {
-          "id": "titreDuMenu",
-          "name": "Titre du menu",
-          "type": "Symbol",
-          "localized": true,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
         {
           "id": "imageDenTte",
           "name": "Image d'en-tête",
@@ -1384,7 +1362,7 @@
         "id": "honoraires",
         "type": "ContentType",
         "createdAt": "2022-03-03T10:02:27.662Z",
-        "updatedAt": "2022-05-30T07:08:08.114Z",
+        "updatedAt": "2022-05-26T07:23:10.875Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1392,8 +1370,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 173,
-        "publishedAt": "2022-05-30T07:08:08.114Z",
+        "publishedVersion": 169,
+        "publishedAt": "2022-05-26T07:23:10.875Z",
         "firstPublishedAt": "2022-03-03T10:02:28.050Z",
         "createdBy": {
           "sys": {
@@ -1409,8 +1387,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 87,
-        "version": 174,
+        "publishedCounter": 85,
+        "version": 170,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1419,21 +1397,10 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "titrePrincipal",
       "name": "Honoraires",
       "description": "Modèle pour la page Honoraires",
       "fields": [
-        {
-          "id": "titreDuMenu",
-          "name": "Titre du menu",
-          "type": "Symbol",
-          "localized": true,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
         {
           "id": "imageDenTte",
           "name": "Image d'en-tête",
@@ -1527,7 +1494,7 @@
         "id": "ventesJudiciaires",
         "type": "ContentType",
         "createdAt": "2022-03-03T10:02:49.764Z",
-        "updatedAt": "2022-05-30T05:21:10.669Z",
+        "updatedAt": "2022-05-26T07:22:51.039Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1535,8 +1502,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 161,
-        "publishedAt": "2022-05-30T05:21:10.669Z",
+        "publishedVersion": 159,
+        "publishedAt": "2022-05-26T07:22:51.039Z",
         "firstPublishedAt": "2022-03-03T10:02:50.103Z",
         "createdBy": {
           "sys": {
@@ -1552,8 +1519,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 81,
-        "version": 162,
+        "publishedCounter": 80,
+        "version": 160,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1562,21 +1529,10 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "titrePrincipal",
       "name": "Ventes judiciaires",
       "description": "Modèle pour la page Ventes judiciaires",
       "fields": [
-        {
-          "id": "titreDuMenu",
-          "name": "Titre du menu",
-          "type": "Symbol",
-          "localized": true,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
         {
           "id": "imageDenTte",
           "name": "Image d'en-tête",
@@ -1921,7 +1877,7 @@
         "id": "contact",
         "type": "ContentType",
         "createdAt": "2022-04-07T13:47:28.679Z",
-        "updatedAt": "2022-05-30T05:22:22.271Z",
+        "updatedAt": "2022-04-08T10:24:54.068Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -1929,8 +1885,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 23,
-        "publishedAt": "2022-05-30T05:22:22.271Z",
+        "publishedVersion": 19,
+        "publishedAt": "2022-04-08T10:24:54.068Z",
         "firstPublishedAt": "2022-04-07T13:47:29.107Z",
         "createdBy": {
           "sys": {
@@ -1946,8 +1902,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 12,
-        "version": 24,
+        "publishedCounter": 10,
+        "version": 20,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -1956,21 +1912,10 @@
           }
         }
       },
-      "displayField": "titreDuMenu",
+      "displayField": "titre",
       "name": "Contact",
       "description": "Introduction page Contact",
       "fields": [
-        {
-          "id": "titreDuMenu",
-          "name": "Titre du menu",
-          "type": "Symbol",
-          "localized": true,
-          "required": false,
-          "validations": [
-          ],
-          "disabled": false,
-          "omitted": false
-        },
         {
           "id": "titre",
           "name": "Titre",
@@ -2732,7 +2677,7 @@
             "linkType": "Space"
           }
         },
-        "version": 185,
+        "version": 181,
         "createdAt": "2022-01-22T16:30:47.819Z",
         "createdBy": {
           "sys": {
@@ -2741,7 +2686,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-30T05:23:34.364Z",
+        "updatedAt": "2022-05-26T07:16:19.528Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2792,7 +2737,7 @@
       ],
       "controls": [
         {
-          "fieldId": "titreDuMenu",
+          "fieldId": "texte1",
           "widgetId": "markdown",
           "widgetNamespace": "builtin"
         },
@@ -2839,7 +2784,7 @@
             "linkType": "Space"
           }
         },
-        "version": 167,
+        "version": 163,
         "createdAt": "2022-03-03T09:58:26.147Z",
         "createdBy": {
           "sys": {
@@ -2848,7 +2793,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-26T08:11:22.150Z",
+        "updatedAt": "2022-05-26T07:18:46.180Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -2898,11 +2843,6 @@
         }
       ],
       "controls": [
-        {
-          "fieldId": "titreDuMenu",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
         {
           "fieldId": "imageDenTte",
           "widgetId": "assetLinkEditor",
@@ -2991,7 +2931,7 @@
             "linkType": "Space"
           }
         },
-        "version": 179,
+        "version": 175,
         "createdAt": "2022-03-03T09:59:02.711Z",
         "createdBy": {
           "sys": {
@@ -3000,7 +2940,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-30T05:20:50.920Z",
+        "updatedAt": "2022-05-26T07:21:54.654Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -3050,11 +2990,6 @@
         }
       ],
       "controls": [
-        {
-          "fieldId": "titreDuMenu",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
         {
           "fieldId": "imageDenTte",
           "widgetId": "assetLinkEditor",
@@ -3143,7 +3078,7 @@
             "linkType": "Space"
           }
         },
-        "version": 175,
+        "version": 171,
         "createdAt": "2022-03-03T10:02:28.116Z",
         "createdBy": {
           "sys": {
@@ -3152,7 +3087,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-30T07:08:09.461Z",
+        "updatedAt": "2022-05-26T07:23:12.204Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -3223,11 +3158,6 @@
       ],
       "controls": [
         {
-          "fieldId": "titreDuMenu",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
-        {
           "fieldId": "imageDenTte",
           "widgetId": "assetLinkEditor",
           "widgetNamespace": "builtin"
@@ -3260,7 +3190,7 @@
             "linkType": "Space"
           }
         },
-        "version": 163,
+        "version": 161,
         "createdAt": "2022-03-03T10:02:50.163Z",
         "createdBy": {
           "sys": {
@@ -3269,7 +3199,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-30T05:21:11.411Z",
+        "updatedAt": "2022-05-26T07:22:51.609Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -3319,11 +3249,6 @@
         }
       ],
       "controls": [
-        {
-          "fieldId": "titreDuMenu",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
         {
           "fieldId": "imageDenTte",
           "widgetId": "assetLinkEditor",
@@ -3556,7 +3481,7 @@
             "linkType": "Space"
           }
         },
-        "version": 24,
+        "version": 20,
         "createdAt": "2022-04-07T13:47:29.173Z",
         "createdBy": {
           "sys": {
@@ -3565,7 +3490,7 @@
             "linkType": "User"
           }
         },
-        "updatedAt": "2022-05-30T05:22:22.783Z",
+        "updatedAt": "2022-04-08T10:24:57.186Z",
         "updatedBy": {
           "sys": {
             "id": "5kQhjD36kyfoaB94ntAr5S",
@@ -3589,11 +3514,6 @@
         }
       },
       "controls": [
-        {
-          "fieldId": "titreDuMenu",
-          "widgetId": "singleLine",
-          "widgetNamespace": "builtin"
-        },
         {
           "fieldId": "titre",
           "widgetId": "singleLine",
@@ -3941,7 +3861,7 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
+        "texte1": {
           "en-US": "Home",
           "fr": "Accueil"
         },
@@ -4767,7 +4687,7 @@
         "id": "6QXhFeRem22SeETOXKoPxT",
         "type": "Entry",
         "createdAt": "2022-03-03T10:06:16.023Z",
-        "updatedAt": "2022-05-26T08:11:48.325Z",
+        "updatedAt": "2022-04-08T10:25:35.644Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -4775,8 +4695,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 195,
-        "publishedAt": "2022-05-26T08:11:48.325Z",
+        "publishedVersion": 191,
+        "publishedAt": "2022-04-08T10:25:35.644Z",
         "firstPublishedAt": "2022-03-03T10:08:20.060Z",
         "createdBy": {
           "sys": {
@@ -4792,8 +4712,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 84,
-        "version": 196,
+        "publishedCounter": 83,
+        "version": 192,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -4810,10 +4730,6 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
-          "en-US": "Présentation",
-          "fr": "Profile"
-        },
         "imageDenTte": {
           "en-US": {
             "sys": {
@@ -4830,6 +4746,9 @@
         "titre1": {
           "fr": "Le rôle de l'avocat"
         },
+        "titre2": {
+          "fr": "Présentation du cabinet"
+        },
         "illustration1": {
           "en-US": {
             "sys": {
@@ -4839,103 +4758,130 @@
             }
           }
         },
+        "illustration2": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "2HCNl29oSnZA8iCMN5B0YQ"
+            }
+          }
+        },
+        "illustration3": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "7iWqaaeJoHise5GhjCt7Q2"
+            }
+          }
+        },
+        "illustration4": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3hW1Ux76VBlHllGXnNptG7"
+            }
+          }
+        },
         "texte1": {
           "en-US": {
+            "nodeType": "document",
             "data": {
             },
             "content": [
               {
-                "data": {
-                },
+                "nodeType": "paragraph",
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "nodeType": "text",
                     "value": "The Law Office of Maître Paul-Marie BERAUDO is located in Thonon les Bains, Haute-Savoie (74), France.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
                     "marks": [
                     ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
                     "value": "He is an attorney who belongs to the Bar of Thonon-les-Bains, the French part around Geneva and the south of the Geneva lake.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
                     "marks": [
                     ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
                     "value": "He is an elected Member of the Bar Council. Paul-Marie BERAUDO is a hardworking, knowledgeable, attentive and diligent lawyer who provides high quality legal advice and representation for both individuals and businesses.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
                     "marks": [
                     ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
                     "value": "He intervenes also for mediation, litigation and arbitration.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
                     "marks": [
                     ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
                     "value": "He has a diploma of French business law and is a former student of the Wyoming University Law School.",
-                    "nodeType": "text"
-                  }
-                ],
-                "nodeType": "paragraph"
-              },
-              {
-                "data": {
-                },
-                "content": [
-                  {
-                    "data": {
-                    },
                     "marks": [
                     ],
-                    "value": "He is used to working in an english speaking environnement.\n\nAt the first meeting, Paul-Marie BERAUDO will inform you of his fees and the previous cost of the case.",
-                    "nodeType": "text"
+                    "data": {
+                    }
                   }
                 ],
-                "nodeType": "paragraph"
+                "data": {
+                }
+              },
+              {
+                "nodeType": "paragraph",
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "He is used to working in an english speaking environnement.\n\nAt the first meeting, Paul-Marie BERAUDO will inform you of his fees and the previous cost of the case.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ],
+                "data": {
+                }
               }
-            ],
-            "nodeType": "document"
+            ]
           },
           "fr": {
             "data": {
@@ -5203,27 +5149,6 @@
             "nodeType": "document"
           }
         },
-        "illustration2": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "2HCNl29oSnZA8iCMN5B0YQ"
-            }
-          }
-        },
-        "titre2": {
-          "fr": "Présentation du cabinet"
-        },
-        "illustration3": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "7iWqaaeJoHise5GhjCt7Q2"
-            }
-          }
-        },
         "texte5": {
           "en-US": {
             "data": {
@@ -5451,15 +5376,6 @@
             ],
             "nodeType": "document"
           }
-        },
-        "illustration4": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "3hW1Ux76VBlHllGXnNptG7"
-            }
-          }
         }
       }
     },
@@ -5479,7 +5395,7 @@
         "id": "5LCRWE2CiOyr9zQf0ASAtT",
         "type": "Entry",
         "createdAt": "2022-03-03T10:17:10.960Z",
-        "updatedAt": "2022-05-30T05:25:21.306Z",
+        "updatedAt": "2022-04-11T11:47:21.271Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -5487,8 +5403,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 277,
-        "publishedAt": "2022-05-30T05:25:21.306Z",
+        "publishedVersion": 274,
+        "publishedAt": "2022-04-11T11:47:21.271Z",
         "firstPublishedAt": "2022-03-03T10:17:47.579Z",
         "createdBy": {
           "sys": {
@@ -5504,8 +5420,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 86,
-        "version": 278,
+        "publishedCounter": 85,
+        "version": 275,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -5522,10 +5438,6 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
-          "en-US": "Practice",
-          "fr": "Domaines d'intervention"
-        },
         "imageDenTte": {
           "en-US": {
             "sys": {
@@ -5538,6 +5450,46 @@
         "titrePrincipal": {
           "en-US": "Paul-Marie Beraudo, lawyer - Practice",
           "fr": "Paul-Marie Beraudo, avocat - Domaines d'intervention"
+        },
+        "titre1": {
+          "en-US": "Practice",
+          "fr": "Domaines d'intervention"
+        },
+        "illustration1": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3gZonKnnvoSzWNsxBDtuSS"
+            }
+          }
+        },
+        "illustration2": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "19nOLKDlTsc8fksOAfwA90"
+            }
+          }
+        },
+        "illustration3": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4cxxJrWzCTnxl4om4IPcyH"
+            }
+          }
+        },
+        "illustration4": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "6u5HTxzbwJbMhUMZGz4gKo"
+            }
+          }
         },
         "texte8": {
           "en-US": {
@@ -5614,10 +5566,6 @@
             ],
             "nodeType": "document"
           }
-        },
-        "titre1": {
-          "en-US": "Practice",
-          "fr": "Domaines d'intervention"
         },
         "texte1": {
           "en-US": {
@@ -6788,24 +6736,6 @@
             "nodeType": "document"
           }
         },
-        "illustration1": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "3gZonKnnvoSzWNsxBDtuSS"
-            }
-          }
-        },
-        "illustration2": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "19nOLKDlTsc8fksOAfwA90"
-            }
-          }
-        },
         "texte3": {
           "en-US": {
             "data": {
@@ -7046,56 +6976,56 @@
         },
         "texte4": {
           "en-US": {
+            "nodeType": "document",
             "data": {
             },
             "content": [
               {
+                "nodeType": "heading-2",
                 "data": {
                 },
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "nodeType": "text",
                     "value": "Family law",
-                    "nodeType": "text"
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "heading-2"
+                ]
               },
               {
+                "nodeType": "paragraph",
                 "data": {
                 },
                 "content": [
                   {
-                    "data": {
-                    },
-                    "marks": [
-                    ],
+                    "nodeType": "text",
                     "value": "Divorce, custody, child and spousal support etc…",
-                    "nodeType": "text"
+                    "marks": [
+                    ],
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
               },
               {
+                "nodeType": "paragraph",
                 "data": {
                 },
                 "content": [
                   {
-                    "data": {
-                    },
+                    "nodeType": "text",
+                    "value": "\n",
                     "marks": [
                     ],
-                    "value": "\n",
-                    "nodeType": "text"
+                    "data": {
+                    }
                   }
-                ],
-                "nodeType": "paragraph"
+                ]
               }
-            ],
-            "nodeType": "document"
+            ]
           },
           "fr": {
             "data": {
@@ -7675,24 +7605,6 @@
             "nodeType": "document"
           }
         },
-        "illustration3": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "4cxxJrWzCTnxl4om4IPcyH"
-            }
-          }
-        },
-        "illustration4": {
-          "en-US": {
-            "sys": {
-              "type": "Link",
-              "linkType": "Asset",
-              "id": "6u5HTxzbwJbMhUMZGz4gKo"
-            }
-          }
-        },
         "texte7": {
           "fr": {
             "data": {
@@ -7845,7 +7757,7 @@
         "id": "517q6C6VK15DlozWS3IIo",
         "type": "Entry",
         "createdAt": "2022-03-03T10:57:53.155Z",
-        "updatedAt": "2022-05-30T07:08:42.271Z",
+        "updatedAt": "2022-04-08T10:25:37.177Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -7853,8 +7765,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 167,
-        "publishedAt": "2022-05-30T07:08:42.271Z",
+        "publishedVersion": 164,
+        "publishedAt": "2022-04-08T10:25:37.177Z",
         "firstPublishedAt": "2022-03-03T11:15:44.477Z",
         "createdBy": {
           "sys": {
@@ -7870,8 +7782,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 79,
-        "version": 168,
+        "publishedCounter": 78,
+        "version": 165,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -7888,10 +7800,6 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
-          "en-US": "Fee policy",
-          "fr": "Honoraires"
-        },
         "imageDenTte": {
           "en-US": {
             "sys": {
@@ -7900,10 +7808,6 @@
               "id": "7e0mZ7HEdMefnaH2Rh9Tb4"
             }
           }
-        },
-        "titrePrincipal": {
-          "en-US": "Maître Paul-Marie Beraudo, lawyer - Fee policy",
-          "fr": "Paul-Marie Beraudo, avocat - Honoraires"
         },
         "texte": {
           "en-US": {
@@ -8074,6 +7978,10 @@
             ],
             "nodeType": "document"
           }
+        },
+        "titrePrincipal": {
+          "en-US": "Maître Paul-Marie Beraudo, lawyer - Fee policy",
+          "fr": "Paul-Marie Beraudo, avocat - Honoraires"
         }
       }
     },
@@ -8093,7 +8001,7 @@
         "id": "242hMLWl28WHyMIfip8shC",
         "type": "Entry",
         "createdAt": "2022-03-03T11:17:12.132Z",
-        "updatedAt": "2022-05-30T05:24:20.632Z",
+        "updatedAt": "2022-05-07T16:01:16.681Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8101,8 +8009,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 178,
-        "publishedAt": "2022-05-30T05:24:20.632Z",
+        "publishedVersion": 173,
+        "publishedAt": "2022-05-07T16:01:16.681Z",
         "firstPublishedAt": "2022-03-03T11:19:47.255Z",
         "createdBy": {
           "sys": {
@@ -8118,8 +8026,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 80,
-        "version": 179,
+        "publishedCounter": 79,
+        "version": 174,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8136,10 +8044,6 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
-          "en-US": "Judicial sales",
-          "fr": "Ventes judiciaires"
-        },
         "imageDenTte": {
           "en-US": {
             "sys": {
@@ -8148,10 +8052,6 @@
               "id": "1K18xvckcIl85aPtkX0EqH"
             }
           }
-        },
-        "titrePrincipal": {
-          "en-US": "Paul-Marie Beraudo, lawyer - Judicial sales",
-          "fr": "Paul-Marie Beraudo, avocat - Ventes Judiciaires"
         },
         "texte": {
           "en-US": {
@@ -8261,6 +8161,10 @@
             ],
             "nodeType": "document"
           }
+        },
+        "titrePrincipal": {
+          "en-US": "Paul-Marie Beraudo, lawyer - Judicial sales",
+          "fr": "Paul-Marie Beraudo, avocat - Ventes Judiciaires"
         }
       }
     },
@@ -8444,7 +8348,7 @@
         "id": "59n6C37EEEgOYPXGXosUMi",
         "type": "Entry",
         "createdAt": "2022-04-07T13:48:25.436Z",
-        "updatedAt": "2022-05-30T05:25:38.602Z",
+        "updatedAt": "2022-04-08T10:25:40.043Z",
         "environment": {
           "sys": {
             "id": "master",
@@ -8452,8 +8356,8 @@
             "linkType": "Environment"
           }
         },
-        "publishedVersion": 32,
-        "publishedAt": "2022-05-30T05:25:38.602Z",
+        "publishedVersion": 30,
+        "publishedAt": "2022-04-08T10:25:40.043Z",
         "firstPublishedAt": "2022-04-07T13:48:46.461Z",
         "createdBy": {
           "sys": {
@@ -8469,8 +8373,8 @@
             "id": "5kQhjD36kyfoaB94ntAr5S"
           }
         },
-        "publishedCounter": 10,
-        "version": 33,
+        "publishedCounter": 9,
+        "version": 31,
         "publishedBy": {
           "sys": {
             "type": "Link",
@@ -8487,75 +8391,71 @@
         }
       },
       "fields": {
-        "titreDuMenu": {
-          "en-US": "Contact",
-          "fr": "Contact"
-        },
         "titre": {
           "en-US": "Contact us",
           "fr": "Nous contacter"
         },
         "description": {
           "en-US": {
+            "nodeType": "document",
             "data": {
             },
             "content": [
               {
-                "data": {
-                },
+                "nodeType": "paragraph",
                 "content": [
                   {
-                    "data": {
-                    },
+                    "nodeType": "text",
+                    "value": "You can contact us by filling out the form below.",
                     "marks": [
                     ],
-                    "value": "You can contact us by filling out the form below.",
-                    "nodeType": "text"
+                    "data": {
+                    }
                   }
                 ],
-                "nodeType": "paragraph"
+                "data": {
+                }
               },
               {
-                "data": {
-                },
+                "nodeType": "paragraph",
                 "content": [
                   {
-                    "data": {
-                    },
+                    "nodeType": "text",
+                    "value": "You can also call directly our office: ",
                     "marks": [
                     ],
-                    "value": "You can also call directly our office: ",
-                    "nodeType": "text"
+                    "data": {
+                    }
                   },
                   {
-                    "data": {
-                      "uri": "tel:+33450707436"
-                    },
+                    "nodeType": "hyperlink",
                     "content": [
                       {
-                        "data": {
-                        },
+                        "nodeType": "text",
+                        "value": "04 50 70 74 36",
                         "marks": [
                         ],
-                        "value": "04 50 70 74 36",
-                        "nodeType": "text"
+                        "data": {
+                        }
                       }
                     ],
-                    "nodeType": "hyperlink"
+                    "data": {
+                      "uri": "tel:+33450707436"
+                    }
                   },
                   {
-                    "data": {
-                    },
+                    "nodeType": "text",
+                    "value": "",
                     "marks": [
                     ],
-                    "value": "",
-                    "nodeType": "text"
+                    "data": {
+                    }
                   }
                 ],
-                "nodeType": "paragraph"
+                "data": {
+                }
               }
-            ],
-            "nodeType": "document"
+            ]
           },
           "fr": {
             "data": {
@@ -8618,6 +8518,94 @@
             ],
             "nodeType": "document"
           }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "nsgy62i520c0"
+          }
+        },
+        "id": "2ejvWUBj78RlqAmArrWxxq",
+        "type": "Entry",
+        "createdAt": "2022-05-26T07:27:01.214Z",
+        "updatedAt": "2022-05-26T07:28:51.749Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 12,
+        "publishedAt": "2022-05-26T07:28:51.749Z",
+        "firstPublishedAt": "2022-05-26T07:28:42.524Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 13,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "5kQhjD36kyfoaB94ntAr5S"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "menu"
+          }
+        }
+      },
+      "fields": {
+        "elementsDuMenu": {
+          "en-US": "Menu"
+        },
+        "element1": {
+          "en-US": "Home",
+          "fr": "Accueil"
+        },
+        "element2": {
+          "en-US": "Profile",
+          "fr": "Présentation"
+        },
+        "element3": {
+          "en-US": "Practice",
+          "fr": "Domaines d'intervention"
+        },
+        "element4": {
+          "en-US": "Fees",
+          "fr": "Honoraires"
+        },
+        "element5": {
+          "en-US": "Judicial sales",
+          "fr": "Ventes judiciaires"
+        },
+        "element6": {
+          "en-US": "Contact",
+          "fr": "Contact"
         }
       }
     }
