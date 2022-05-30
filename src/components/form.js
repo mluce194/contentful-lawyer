@@ -1,7 +1,7 @@
 import React from 'react'
 
-const Form = () => (
-  <form className="w-full max-w-lg p-8 md:max-w-[1200px] mx-auto" action="https://getform.io/f/95ae37ed-17d3-477c-8ae5-035cbb64bc74" method="POST">
+const Form = (props) => (
+  <form className="w-full max-w-lg p-8 md:max-w-[1200px] mx-auto" data-netlify="true" method="POST" name="contact">
     <div className="flex flex-wrap -mx-3 mb-6">
       <div className="w-full md:w-1/2 px-3">
         <label
@@ -10,7 +10,7 @@ const Form = () => (
           aria-required="true"
           required
         >
-          Nom*
+          { props.lang === "en" ? "Last name*" : "Nom*" }
         </label>
         <input
           className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
@@ -24,7 +24,7 @@ const Form = () => (
           className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           htmlFor="prenom"
         >
-          Prénom
+     { props.lang === "en" ? "First name" : "Prénom" }
         </label>
         <input
           className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 leading-tight focus:bg-white focus:border-gray-500"
@@ -40,7 +40,7 @@ const Form = () => (
           className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           htmlFor="email"
         >
-          E-mail*
+            E-mail*
         </label>
         <input
           className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"
@@ -58,7 +58,7 @@ const Form = () => (
           className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2"
           htmlFor="message"
         >
-          Votre message*
+             { props.lang === "en" ? "Your message*" : "Votre message*" }
         </label>
         <textarea
           className="appearance-none block w-full bg-gray-200 text-gray-700 rounded py-3 px-4 mb-3 leading-tight focus:bg-white"

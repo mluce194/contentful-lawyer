@@ -20,7 +20,7 @@ class Contact extends React.Component {
         <SingleContent contenu={Description}>
           
         </SingleContent>
-        <Form></Form>
+        <Form lang="fr"></Form>
           
 
       </Layout>
