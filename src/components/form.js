@@ -2,6 +2,7 @@ import React from 'react'
 
 const Form = (props) => (
   <form className="w-full max-w-lg p-8 md:max-w-[1200px] mx-auto" data-netlify="true" method="POST" name="contact" action={`/${props.lang}/merci`}>
+      <input type="hidden" name="form-name" value="contact" />
     <div className="flex flex-wrap -mx-3 mb-6">
       <div className="w-full md:w-1/2 px-3">
         <label
