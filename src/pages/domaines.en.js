@@ -7,6 +7,8 @@ import Layout from '../components/layout'
 import SubTitle from '../components/SubTitle'
 import SingleContent from '../components/Content'
 import EnTete from '../components/EnTete'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
 
 class DomainesEN extends React.Component {
   render() {
@@ -26,6 +28,8 @@ class DomainesEN extends React.Component {
     const TextePresentation = Content.texte8
     const Titreh2 = Content.titre1
     const Titreh1 = Content.titrePrincipal
+    const Tribunaux = Content.listeDesTribunaux.listeDesTribunaux
+
 
     return (
       <Layout lang="en" path="domaines">
@@ -33,24 +37,23 @@ class DomainesEN extends React.Component {
         <SingleContent contenu={TextePresentation}></SingleContent>
         <SubTitle titre={Titreh2}></SubTitle>
 
+        <ContentRow description={Texte1} backgroundImage={Image1}></ContentRow>
         <ContentRow
-          description={Texte1}
-          backgroundImage={Image1}
-        ></ContentRow>
-     <ContentRow
           description={Texte4}
           backgroundImage={Image2}
           direction="flex-row-reverse"
         ></ContentRow>
-        <ContentRow
-          description={Texte3}
-          backgroundImage={Image3}
-        ></ContentRow>
+        <ContentRow description={Texte3} backgroundImage={Image3}></ContentRow>
         <ContentRow
           description={Texte5}
           backgroundImage={Image4}
           direction="flex-row-reverse"
         ></ContentRow>
+                <ReactMarkdown
+          children={Tribunaux}
+          remarkPlugins={[remarkGfm]}
+          className="feeTable md:max-w-[1200px] mx-auto"
+        />
       </Layout>
     )
   }
@@ -108,6 +111,9 @@ export const DomainesENQuery = graphql`
         titrePrincipal
         imageDenTte {
           gatsbyImageData
+        }
+        listeDesTribunaux {
+          listeDesTribunaux
         }
       }
     }
