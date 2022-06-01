@@ -1,0 +1,21 @@
+.feeTable {
+    background-color: rgb(229 229 229/0.5);
+    margin-bottom: 50px;
+    overflow-x: scroll;
+}
+
+.feeTable th {
+    background-color: #800000;
+    color: #fff;
+    text-align: left;
+}
+
+.feeTable td,.feeTable th {
+    padding: 1rem;
+    border: solid 1px #ececec;
+
+}
+
+.feeTable tr:nth-child(even) {
+    background-color: #fff;
+}
