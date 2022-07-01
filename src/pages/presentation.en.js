@@ -47,7 +47,7 @@ export const PresentationENQuery = graphql`
         titre2
         titrePrincipal
         imageDenTte {
-          gatsbyImageData
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
         }
       }
     }

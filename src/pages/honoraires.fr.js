@@ -44,7 +44,7 @@ export const HonorairesQuery = graphql`
           raw
         }
         imageDenTte {
-          gatsbyImageData
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
         }
         tableau {
           tableau
