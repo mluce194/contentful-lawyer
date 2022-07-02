@@ -357,6 +357,24 @@
     "want_separate_host_toolset": 0,
     "xcode_version": "11.0",
     "nodedir": "/Users/marie-luce/Library/Caches/node-gyp/17.7.2",
-    "standalone_static_library": 1
+    "standalone_static_library": 1,
+    "legacy_peer_deps": "true",
+    "version_git_tag": "true",
+    "init_license": "MIT",
+    "registry": "https://registry.yarnpkg.com",
+    "_usr_bin_python": "",
+    "engine_strict": "true",
+    "version_commit_hooks": "true",
+    "bin_links": "true",
+    "node_gyp": "/usr/local/lib/node_modules/node-gyp/bin/node-gyp.js",
+    "save_prefix": "^",
+    "strict_ssl": "true",
+    "version_git_message": "v%s",
+    "version_git_sign": "",
+    "ignore_scripts": "",
+    "user_agent": "yarn/1.22.17 npm/? node/v17.7.2 darwin x64",
+    "init_version": "1.0.0",
+    "ignore_optional": "",
+    "version_tag_prefix": "v"
   }
 }

@@ -64,18 +64,18 @@ export const PresentationQuery = graphql`
     allContentfulPresentation {
       nodes {
         illustration1 {
-          gatsbyImageData
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
           title
         }
         illustration2 {
-          gatsbyImageData
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
           title
         }
         illustration3 {
-          gatsbyImageData
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
         }
         illustration4 {
-          gatsbyImageData
+          gatsbyImageData(layout: FULL_WIDTH, placeholder: BLURRED)
         }
         texte1 {
           raw

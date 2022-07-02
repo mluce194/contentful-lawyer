@@ -3,10 +3,13 @@ import PropTypes from 'prop-types'
 import defautlBgImage from '../images/avocat-thonon-les-bains.jpg'
 
 
+
 const EnTete = class extends React.Component {
   render() {
     const ImageUrl = this.props.backgroundImage
+  
     return (
+      <div>
       <div
         className="h-[400px] bg-cover bg-center"
         style={{ backgroundImage: `url(${ImageUrl})` }}
@@ -16,6 +19,8 @@ const EnTete = class extends React.Component {
             {this.props.titre}
           </h1>
         </div>{' '}
+      </div>
+
       </div>
     )
   }

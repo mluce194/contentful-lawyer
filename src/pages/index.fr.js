@@ -8,6 +8,7 @@ import MapRow from '../components/MapRow'
 import Diaporama from '../components/Diaporama'
 import Seo from '../components/seo'
 
+
 class Accueil extends React.Component {
   render() {
     const donnees = get(this, 'props.data.allContentfulPageDaccueil.nodes[1]')
