@@ -44,7 +44,7 @@
     "node": "^17.7.2",
     "node-addon-api": "^5.0.0",
     "node-gyp": "^9.0.0",
-    "npm": "^8.10.0",
+    "npm": "^8.13.2",
     "postcss-import": "^14.0.2",
     "postcss-preset-env": "^7.2.3",
     "react": "^18.0.0",
