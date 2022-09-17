@@ -327,7 +327,7 @@ endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
 cmd_regen_makefile = cd $(srcdir); "/Users/marie-luce/Documents/projets/paul-marie/2022/beraudo.com gatsby contentful/node_modules/node-gyp/gyp/gyp_main.py" -fmake --ignore-environment "-Dlibrary=shared_library" "-Dvisibility=default" "-Dnode_root_dir=/Users/marie-luce/Library/Caches/node-gyp/17.7.2" "-Dnode_gyp_dir=/Users/marie-luce/Documents/projets/paul-marie/2022/beraudo.com gatsby contentful/node_modules/node-gyp" "-Dnode_lib_file=/Users/marie-luce/Library/Caches/node-gyp/17.7.2/<(target_arch)/node.lib" "-Dmodule_root_dir=/Users/marie-luce/Documents/projets/paul-marie/2022/beraudo.com gatsby contentful" "-Dnode_engine=v8" "--depth=." "-Goutput_dir=." "--generator-output=build" "-I/Users/marie-luce/Documents/projets/paul-marie/2022/beraudo.com gatsby contentful/build/config.gypi" "-I/Users/marie-luce/Documents/projets/paul-marie/2022/beraudo.com gatsby contentful/node_modules/node-gyp/addon.gypi" -I/Users/marie-luce/Library/Caches/node-gyp/17.7.2/include/node/common.gypi "--toplevel-dir=." binding.gyp
-Makefile: $(srcdir)/build/config.gypi $(srcdir)/node_modules/node-gyp/addon.gypi $(srcdir)/binding.gyp $(srcdir)/../../../../../Library/Caches/node-gyp/17.7.2/include/node/common.gypi
+Makefile: $(srcdir)/node_modules/node-gyp/addon.gypi $(srcdir)/build/config.gypi $(srcdir)/../../../../../Library/Caches/node-gyp/17.7.2/include/node/common.gypi $(srcdir)/binding.gyp
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included
