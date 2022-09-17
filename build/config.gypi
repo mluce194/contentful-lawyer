@@ -366,7 +366,6 @@
     "engine_strict": "true",
     "userconfig": "/Users/marie-luce/.npmrc",
     "init_module": "/Users/marie-luce/.npm-init.js",
-    "force": "true",
     "node_gyp": "/Users/marie-luce/.nvm/versions/node/v17.7.2/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
     "cache": "/Users/marie-luce/.npm",
     "user_agent": "npm/8.5.2 node/v17.7.2 darwin x64 workspaces/false",
