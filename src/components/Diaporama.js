@@ -7,7 +7,8 @@ const Diaporama = ({ images }) => {
   if (!images) return null
   if (!Array.isArray(images)) return null
   return (
-    <div>
+    <div className="slide-container">
+
       <Slide>
         {images.map((image) => {
           return (
