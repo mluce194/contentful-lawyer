@@ -361,15 +361,15 @@
     "standalone_static_library": 1,
     "legacy_peer_deps": "true",
     "metrics_registry": "https://registry.npmjs.org/",
-    "global_prefix": "/Users/marie-luce/.nvm/versions/node/v16.17.0",
+    "global_prefix": "/Users/marie-luce/.nvm/versions/node/v17.7.2",
     "local_prefix": "/Users/marie-luce/Documents/projets/paul-marie/2022/beraudo.com gatsby contentful",
-    "globalconfig": "/Users/marie-luce/.nvm/versions/node/v16.17.0/etc/npmrc",
+    "globalconfig": "/Users/marie-luce/.nvm/versions/node/v17.7.2/etc/npmrc",
     "engine_strict": "true",
     "userconfig": "/Users/marie-luce/.npmrc",
     "init_module": "/Users/marie-luce/.npm-init.js",
-    "node_gyp": "/Users/marie-luce/.nvm/versions/node/v16.17.0/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
+    "node_gyp": "/Users/marie-luce/.nvm/versions/node/v17.7.2/lib/node_modules/npm/node_modules/node-gyp/bin/node-gyp.js",
     "cache": "/Users/marie-luce/.npm",
-    "user_agent": "npm/8.15.0 node/v16.17.0 darwin x64 workspaces/false",
-    "prefix": "/Users/marie-luce/.nvm/versions/node/v16.17.0"
+    "user_agent": "npm/8.5.2 node/v17.7.2 darwin x64 workspaces/false",
+    "prefix": "/Users/marie-luce/.nvm/versions/node/v17.7.2"
   }
 }
